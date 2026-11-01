@@ -55,39 +55,39 @@
  },
  "img.brachialis": {
   "attribution_required": "false",
-  "author": "Adrien Charpy",
-  "credit": "Traité d'anatomie humaine",
-  "file": "MusclesAntérieuresDuBras.jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:MusclesAnt%C3%A9rieuresDuBras.jpg",
+  "author": "Me",
+  "credit": "I created this from Gray's Anatomy plate 411 using Gimp",
+  "file": "Brachialis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Brachialis.png",
   "licence": "Public domain",
   "licence_url": "",
-  "local": "musclesant-rieuresdubras.jpg",
+  "local": "brachialis.png",
   "modified": "",
   "original_size": [
-   720,
-   1135
+   550,
+   533
   ],
   "retrieved": "2026-11-01",
-  "sha1": "a070ccd1fc97cf48b0699f67b393f21c32f74a14",
-  "source": "en:Brachialis muscle"
+  "sha1": "e59460e4b4d4939b1c89ab68440470818954b5e4",
+  "source": "de:Musculus brachialis"
  },
  "img.collaterale-radiale": {
-  "attribution_required": "true",
-  "author": "RSatUSZ",
-  "credit": "Own work",
-  "file": "MRI._Unimpaired_radial_collateral_ligament_and_extensor_tendon..jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:MRI._Unimpaired_radial_collateral_ligament_and_extensor_tendon..jpg",
-  "licence": "CC BY-SA 3.0",
-  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "local": "mri-unimpaired-radial-collateral-ligament-and-extensor-tendon.jpg",
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 332",
+  "file": "Gray332.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray332.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray332.png",
   "modified": "",
   "original_size": [
-   798,
-   560
+   249,
+   550
   ],
   "retrieved": "2026-11-01",
-  "sha1": "52309d7f89ceeeb711afa2a15a6fe08c604393e3",
-  "source": "en:Radial collateral ligament of elbow joint"
+  "sha1": "bbfcb4ae0b37a8f178bf47674796f747009c6d7f",
+  "source": ""
  },
  "img.collaterale-ulnare": {
   "attribution_required": "false",
@@ -109,20 +109,20 @@
  },
  "img.coracoacromiale": {
   "attribution_required": "false",
-  "author": "Henry Vandyke Carter",
-  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 326",
-  "file": "Gray326.png",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Gray326.png",
+  "author": "Dr. Johannes Sobotta",
+  "credit": "Sobotta's Atlas and Text-book of Human Anatomy 1909",
+  "file": "Sobo 1909 193.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_193.png",
   "licence": "Public domain",
   "licence_url": "",
-  "local": "gray326.png",
-  "modified": "",
+  "local": "sobo-1909-193.png",
+  "modified": "resized to 1200 px wide",
   "original_size": [
-   452,
-   500
+   2156,
+   1780
   ],
   "retrieved": "2026-11-01",
-  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d",
+  "sha1": "bb8a2064943a649c72495bfac4322702935c6d72",
   "source": ""
  },
  "img.coracobrachialis": {
@@ -145,38 +145,38 @@
  },
  "img.coracoclaviculare": {
   "attribution_required": "false",
-  "author": "Henry Vandyke Carter",
-  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 326",
-  "file": "Gray326.png",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Gray326.png",
+  "author": "Dr. Johannes Sobotta",
+  "credit": "Sobotta's Atlas and Text-book of Human Anatomy 1909",
+  "file": "Sobo 1909 193.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_193.png",
   "licence": "Public domain",
   "licence_url": "",
-  "local": "gray326.png",
-  "modified": "",
+  "local": "sobo-1909-193.png",
+  "modified": "resized to 1200 px wide",
   "original_size": [
-   452,
-   500
+   2156,
+   1780
   ],
   "retrieved": "2026-11-01",
-  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d",
+  "sha1": "bb8a2064943a649c72495bfac4322702935c6d72",
   "source": ""
  },
  "img.coracohumerale": {
   "attribution_required": "false",
-  "author": "Henry Vandyke Carter",
-  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 326",
-  "file": "Gray326.png",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Gray326.png",
+  "author": "Dr. Johannes Sobotta",
+  "credit": "Sobotta's Atlas and Text-book of Human Anatomy 1909",
+  "file": "Sobo 1909 193.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_193.png",
   "licence": "Public domain",
   "licence_url": "",
-  "local": "gray326.png",
-  "modified": "",
+  "local": "sobo-1909-193.png",
+  "modified": "resized to 1200 px wide",
   "original_size": [
-   452,
-   500
+   2156,
+   1780
   ],
   "retrieved": "2026-11-01",
-  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d",
+  "sha1": "bb8a2064943a649c72495bfac4322702935c6d72",
   "source": ""
  },
  "img.deltoideus": {
