@@ -122,7 +122,8 @@ def load_images(data: Path, images_dir: Path, errors: list[str]) -> dict:
             if not all(isinstance(m.get(k), (int, float)) and 0 <= m[k] <= 100 for k in ("x", "y", "w", "h")):
                 errors.append(f"images.yaml: {iid}: masks need x, y, w, h between 0 and 100")
         m = meta.get(iid)
-        if not m or (w.get("file") and m.get("file") != w["file"]):
+        if not m or (w.get("file") and m.get("file") != w["file"]) \
+                or (w.get("from_article") and m.get("source", w["from_article"]) != w["from_article"]):
             continue  # not imported yet (or file changed): cards fall back to the placeholder
         if not ALLOWED_LICENCES.match(m.get("licence", "")):
             errors.append(f"images.yaml: {iid}: licence {m.get('licence')!r} is not on the allow-list")
@@ -139,6 +140,7 @@ def load_images(data: Path, images_dir: Path, errors: list[str]) -> dict:
             "filePage": m["file_page"],
             "modified": m.get("modified", ""),
             "masks": w.get("masks") or [],
+            "maskAlways": bool(w.get("mask_always")),
         }
     return out
 

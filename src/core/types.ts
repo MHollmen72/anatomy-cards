@@ -49,6 +49,8 @@ export interface ImageData {
   filePage: string;
   modified: string;
   masks: Mask[];
+  /** Keep masks on the answer side too (labels in a language other than Latin). */
+  maskAlways: boolean;
 }
 
 export interface Deck {

@@ -67,7 +67,7 @@ def main() -> int:
         w = w or {}
         name = w.get("file")
         if not name and w.get("from_article"):
-            if iid in meta and (images_dir / meta[iid]["local"]).exists():
+            if iid in meta and meta[iid].get("source") == w["from_article"] and (images_dir / meta[iid]["local"]).exists():
                 continue
             try:
                 name = resolve_article_image(w["from_article"])
@@ -115,6 +115,7 @@ def main() -> int:
             continue
         meta[iid] = {
             "file": name,
+            "source": w.get("from_article", ""),
             "local": local,
             "file_page": info.get("descriptionurl") or f"https://commons.wikimedia.org/wiki/File:{urllib.parse.quote(name)}",
             "author": strip_html(em.get("Artist", {}).get("value", "")) or "Unknown author",

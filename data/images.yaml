@@ -4,21 +4,22 @@
 #   file:         use this exact Wikimedia Commons file name instead
 #   alt:          text for screen readers
 #   masks:        rectangles hiding labels on the question side, in % of width/height (x, y, w, h)
+#   mask_always:  true = keep the masks on the answer side too (used for English labels; the app is Latin-only)
 
-img.deltoideus: {from_article: "en:Deltoid muscle", alt: "Illustration of Musculus deltoideus"}
+img.deltoideus: {from_article: "en:Deltoid muscle", alt: "Front view of the trunk with Musculus deltoideus highlighted on both sides", mask_always: true, masks: [{x: 6, y: 35, w: 18, h: 6}]}
 img.supraspinatus: {from_article: "en:Supraspinatus muscle", alt: "Illustration of Musculus supraspinatus"}
 img.infraspinatus: {from_article: "en:Infraspinatus muscle", alt: "Illustration of Musculus infraspinatus"}
 img.teres-minor: {from_article: "en:Teres minor muscle", alt: "Illustration of Musculus teres minor"}
 img.subscapularis: {from_article: "en:Subscapularis muscle", alt: "Illustration of Musculus subscapularis"}
-img.biceps-brachii: {from_article: "en:Biceps", alt: "Illustration of Musculus biceps brachii"}
-img.brachialis: {from_article: "en:Brachialis muscle", alt: "Illustration of Musculus brachialis"}
+img.biceps-brachii: {from_article: "en:Biceps", alt: "Anterior view of the shoulder and arm showing both heads of Musculus biceps brachii and Musculus brachialis", mask_always: true, masks: [{x: 71, y: 18, w: 29, h: 14}, {x: 71, y: 33, w: 29, h: 14}, {x: 15, y: 87, w: 22, h: 8}]}
+img.brachialis: {from_article: "de:Musculus brachialis", alt: "Illustration of Musculus brachialis"}
 img.coracobrachialis: {from_article: "en:Coracobrachialis muscle", alt: "Illustration of Musculus coracobrachialis"}
-img.triceps-brachii: {from_article: "en:Triceps", alt: "Illustration of Musculus triceps brachii"}
-img.anconeus: {from_article: "en:Anconeus muscle", alt: "Illustration of Musculus anconeus"}
+img.triceps-brachii: {from_article: "en:Triceps", alt: "Back view of the trunk with Musculus triceps brachii highlighted on both arms", mask_always: true, masks: [{x: 3, y: 49, w: 19, h: 10}]}
+img.anconeus: {from_article: "de:Musculus anconeus", alt: "Illustration of Musculus anconeus"}
 
-img.coracoclaviculare: {from_article: "en:Coracoclavicular ligament", alt: "Illustration of Ligamentum coracoclaviculare"}
-img.coracoacromiale: {from_article: "en:Coracoacromial ligament", alt: "Illustration of Ligamentum coracoacromiale"}
-img.coracohumerale: {from_article: "en:Coracohumeral ligament", alt: "Illustration of Ligamentum coracohumerale"}
-img.collaterale-ulnare: {from_article: "en:Ulnar collateral ligament of elbow joint", alt: "Illustration of Ligamentum collaterale ulnare"}
-img.collaterale-radiale: {from_article: "en:Radial collateral ligament of elbow joint", alt: "Illustration of Ligamentum collaterale radiale"}
-img.anulare-radii: {from_article: "en:Annular ligament of radius", alt: "Illustration of Ligamentum anulare radii"}
+img.coracoclaviculare: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)"}
+img.coracoacromiale: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)"}
+img.coracohumerale: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)"}
+img.collaterale-ulnare: {from_article: "en:Ulnar collateral ligament of elbow joint", alt: "Medial view of the elbow joint; arrows mark Ligamentum collaterale ulnare"}
+img.collaterale-radiale: {file: "Gray332.png", alt: "Drawing of the elbow joint with Ligamentum collaterale radiale"}
+img.anulare-radii: {from_article: "en:Annular ligament of radius", alt: "Proximal radioulnar joint seen from above: Ligamentum anulare radii around the Caput radii", mask_always: true, masks: [{x: 3, y: 0, w: 30, h: 11}, {x: 32, y: 0, w: 21, h: 11}, {x: 61, y: 0, w: 24, h: 10}, {x: 5, y: 63, w: 34, h: 7}, {x: 32, y: 72, w: 26, h: 7}, {x: 59, y: 92, w: 31, h: 8}]}

@@ -14,7 +14,8 @@
    208
   ],
   "retrieved": "2026-11-01",
-  "sha1": "f98eff3fb566211ebfdcf7072e206c6cca5e73b8"
+  "sha1": "f98eff3fb566211ebfdcf7072e206c6cca5e73b8",
+  "source": "en:Anconeus muscle"
  },
  "img.anulare-radii": {
   "attribution_required": "false",
@@ -31,7 +32,8 @@
    388
   ],
   "retrieved": "2026-11-01",
-  "sha1": "307936e8ab25401180874eabf59a28da2fdc16da"
+  "sha1": "307936e8ab25401180874eabf59a28da2fdc16da",
+  "source": "en:Annular ligament of radius"
  },
  "img.biceps-brachii": {
   "attribution_required": "true",
@@ -48,7 +50,8 @@
    856
   ],
   "retrieved": "2026-11-01",
-  "sha1": "8019cda682ca1a16fca446e009040f831be9b5a3"
+  "sha1": "8019cda682ca1a16fca446e009040f831be9b5a3",
+  "source": "en:Biceps"
  },
  "img.brachialis": {
   "attribution_required": "false",
@@ -65,7 +68,8 @@
    1135
   ],
   "retrieved": "2026-11-01",
-  "sha1": "a070ccd1fc97cf48b0699f67b393f21c32f74a14"
+  "sha1": "a070ccd1fc97cf48b0699f67b393f21c32f74a14",
+  "source": "en:Brachialis muscle"
  },
  "img.collaterale-radiale": {
   "attribution_required": "true",
@@ -82,7 +86,8 @@
    560
   ],
   "retrieved": "2026-11-01",
-  "sha1": "52309d7f89ceeeb711afa2a15a6fe08c604393e3"
+  "sha1": "52309d7f89ceeeb711afa2a15a6fe08c604393e3",
+  "source": "en:Radial collateral ligament of elbow joint"
  },
  "img.collaterale-ulnare": {
   "attribution_required": "false",
@@ -99,7 +104,8 @@
    650
   ],
   "retrieved": "2026-11-01",
-  "sha1": "8fc765c6b9ed03fc21427684cd8edad450ad9cb2"
+  "sha1": "8fc765c6b9ed03fc21427684cd8edad450ad9cb2",
+  "source": "en:Ulnar collateral ligament of elbow joint"
  },
  "img.coracoacromiale": {
   "attribution_required": "false",
@@ -116,7 +122,8 @@
    500
   ],
   "retrieved": "2026-11-01",
-  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d"
+  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d",
+  "source": ""
  },
  "img.coracobrachialis": {
   "attribution_required": "true",
@@ -133,7 +140,8 @@
    4500
   ],
   "retrieved": "2026-11-01",
-  "sha1": "dbc2f147cd85475169e41cceacc8ba89833fcf18"
+  "sha1": "dbc2f147cd85475169e41cceacc8ba89833fcf18",
+  "source": "en:Coracobrachialis muscle"
  },
  "img.coracoclaviculare": {
   "attribution_required": "false",
@@ -150,7 +158,8 @@
    500
   ],
   "retrieved": "2026-11-01",
-  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d"
+  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d",
+  "source": ""
  },
  "img.coracohumerale": {
   "attribution_required": "false",
@@ -167,7 +176,8 @@
    500
   ],
   "retrieved": "2026-11-01",
-  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d"
+  "sha1": "22365693db2a5aecbed41f5673cfb67debb76b3d",
+  "source": ""
  },
  "img.deltoideus": {
   "attribution_required": "true",
@@ -184,7 +194,8 @@
    502
   ],
   "retrieved": "2026-11-01",
-  "sha1": "4dd69fe0d3a32f01efdf7fb77f9ea3c4796f668b"
+  "sha1": "4dd69fe0d3a32f01efdf7fb77f9ea3c4796f668b",
+  "source": "en:Deltoid muscle"
  },
  "img.infraspinatus": {
   "attribution_required": "false",
@@ -201,7 +212,8 @@
    1156
   ],
   "retrieved": "2026-11-01",
-  "sha1": "bf1965f1430a58cf8035ce61a96c3f5cf47b163d"
+  "sha1": "bf1965f1430a58cf8035ce61a96c3f5cf47b163d",
+  "source": "en:Infraspinatus muscle"
  },
  "img.subscapularis": {
   "attribution_required": "true",
@@ -218,7 +230,8 @@
    900
   ],
   "retrieved": "2026-11-01",
-  "sha1": "ed367566cc0e9e0d708d573f247a4113a940ba13"
+  "sha1": "ed367566cc0e9e0d708d573f247a4113a940ba13",
+  "source": "en:Subscapularis muscle"
  },
  "img.supraspinatus": {
   "attribution_required": "true",
@@ -235,7 +248,8 @@
    4500
   ],
   "retrieved": "2026-11-01",
-  "sha1": "dc3a2938dc534e3e8b856654168fa401378ef2bd"
+  "sha1": "dc3a2938dc534e3e8b856654168fa401378ef2bd",
+  "source": "en:Supraspinatus muscle"
  },
  "img.teres-minor": {
   "attribution_required": "true",
@@ -252,7 +266,8 @@
    900
   ],
   "retrieved": "2026-11-01",
-  "sha1": "796c6b62ebdfbb4939db2ad97d8be271b5c1c8ab"
+  "sha1": "796c6b62ebdfbb4939db2ad97d8be271b5c1c8ab",
+  "source": "en:Teres minor muscle"
  },
  "img.triceps-brachii": {
   "attribution_required": "true",
@@ -269,6 +284,7 @@
    514
   ],
   "retrieved": "2026-11-01",
-  "sha1": "cb1335ea750f1db1751b267dfca0079742012ee1"
+  "sha1": "cb1335ea750f1db1751b267dfca0079742012ee1",
+  "source": "en:Triceps"
  }
 }

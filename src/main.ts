@@ -182,7 +182,7 @@ function renderImage(img: ImageData | undefined, revealed: boolean): HTMLElement
   const el = h('img', { src: img.src, alt: img.alt, decoding: 'async' }) as HTMLImageElement;
   el.addEventListener('error', () => wrap.replaceChildren(h('div', { class: 'placeholder' }, 'Image unavailable')));
   wrap.append(el);
-  if (!revealed) {
+  if (!revealed || img.maskAlways) {
     for (const m of img.masks) {
       // Set through the CSSOM: the Content-Security-Policy blocks inline style attributes.
       const mask = h('div', { class: 'mask', 'aria-hidden': 'true' });
