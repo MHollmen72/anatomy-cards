@@ -1,22 +1,4 @@
 {
- "img.anconeus": {
-  "attribution_required": "false",
-  "author": "Henry Vandyke Carter",
-  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 1232",
-  "file": "Gray1232.png",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Gray1232.png",
-  "licence": "Public domain",
-  "licence_url": "",
-  "local": "gray1232.png",
-  "modified": "",
-  "original_size": [
-   600,
-   208
-  ],
-  "retrieved": "2026-11-01",
-  "sha1": "f98eff3fb566211ebfdcf7072e206c6cca5e73b8",
-  "source": "en:Anconeus muscle"
- },
  "img.anulare-radii": {
   "attribution_required": "false",
   "author": "Henry Vandyke Carter",
@@ -70,24 +52,6 @@
   "retrieved": "2026-11-01",
   "sha1": "e59460e4b4d4939b1c89ab68440470818954b5e4",
   "source": "de:Musculus brachialis"
- },
- "img.collaterale-radiale": {
-  "attribution_required": "false",
-  "author": "Henry Vandyke Carter",
-  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 332",
-  "file": "Gray332.png",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Gray332.png",
-  "licence": "Public domain",
-  "licence_url": "",
-  "local": "gray332.png",
-  "modified": "",
-  "original_size": [
-   249,
-   550
-  ],
-  "retrieved": "2026-11-01",
-  "sha1": "bbfcb4ae0b37a8f178bf47674796f747009c6d7f",
-  "source": ""
  },
  "img.collaterale-ulnare": {
   "attribution_required": "false",

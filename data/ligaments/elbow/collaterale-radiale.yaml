@@ -4,7 +4,6 @@ name: Ligamentum collaterale radiale
 region: Membrum superius
 status: cross-checked
 cite: [dc-collaterale-radiale, wp-rcl-elbow]
-images: {default: img.collaterale-radiale}
 
 facts:
   - {cat: L, end1: Epicondylus lateralis humeri, end2: Ligamentum anulare radii, directional: false, status: cross-checked, cite: [dc-collaterale-radiale, wp-rcl-elbow, ny-elbow]}

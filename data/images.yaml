@@ -7,19 +7,17 @@
 #   mask_always:  true = keep the masks on the answer side too (used for English labels; the app is Latin-only)
 
 img.deltoideus: {from_article: "en:Deltoid muscle", alt: "Front view of the trunk with Musculus deltoideus highlighted on both sides", mask_always: true, masks: [{x: 6, y: 35, w: 18, h: 6}]}
-img.supraspinatus: {from_article: "en:Supraspinatus muscle", alt: "Illustration of Musculus supraspinatus"}
-img.infraspinatus: {from_article: "en:Infraspinatus muscle", alt: "Illustration of Musculus infraspinatus"}
-img.teres-minor: {from_article: "en:Teres minor muscle", alt: "Illustration of Musculus teres minor"}
-img.subscapularis: {from_article: "en:Subscapularis muscle", alt: "Illustration of Musculus subscapularis"}
+img.supraspinatus: {from_article: "en:Supraspinatus muscle", alt: "Skeleton seen from behind with Musculus supraspinatus highlighted in red"}
+img.infraspinatus: {from_article: "en:Infraspinatus muscle", alt: "Back muscles with Musculus infraspinatus highlighted in red"}
+img.teres-minor: {from_article: "en:Teres minor muscle", alt: "Skeleton seen from behind with Musculus teres minor highlighted in red"}
+img.subscapularis: {from_article: "en:Subscapularis muscle", alt: "Skeleton seen from the front with Musculus subscapularis highlighted in red"}
 img.biceps-brachii: {from_article: "en:Biceps", alt: "Anterior view of the shoulder and arm showing both heads of Musculus biceps brachii and Musculus brachialis", mask_always: true, masks: [{x: 71, y: 18, w: 29, h: 14}, {x: 71, y: 33, w: 29, h: 14}, {x: 15, y: 87, w: 22, h: 8}]}
-img.brachialis: {from_article: "de:Musculus brachialis", alt: "Illustration of Musculus brachialis"}
-img.coracobrachialis: {from_article: "en:Coracobrachialis muscle", alt: "Illustration of Musculus coracobrachialis"}
+img.brachialis: {from_article: "de:Musculus brachialis", alt: "Anterior view of the thorax and arm with Musculus brachialis highlighted in blue (Gray)"}
+img.coracobrachialis: {from_article: "en:Coracobrachialis muscle", alt: "Skeleton seen from the front with Musculus coracobrachialis highlighted in red"}
 img.triceps-brachii: {from_article: "en:Triceps", alt: "Back view of the trunk with Musculus triceps brachii highlighted on both arms", mask_always: true, masks: [{x: 3, y: 49, w: 19, h: 10}]}
-img.anconeus: {from_article: "de:Musculus anconeus", alt: "Illustration of Musculus anconeus"}
 
-img.coracoclaviculare: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)"}
-img.coracoacromiale: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)"}
-img.coracohumerale: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)"}
+img.coracoclaviculare: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)", mask_always: true, masks: [{x: 25, y: 10.5, w: 11, h: 4}, {x: 52, y: 9, w: 48, h: 5}, {x: 57, y: 13, w: 17, h: 3.5}, {x: 63, y: 15.5, w: 25, h: 4}, {x: 69, y: 18.5, w: 10, h: 4}, {x: 5, y: 17, w: 25, h: 6}, {x: 0, y: 22.5, w: 28, h: 4}, {x: 68.5, y: 30.5, w: 3.5, h: 3.5}, {x: 77, y: 43.5, w: 23, h: 6}, {x: 78, y: 50, w: 14, h: 4}, {x: 34, y: 70, w: 20, h: 4}, {x: 79, y: 69.5, w: 21, h: 4}, {x: 50, y: 83, w: 10, h: 4}]}
+img.coracoacromiale: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)", mask_always: true, masks: [{x: 25, y: 10.5, w: 11, h: 4}, {x: 52, y: 9, w: 48, h: 5}, {x: 57, y: 13, w: 17, h: 3.5}, {x: 63, y: 15.5, w: 25, h: 4}, {x: 69, y: 18.5, w: 10, h: 4}, {x: 5, y: 17, w: 25, h: 6}, {x: 0, y: 22.5, w: 28, h: 4}, {x: 68.5, y: 30.5, w: 3.5, h: 3.5}, {x: 77, y: 43.5, w: 23, h: 6}, {x: 78, y: 50, w: 14, h: 4}, {x: 34, y: 70, w: 20, h: 4}, {x: 79, y: 69.5, w: 21, h: 4}, {x: 50, y: 83, w: 10, h: 4}]}
+img.coracohumerale: {file: "Sobo 1909 193.png", alt: "Ligaments of the shoulder (Sobotta 1909)", mask_always: true, masks: [{x: 25, y: 10.5, w: 11, h: 4}, {x: 52, y: 9, w: 48, h: 5}, {x: 57, y: 13, w: 17, h: 3.5}, {x: 63, y: 15.5, w: 25, h: 4}, {x: 69, y: 18.5, w: 10, h: 4}, {x: 5, y: 17, w: 25, h: 6}, {x: 0, y: 22.5, w: 28, h: 4}, {x: 68.5, y: 30.5, w: 3.5, h: 3.5}, {x: 77, y: 43.5, w: 23, h: 6}, {x: 78, y: 50, w: 14, h: 4}, {x: 34, y: 70, w: 20, h: 4}, {x: 79, y: 69.5, w: 21, h: 4}, {x: 50, y: 83, w: 10, h: 4}]}
 img.collaterale-ulnare: {from_article: "en:Ulnar collateral ligament of elbow joint", alt: "Medial view of the elbow joint; arrows mark Ligamentum collaterale ulnare"}
-img.collaterale-radiale: {file: "Gray332.png", alt: "Drawing of the elbow joint with Ligamentum collaterale radiale"}
 img.anulare-radii: {from_article: "en:Annular ligament of radius", alt: "Proximal radioulnar joint seen from above: Ligamentum anulare radii around the Caput radii", mask_always: true, masks: [{x: 3, y: 0, w: 30, h: 11}, {x: 32, y: 0, w: 21, h: 11}, {x: 61, y: 0, w: 24, h: 10}, {x: 5, y: 63, w: 34, h: 7}, {x: 32, y: 72, w: 26, h: 7}, {x: 59, y: 92, w: 31, h: 8}]}

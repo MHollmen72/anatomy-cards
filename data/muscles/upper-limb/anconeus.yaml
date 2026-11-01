@@ -4,7 +4,6 @@ name: Musculus anconeus
 region: Membrum superius
 status: cross-checked
 cite: [dc-anconeus, wp-anconeus]
-images: {default: img.anconeus}
 
 facts:
   - {cat: N, nerve: Nervus radialis, status: cross-checked, cite: [dc-anconeus, wp-anconeus]}
