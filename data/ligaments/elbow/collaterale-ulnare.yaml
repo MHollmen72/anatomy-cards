@@ -1,0 +1,19 @@
+id: l.collaterale-ulnare
+kind: ligament
+name: Ligamentum collaterale ulnare
+region: Membrum superius
+status: cross-checked
+cite: [dc-collaterale-ulnare, wp-ucl-elbow]
+images: {default: img.collaterale-ulnare}
+
+parts:
+  - {id: anterior, name: Pars anterior, status: cross-checked, cite: [dc-collaterale-ulnare, wp-ucl-elbow, ny-elbow]}
+  - {id: posterior, name: Pars posterior, status: cross-checked, cite: [dc-collaterale-ulnare, wp-ucl-elbow, ny-elbow]}
+  - {id: transversa, name: Pars transversa, status: cross-checked, cite: [dc-collaterale-ulnare, wp-ucl-elbow]}
+
+facts:
+  - {cat: L, part: anterior, end1: "Epicondylus medialis humeri — anterior part", end2: "Processus coronoideus ulnae — medial margin", directional: false, status: cross-checked, cite: [wp-ucl-elbow, ny-elbow]}
+  - {cat: L, part: posterior, end1: "Epicondylus medialis humeri — posterior part", end2: "Olecranon — medial margin", directional: false, status: cross-checked, cite: [wp-ucl-elbow, ny-elbow]}
+  - {cat: L, part: transversa, end1: Olecranon, end2: Processus coronoideus ulnae, directional: false, status: cross-checked, cite: [wp-ucl-elbow, ny-elbow]}
+
+  - {cat: F, text: "Stabilises the Articulatio cubiti against valgus stress", status: cross-checked, cite: [dc-collaterale-ulnare, wp-ucl-elbow, ny-elbow]}

@@ -1,0 +1,24 @@
+# Images used on the cards. The "Import images" workflow fetches each one, checks its licence
+# and records author/licence in images/commons-meta.json.
+#   from_article: use the lead image of that Wikipedia article ("en:Title")
+#   file:         use this exact Wikimedia Commons file name instead
+#   alt:          text for screen readers
+#   masks:        rectangles hiding labels on the question side, in % of width/height (x, y, w, h)
+
+img.deltoideus: {from_article: "en:Deltoid muscle", alt: "Illustration of Musculus deltoideus"}
+img.supraspinatus: {from_article: "en:Supraspinatus muscle", alt: "Illustration of Musculus supraspinatus"}
+img.infraspinatus: {from_article: "en:Infraspinatus muscle", alt: "Illustration of Musculus infraspinatus"}
+img.teres-minor: {from_article: "en:Teres minor muscle", alt: "Illustration of Musculus teres minor"}
+img.subscapularis: {from_article: "en:Subscapularis muscle", alt: "Illustration of Musculus subscapularis"}
+img.biceps-brachii: {from_article: "en:Biceps", alt: "Illustration of Musculus biceps brachii"}
+img.brachialis: {from_article: "en:Brachialis muscle", alt: "Illustration of Musculus brachialis"}
+img.coracobrachialis: {from_article: "en:Coracobrachialis muscle", alt: "Illustration of Musculus coracobrachialis"}
+img.triceps-brachii: {from_article: "en:Triceps", alt: "Illustration of Musculus triceps brachii"}
+img.anconeus: {from_article: "en:Anconeus muscle", alt: "Illustration of Musculus anconeus"}
+
+img.coracoclaviculare: {from_article: "en:Coracoclavicular ligament", alt: "Illustration of Ligamentum coracoclaviculare"}
+img.coracoacromiale: {from_article: "en:Coracoacromial ligament", alt: "Illustration of Ligamentum coracoacromiale"}
+img.coracohumerale: {from_article: "en:Coracohumeral ligament", alt: "Illustration of Ligamentum coracohumerale"}
+img.collaterale-ulnare: {from_article: "en:Ulnar collateral ligament of elbow joint", alt: "Illustration of Ligamentum collaterale ulnare"}
+img.collaterale-radiale: {from_article: "en:Radial collateral ligament of elbow joint", alt: "Illustration of Ligamentum collaterale radiale"}
+img.anulare-radii: {from_article: "en:Annular ligament of radius", alt: "Illustration of Ligamentum anulare radii"}

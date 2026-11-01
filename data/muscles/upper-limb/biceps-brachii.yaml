@@ -1,0 +1,29 @@
+id: m.biceps-brachii
+kind: muscle
+name: Musculus biceps brachii
+region: Membrum superius
+status: cross-checked
+cite: [dc-biceps, wp-biceps]
+images: {default: img.biceps-brachii}
+
+parts:
+  - {id: caput-longum, name: Caput longum, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+  - {id: caput-breve, name: Caput breve, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+
+facts:
+  - {cat: N, nerve: Nervus musculocutaneus, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+
+  - {cat: U, part: caput-longum, text: Tuberculum supraglenoidale scapulae, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+  - {cat: U, part: caput-breve, text: Processus coracoideus scapulae, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+
+  - {cat: A, text: Tuberositas radii, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+  - {cat: A, text: "Fascia antebrachii — via the Aponeurosis musculi bicipitis brachii (Lacertus fibrosus)", status: cross-checked, cite: [dc-biceps, wp-biceps]}
+
+  - {cat: S, part: caput-longum, text: "Tendon runs through the shoulder joint capsule and the Sulcus intertubercularis humeri", status: cross-checked, cite: [dc-biceps, wp-biceps]}
+  - {cat: S, text: "Bursa bicipitoradialis lies at the insertion tendon on the Tuberositas radii", status: cross-checked, cite: [dc-biceps, wp-biceps]}
+
+  - {cat: F, movement: Flexio, joint: Articulatio cubiti, note: strongest with the forearm supinated, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+  - {cat: F, movement: Supinatio, joint: Articulatio radioulnaris proximalis, note: strong supinator when the elbow is flexed, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+  - {cat: F, movement: Anteversio (flexio), joint: Articulatio humeri, note: weak, status: cross-checked, cite: [dc-biceps, wp-biceps]}
+
+  - {cat: R, text: "Tendon disorders (tendinitis, rupture) are common causes of shoulder and elbow pain", status: cross-checked, cite: [dc-biceps, wp-biceps]}

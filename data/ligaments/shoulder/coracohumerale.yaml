@@ -1,0 +1,14 @@
+id: l.coracohumerale
+kind: ligament
+name: Ligamentum coracohumerale
+region: Membrum superius
+status: cross-checked
+cite: [dc-coracohumerale, wp-coracohumeral]
+images: {default: img.coracohumerale}
+
+facts:
+  - {cat: L, end1: "Processus coracoideus — base (lateral margin)", end2: "Tuberculum majus and Tuberculum minus humeri (two bands)", directional: false, status: cross-checked, cite: [dc-coracohumerale, wp-coracohumeral, kh-coracohumeral]}
+  - {cat: W, text: "Capsula articularis of the Articulatio humeri (upper part)", status: cross-checked, cite: [dc-coracohumerale, wp-coracohumeral, kh-coracohumeral]}
+  - {cat: F, text: "Limits Rotatio lateralis (taut in lateral rotation)", status: cross-checked, cite: [wp-coracohumeral, kh-coracohumeral]}
+  - {cat: F, text: "Limits downward translation of the Caput humeri (hanging arm)", status: cross-checked, cite: [kh-coracohumeral, dc-coracohumerale]}
+  - {cat: F, text: "Keeps the tendon of Caput longum musculi bicipitis brachii in the Sulcus intertubercularis", status: cross-checked, cite: [dc-coracohumerale, kh-coracohumeral]}

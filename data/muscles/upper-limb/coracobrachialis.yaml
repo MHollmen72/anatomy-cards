@@ -1,0 +1,15 @@
+id: m.coracobrachialis
+kind: muscle
+name: Musculus coracobrachialis
+region: Membrum superius
+status: cross-checked
+cite: [dc-coracobrachialis, wp-coracobrachialis]
+images: {default: img.coracobrachialis}
+
+facts:
+  - {cat: N, nerve: Nervus musculocutaneus, status: cross-checked, cite: [dc-coracobrachialis, wp-coracobrachialis]}
+  - {cat: U, text: Processus coracoideus scapulae, status: cross-checked, cite: [dc-coracobrachialis, wp-coracobrachialis]}
+  - {cat: A, text: "Humerus — anteromedial surface of the shaft, distal continuation of the Crista tuberculi minoris", status: cross-checked, cite: [dc-coracobrachialis, wp-coracobrachialis]}
+  - {cat: S, text: "Tendon of origin is partly fused with the tendon of Caput breve musculi bicipitis brachii", status: cross-checked, cite: [dc-biceps, wp-coracobrachialis]}
+  - {cat: F, movement: Adductio, joint: Articulatio humeri, status: cross-checked, cite: [dc-coracobrachialis, wp-coracobrachialis]}
+  - {cat: F, movement: Anteversio (flexio), joint: Articulatio humeri, status: cross-checked, cite: [dc-coracobrachialis, wp-coracobrachialis]}

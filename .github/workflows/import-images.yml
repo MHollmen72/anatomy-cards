@@ -1,0 +1,47 @@
+name: Import images
+
+# Fetches the Wikimedia Commons files listed in data/images.yaml, checks each licence,
+# records author/licence metadata and commits the files into images/.
+# Reproducible: the same images.yaml always fetches the same files and metadata.
+on:
+  push:
+    branches: [main]
+    paths: ["data/images.yaml", "scripts/import_images.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-images
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install pyyaml==6.0.3
+      - name: Import from Wikimedia Commons
+        id: fetch
+        run: python3 scripts/import_images.py
+        continue-on-error: true
+      - name: Commit imported files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images
+          if git diff --cached --quiet; then
+            echo "No new images."
+          else
+            git commit -m "Import images from Wikimedia Commons"
+            git push
+          fi
+      - name: Report import problems
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          cat images/import-report.txt || true
+          exit 1

@@ -1,0 +1,16 @@
+id: m.subscapularis
+kind: muscle
+name: Musculus subscapularis
+region: Membrum superius
+status: cross-checked
+cite: [dc-subscapularis, wp-subscapularis]
+images: {default: img.subscapularis}
+
+facts:
+  - {cat: N, nerve: Nervi subscapulares, branch: from Fasciculus posterior (Plexus brachialis), status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}
+  - {cat: U, text: Fossa subscapularis scapulae, status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}
+  - {cat: A, text: Tuberculum minus humeri, status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}
+  - {cat: S, text: "Tendon fibres blend with the Capsula articularis of the Articulatio humeri", status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}
+  - {cat: F, movement: Rotatio medialis, joint: Articulatio humeri, note: strongest medial rotator, status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}
+  - {cat: F, movement: Adductio, joint: Articulatio humeri, status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}
+  - {cat: R, text: "Tested clinically with the lift-off, belly-press and bear-hug tests", status: cross-checked, cite: [dc-subscapularis, wp-subscapularis]}

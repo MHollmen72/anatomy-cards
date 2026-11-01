@@ -1,0 +1,27 @@
+id: m.triceps-brachii
+kind: muscle
+name: Musculus triceps brachii
+region: Membrum superius
+status: cross-checked
+cite: [dc-triceps, wp-triceps]
+images: {default: img.triceps-brachii}
+
+parts:
+  - {id: caput-longum, name: Caput longum, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {id: caput-laterale, name: Caput laterale, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {id: caput-mediale, name: Caput mediale, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+
+facts:
+  - {cat: N, nerve: Nervus radialis, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {cat: N, part: caput-longum, nerve: Nervus axillaris, branch: additional supply in some people, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+
+  - {cat: U, part: caput-longum, text: Tuberculum infraglenoidale scapulae, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {cat: U, part: caput-laterale, text: "Humerus — posterior surface, proximal and lateral to the Sulcus nervi radialis", status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {cat: U, part: caput-mediale, text: "Humerus — posterior surface, distal and medial to the Sulcus nervi radialis", status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {cat: U, part: caput-mediale, text: Septum intermusculare brachii mediale, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+
+  - {cat: A, text: Olecranon ulnae, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+
+  - {cat: F, movement: Extensio, joint: Articulatio cubiti, note: main elbow extensor, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {cat: F, part: caput-longum, movement: Retroversio (extensio), joint: Articulatio humeri, status: cross-checked, cite: [dc-triceps, wp-triceps]}
+  - {cat: F, part: caput-longum, movement: Adductio, joint: Articulatio humeri, note: weak, status: cross-checked, cite: [dc-triceps, wp-triceps]}

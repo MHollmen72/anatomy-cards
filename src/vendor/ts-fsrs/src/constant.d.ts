@@ -1,0 +1,16 @@
+import type { StepUnit } from './models';
+export declare const default_request_retention = 0.9;
+export declare const default_maximum_interval = 36500;
+export declare const default_enable_fuzz = false;
+export declare const default_enable_short_term = true;
+export declare const default_learning_steps: readonly StepUnit[];
+export declare const default_relearning_steps: readonly StepUnit[];
+export declare const FSRSVersion: string;
+export declare const S_MIN = 0.001;
+export declare const S_MAX = 36500;
+export declare const INIT_S_MAX = 100;
+export declare const FSRS5_DEFAULT_DECAY = 0.5;
+export declare const FSRS6_DEFAULT_DECAY = 0.1542;
+export declare const default_w: readonly number[];
+export declare const W17_W18_Ceiling = 2;
+export declare const CLAMP_PARAMETERS: (w17_w18_ceiling: number, enable_short_term?: boolean) => number[][];

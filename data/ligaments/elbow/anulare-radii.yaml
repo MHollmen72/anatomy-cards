@@ -1,0 +1,14 @@
+id: l.anulare-radii
+kind: ligament
+name: Ligamentum anulare radii
+region: Membrum superius
+status: cross-checked
+cite: [dc-anulare-radii, wp-annular]
+images: {default: img.anulare-radii}
+
+facts:
+  - {cat: L, end1: "Incisura radialis ulnae — anterior margin", end2: "Incisura radialis ulnae — posterior margin", directional: false, status: cross-checked, cite: [wp-annular, ny-elbow]}
+  - {cat: W, text: "Capsula articularis of the Articulatio cubiti", status: cross-checked, cite: [wp-annular, ny-elbow, dc-anulare-radii]}
+  - {cat: W, text: Ligamentum collaterale radiale, status: cross-checked, cite: [wp-annular, ny-elbow]}
+  - {cat: F, text: "Encircles the Caput radii and holds it against the Incisura radialis ulnae", status: cross-checked, cite: [dc-anulare-radii, wp-annular, ny-elbow]}
+  - {cat: F, text: "Lets the Caput radii rotate during pronation and supination (Articulatio radioulnaris proximalis)", status: cross-checked, cite: [dc-anulare-radii, wp-annular]}

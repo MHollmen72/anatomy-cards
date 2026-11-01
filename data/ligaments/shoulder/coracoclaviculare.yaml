@@ -1,0 +1,18 @@
+id: l.coracoclaviculare
+kind: ligament
+name: Ligamentum coracoclaviculare
+region: Membrum superius
+status: cross-checked
+cite: [dc-coracoclaviculare, wp-coracoclavicular]
+images: {default: img.coracoclaviculare}
+
+parts:
+  - {id: trapezoideum, name: Ligamentum trapezoideum, status: cross-checked, cite: [dc-coracoclaviculare, kh-coracoclavicular, rp-coracoclavicular]}
+  - {id: conoideum, name: Ligamentum conoideum, status: cross-checked, cite: [dc-coracoclaviculare, kh-coracoclavicular, rp-coracoclavicular]}
+
+facts:
+  - {cat: L, part: trapezoideum, end1: "Processus coracoideus — upper surface", end2: "Clavicula — Linea trapezoidea (inferior surface)", directional: false, status: cross-checked, cite: [sp-coracoclavicular, kh-coracoclavicular, rp-coracoclavicular]}
+  - {cat: L, part: conoideum, end1: "Processus coracoideus — root (base)", end2: "Clavicula — Tuberculum conoideum", directional: false, status: cross-checked, cite: [sp-coracoclavicular, kh-coracoclavicular, rp-coracoclavicular]}
+
+  - {cat: F, text: "Suspends the Scapula (and the free upper limb) from the Clavicula", status: cross-checked, cite: [kh-coracoclavicular, sp-coracoclavicular]}
+  - {cat: F, text: "Main vertical stabiliser of the Articulatio acromioclavicularis", status: cross-checked, cite: [rp-coracoclavicular, wp-coracoclavicular, dc-coracoclaviculare]}

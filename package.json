@@ -1,0 +1,23 @@
+{
+  "name": "anatomy-cards",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Latin anatomy flashcards (muscles and joint ligaments) with FSRS scheduling. Private study tool.",
+  "type": "module",
+  "scripts": {
+    "data": "python3 scripts/build_data.py",
+    "build": "node scripts/build.mjs",
+    "test": "npm run test:data && npm run test:unit",
+    "test:data": "python3 -m unittest discover -s scripts -p \"test_*.py\"",
+    "test:unit": "node scripts/build.mjs --app-only && node --test \"tests/unit/*.test.mjs\"",
+    "test:e2e": "node tests/e2e/run.cjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

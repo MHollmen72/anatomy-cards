@@ -1,0 +1,15 @@
+id: m.anconeus
+kind: muscle
+name: Musculus anconeus
+region: Membrum superius
+status: cross-checked
+cite: [dc-anconeus, wp-anconeus]
+images: {default: img.anconeus}
+
+facts:
+  - {cat: N, nerve: Nervus radialis, status: cross-checked, cite: [dc-anconeus, wp-anconeus]}
+  - {cat: U, text: Epicondylus lateralis humeri, status: cross-checked, cite: [dc-anconeus, wp-anconeus]}
+  - {cat: A, text: "Olecranon — lateral surface", status: cross-checked, cite: [dc-anconeus, wp-anconeus]}
+  - {cat: A, text: "Ulna — proximal part of the posterior surface", status: cross-checked, cite: [dc-anconeus, wp-anconeus]}
+  - {cat: F, movement: Extensio, joint: Articulatio cubiti, note: "weak; assists Musculus triceps brachii", status: cross-checked, cite: [dc-anconeus, wp-anconeus]}
+  - {cat: F, movement: "Tensing the joint capsule (prevents it being pinched)", joint: Articulatio cubiti, status: cross-checked, cite: [dc-anconeus, wp-anconeus]}

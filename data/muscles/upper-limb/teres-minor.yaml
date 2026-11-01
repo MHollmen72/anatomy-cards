@@ -1,0 +1,16 @@
+id: m.teres-minor
+kind: muscle
+name: Musculus teres minor
+region: Membrum superius
+status: cross-checked
+cite: [dc-teres-minor, wp-teres-minor]
+images: {default: img.teres-minor}
+
+facts:
+  - {cat: N, nerve: Nervus axillaris, status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}
+  - {cat: U, text: "Scapula — Margo lateralis", status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}
+  - {cat: A, text: Tuberculum majus humeri, status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}
+  - {cat: S, text: "Tendon blends with the Capsula articularis of the Articulatio humeri", status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}
+  - {cat: S, text: "Tendon is part of the rotator cuff", status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}
+  - {cat: F, movement: Rotatio lateralis, joint: Articulatio humeri, status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}
+  - {cat: F, movement: Stabilisation (rotator cuff), joint: Articulatio humeri, status: cross-checked, cite: [dc-teres-minor, wp-teres-minor]}

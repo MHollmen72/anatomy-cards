@@ -1,0 +1,53 @@
+# Public sources cited by the data files. Cited by link only; no text is copied.
+# Each fact needs at least two DIFFERENT sources to be "cross-checked".
+# Prometheus (the reference textbook) is checked by the student in the app ("Prometheus-confirmed").
+
+# --- Musculus deltoideus
+wp-deltoid: {title: "Deltoid muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Deltoid_muscle", accessed: "2026-11-01"}
+dc-deltoideus: {title: "Musculus deltoideus – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_deltoideus", accessed: "2026-11-01"}
+kh-deltoid: {title: "Deltoid muscle – Kenhub", url: "https://kenhub.com/en/library/anatomy/the-deltoid-muscle", accessed: "2026-11-01"}
+
+# --- Rotator cuff
+dc-supraspinatus: {title: "Musculus supraspinatus – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_supraspinatus", accessed: "2026-11-01"}
+kh-supraspinatus: {title: "Supraspinatus muscle – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/supraspinatus-muscle", accessed: "2026-11-01"}
+wp-supraspinatus: {title: "Supraspinatus muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Supraspinatus_muscle", accessed: "2026-11-01"}
+dc-infraspinatus: {title: "Musculus infraspinatus – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_infraspinatus", accessed: "2026-11-01"}
+wp-infraspinatus: {title: "Infraspinatus muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Infraspinatus_muscle", accessed: "2026-11-01"}
+dc-teres-minor: {title: "Musculus teres minor – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_teres_minor", accessed: "2026-11-01"}
+wp-teres-minor: {title: "Teres minor muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Teres_minor_muscle", accessed: "2026-11-01"}
+dc-subscapularis: {title: "Musculus subscapularis – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Subscapularissehne", accessed: "2026-11-01"}
+wp-subscapularis: {title: "Subscapularis muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Subscapularis_muscle", accessed: "2026-11-01"}
+
+# --- Arm
+dc-biceps: {title: "Musculus biceps brachii – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_biceps_brachii", accessed: "2026-11-01"}
+wp-biceps: {title: "Biceps – Wikipedia", url: "https://en.wikipedia.org/wiki/Biceps", accessed: "2026-11-01"}
+dc-brachialis: {title: "Musculus brachialis – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_brachialis", accessed: "2026-11-01"}
+wp-brachialis: {title: "Brachialis muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Brachialis_muscle", accessed: "2026-11-01"}
+dc-coracobrachialis: {title: "Musculus coracobrachialis – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_coracobrachialis", accessed: "2026-11-01"}
+wp-coracobrachialis: {title: "Coracobrachialis muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Coracobrachialis_muscle", accessed: "2026-11-01"}
+dc-triceps: {title: "Musculus triceps brachii – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Trizeps", accessed: "2026-11-01"}
+wp-triceps: {title: "Triceps – Wikipedia", url: "https://en.wikipedia.org/wiki/Triceps", accessed: "2026-11-01"}
+dc-anconeus: {title: "Musculus anconeus – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Musculus_anconeus", accessed: "2026-11-01"}
+wp-anconeus: {title: "Anconeus muscle – Wikipedia", url: "https://en.wikipedia.org/wiki/Anconeus_muscle", accessed: "2026-11-01"}
+
+# --- Shoulder ligaments
+dc-coracoclaviculare: {title: "Ligamentum coracoclaviculare – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_coracoclaviculare", accessed: "2026-11-01"}
+wp-coracoclavicular: {title: "Coracoclavicular ligament – Wikipedia", url: "https://en.wikipedia.org/wiki/Coracoclavicular_ligament", accessed: "2026-11-01"}
+rp-coracoclavicular: {title: "Coracoclavicular ligament – Radiopaedia", url: "https://www.radiopaedia.org/articles/coracoclavicular-ligament", accessed: "2026-11-01"}
+kh-coracoclavicular: {title: "Coracoclavicular ligament – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/coracoclavicular-ligament", accessed: "2026-11-01"}
+sp-coracoclavicular: {title: "Anatomy, Shoulder and Upper Limb, Coracoclavicular Joint – StatPearls (NCBI Bookshelf)", url: "https://www.ncbi.nlm.nih.gov/books/NBK545221/", accessed: "2026-11-01"}
+dc-coracoacromiale: {title: "Ligamentum coracoacromiale – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_coracoacromiale", accessed: "2026-11-01"}
+wp-coracoacromial: {title: "Coracoacromial ligament – Wikipedia", url: "https://en.wikipedia.org/wiki/Coracoacromial_ligament", accessed: "2026-11-01"}
+kh-coracoacromial: {title: "Coracoacromial ligament – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/coracoacromial-ligament", accessed: "2026-11-01"}
+dc-coracohumerale: {title: "Ligamentum coracohumerale – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_coracohumerale", accessed: "2026-11-01"}
+wp-coracohumeral: {title: "Coracohumeral ligament – Wikipedia", url: "https://en.wikipedia.org/wiki/Coracohumeral_ligament", accessed: "2026-11-01"}
+kh-coracohumeral: {title: "Coracohumeral ligament – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/coracohumeral-ligament", accessed: "2026-11-01"}
+
+# --- Elbow ligaments
+dc-collaterale-ulnare: {title: "Ligamentum collaterale ulnare (Ellenbogen) – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_collaterale_ulnare_(Ellenbogen)", accessed: "2026-11-01"}
+wp-ucl-elbow: {title: "Ulnar collateral ligament of elbow joint – Wikipedia", url: "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_elbow_joint", accessed: "2026-11-01"}
+ny-elbow: {title: "Elbow – NYSORA musculoskeletal anatomy", url: "https://nysora.com/musculoskeletal/elbow/", accessed: "2026-11-01"}
+dc-collaterale-radiale: {title: "Ligamentum collaterale radiale – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_collaterale_radiale", accessed: "2026-11-01"}
+wp-rcl-elbow: {title: "Radial collateral ligament of elbow joint – Wikipedia", url: "https://en.wikipedia.org/wiki/Radial_collateral_ligament_of_elbow_joint", accessed: "2026-11-01"}
+dc-anulare-radii: {title: "Ligamentum anulare radii – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_anulare_radii", accessed: "2026-11-01"}
+wp-annular: {title: "Annular ligament of radius – Wikipedia", url: "https://en.wikipedia.org/wiki/Annular_ligament_of_radius", accessed: "2026-11-01"}

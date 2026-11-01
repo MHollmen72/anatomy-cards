@@ -1,0 +1,13 @@
+id: l.collaterale-radiale
+kind: ligament
+name: Ligamentum collaterale radiale
+region: Membrum superius
+status: cross-checked
+cite: [dc-collaterale-radiale, wp-rcl-elbow]
+images: {default: img.collaterale-radiale}
+
+facts:
+  - {cat: L, end1: Epicondylus lateralis humeri, end2: Ligamentum anulare radii, directional: false, status: cross-checked, cite: [dc-collaterale-radiale, wp-rcl-elbow, ny-elbow]}
+  - {cat: W, text: Ligamentum anulare radii, status: cross-checked, cite: [wp-annular, ny-elbow]}
+  # Only DocCheck states varus stabilisation for this ligament itself; NYSORA attributes it to the lateral complex.
+  - {cat: F, text: "Stabilises the Articulatio cubiti against varus stress", status: draft, cite: [dc-collaterale-radiale]}

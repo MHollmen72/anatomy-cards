@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <title>Anatomy Cards</title>
+  <meta name="description" content="Latin anatomy flashcards: muscles and joint ligaments.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14181d" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Anatomy">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#card">Skip to card</a>
+  <header class="top">
+    <p class="brand">Anatomy Cards</p>
+    <dl class="counters" aria-label="Today">
+      <div><dt>New<span class="visually-hidden"> cards today</span></dt><dd id="count-new">0</dd></div>
+      <div><dt>Reviews<span class="visually-hidden"> today</span></dt><dd id="count-reviews">0</dd></div>
+      <div><dt>Left<span class="visually-hidden"> in today's deck</span></dt><dd id="count-left">0</dd></div>
+    </dl>
+    <button class="btn icon" id="open-menu" type="button" aria-haspopup="dialog" aria-label="Menu">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+    </button>
+  </header>
+
+  <div id="banners" class="banners"></div>
+
+  <main id="card" class="card" tabindex="-1">
+    <p class="loading">Loading cards…</p>
+  </main>
+
+  <footer class="foot">
+    <p>Educational study tool only — not a substitute for formal teaching, qualified anatomical instruction or clinical judgement.</p>
+  </footer>
+
+  <div id="live" class="visually-hidden" aria-live="polite"></div>
+
+  <dialog id="menu" aria-labelledby="menu-title">
+    <div class="menu-head">
+      <h2 id="menu-title">Menu</h2>
+      <button class="btn icon" id="close-menu" type="button" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+    </div>
+
+    <section>
+      <h3>Backup</h3>
+      <p class="muted">Progress is stored only on this device. Export a backup regularly.</p>
+      <div class="row">
+        <button class="btn" id="export" type="button">Export progress</button>
+        <label class="btn file">Import progress<input id="import-file" type="file" accept="application/json,.json"></label>
+      </div>
+    </section>
+
+    <section>
+      <h3>Flagged cards</h3>
+      <ul id="flagged-list" class="flagged"></ul>
+    </section>
+
+    <section>
+      <h3>Deck</h3>
+      <p class="muted"><span id="total-cards">0</span> cards available · <span id="held-back">0</span> held back until all their facts are cross-checked.</p>
+    </section>
+
+    <section>
+      <h3>About</h3>
+      <p class="muted">Facts are cross-checked against two public sources; Prometheus is the reference textbook. Images: Wikimedia Commons, credited on each card. Scheduling: FSRS (ts-fsrs, MIT).</p>
+      <p class="muted">Educational study tool only — not a substitute for formal teaching, qualified anatomical instruction or clinical judgement.</p>
+    </section>
+
+    <section>
+      <h3>Reset</h3>
+      <button class="btn danger" id="reset" type="button">Reset all progress…</button>
+    </section>
+  </dialog>
+</body>
+</html>

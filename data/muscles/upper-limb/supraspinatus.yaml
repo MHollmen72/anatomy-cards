@@ -1,0 +1,21 @@
+id: m.supraspinatus
+kind: muscle
+name: Musculus supraspinatus
+region: Membrum superius
+status: cross-checked
+cite: [dc-supraspinatus, wp-supraspinatus]
+images: {default: img.supraspinatus}
+
+facts:
+  - {cat: N, nerve: Nervus suprascapularis, status: cross-checked, cite: [dc-supraspinatus, kh-supraspinatus, wp-supraspinatus]}
+  - {cat: U, text: Fossa supraspinata scapulae, status: cross-checked, cite: [dc-supraspinatus, kh-supraspinatus, wp-supraspinatus]}
+  - {cat: A, text: "Tuberculum majus humeri — superior facet", status: cross-checked, cite: [kh-supraspinatus, wp-supraspinatus]}
+
+  - {cat: S, text: "Tendon runs beneath the Acromion to its insertion", status: cross-checked, cite: [wp-supraspinatus, kh-supraspinatus]}
+  - {cat: S, text: "Tendon blends with the Capsula articularis of the Articulatio humeri", status: cross-checked, cite: [wp-supraspinatus, dc-supraspinatus]}
+  - {cat: S, text: "Tendon is part of the rotator cuff", status: cross-checked, cite: [dc-supraspinatus, kh-supraspinatus]}
+
+  - {cat: F, movement: Abductio, joint: Articulatio humeri, note: "initiates it; main agonist in the first ~15°", status: cross-checked, cite: [dc-supraspinatus, kh-deltoid, wp-supraspinatus]}
+  - {cat: F, movement: "Stabilisation — centres Caput humeri in Cavitas glenoidalis", joint: Articulatio humeri, status: cross-checked, cite: [dc-supraspinatus, kh-supraspinatus]}
+
+  - {cat: R, text: "Most frequently injured rotator-cuff muscle; its tendon is prone to subacromial impingement", status: cross-checked, cite: [dc-supraspinatus, wp-supraspinatus]}

@@ -1,0 +1,14 @@
+id: m.infraspinatus
+kind: muscle
+name: Musculus infraspinatus
+region: Membrum superius
+status: cross-checked
+cite: [dc-infraspinatus, wp-infraspinatus]
+images: {default: img.infraspinatus}
+
+facts:
+  - {cat: N, nerve: Nervus suprascapularis, status: cross-checked, cite: [dc-infraspinatus, wp-infraspinatus]}
+  - {cat: U, text: Fossa infraspinata scapulae, status: cross-checked, cite: [dc-infraspinatus, wp-infraspinatus]}
+  - {cat: A, text: Tuberculum majus humeri, status: cross-checked, cite: [dc-infraspinatus, wp-infraspinatus]}
+  - {cat: S, text: "Tendon is part of the rotator cuff", status: cross-checked, cite: [dc-infraspinatus, wp-infraspinatus]}
+  - {cat: F, movement: Rotatio lateralis, joint: Articulatio humeri, note: main lateral rotator, status: cross-checked, cite: [dc-infraspinatus, wp-infraspinatus]}

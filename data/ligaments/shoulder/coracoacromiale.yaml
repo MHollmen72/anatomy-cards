@@ -1,0 +1,11 @@
+id: l.coracoacromiale
+kind: ligament
+name: Ligamentum coracoacromiale
+region: Membrum superius
+status: cross-checked
+cite: [dc-coracoacromiale, wp-coracoacromial]
+images: {default: img.coracoacromiale}
+
+facts:
+  - {cat: L, end1: "Processus coracoideus — lateral border (broad base of the triangle)", end2: "Acromion — apex, just in front of the facet for the Clavicula", directional: false, status: cross-checked, cite: [wp-coracoacromial, kh-coracoacromial, dc-coracoacromiale]}
+  - {cat: F, text: "Together with Acromion and Processus coracoideus forms the roof over the Caput humeri (coracoacromial arch)", status: cross-checked, cite: [dc-coracoacromiale, wp-coracoacromial, kh-coracoacromial]}

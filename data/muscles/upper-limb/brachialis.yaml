@@ -1,0 +1,15 @@
+id: m.brachialis
+kind: muscle
+name: Musculus brachialis
+region: Membrum superius
+status: cross-checked
+cite: [dc-brachialis, wp-brachialis]
+images: {default: img.brachialis}
+
+facts:
+  - {cat: N, nerve: Nervus musculocutaneus, status: cross-checked, cite: [dc-brachialis, wp-brachialis]}
+  - {cat: N, nerve: Nervus radialis, branch: small additional supply in many people, status: cross-checked, cite: [dc-brachialis, wp-brachialis]}
+  - {cat: U, text: "Humerus — anterior surface of the distal half", status: cross-checked, cite: [dc-brachialis, wp-brachialis]}
+  - {cat: A, text: Tuberositas ulnae, status: cross-checked, cite: [dc-brachialis, wp-brachialis]}
+  - {cat: A, text: Processus coronoideus ulnae, status: cross-checked, cite: [dc-brachialis, wp-brachialis]}
+  - {cat: F, movement: Flexio, joint: Articulatio cubiti, note: "strongest elbow flexor, in pronation and supination alike", status: cross-checked, cite: [dc-brachialis, wp-brachialis]}

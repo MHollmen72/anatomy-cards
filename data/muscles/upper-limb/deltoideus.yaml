@@ -1,0 +1,34 @@
+id: m.deltoideus
+kind: muscle
+name: Musculus deltoideus
+region: Membrum superius
+status: cross-checked
+cite: [wp-deltoid, dc-deltoideus]
+images: {default: img.deltoideus}
+
+parts:
+  - {id: clavicularis, name: Pars clavicularis, status: cross-checked, cite: [dc-deltoideus, wp-deltoid]}
+  - {id: acromialis, name: Pars acromialis, status: cross-checked, cite: [dc-deltoideus, wp-deltoid]}
+  # Wikipedia names the posterior part "pars scapularis"; DocCheck and Kenhub (spinal part) agree on Pars spinalis.
+  - {id: spinalis, name: Pars spinalis, status: cross-checked, cite: [dc-deltoideus, kh-deltoid]}
+
+facts:
+  - {cat: N, nerve: Nervus axillaris, branch: from Fasciculus posterior (Plexus brachialis), status: cross-checked, cite: [dc-deltoideus, wp-deltoid]}
+
+  - {cat: U, part: clavicularis, text: "Clavicula — lateral third", status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+  - {cat: U, part: acromialis, text: Acromion, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+  - {cat: U, part: spinalis, text: Spina scapulae, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+
+  - {cat: A, text: Tuberositas deltoidea humeri, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+
+  # Only one source describes the tendon architecture: kept as draft, so the S card is held back.
+  - {cat: S, text: "Fibres converge on a short, strong insertion tendon; Pars acromialis is multipennate with intramuscular tendinous septa", status: draft, cite: [kh-deltoid]}
+
+  - {cat: F, part: clavicularis, movement: Anteversio (flexio), joint: Articulatio humeri, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+  - {cat: F, part: clavicularis, movement: Rotatio medialis, joint: Articulatio humeri, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+  - {cat: F, part: acromialis, movement: Abductio, joint: Articulatio humeri, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+  - {cat: F, part: spinalis, movement: Retroversio (extensio), joint: Articulatio humeri, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+  - {cat: F, part: spinalis, movement: Rotatio lateralis, joint: Articulatio humeri, status: cross-checked, cite: [dc-deltoideus, kh-deltoid, wp-deltoid]}
+
+  - {cat: R, text: "Common site for intramuscular injections — into the lower half, to spare Nervus axillaris, which winds around Collum chirurgicum humeri", status: cross-checked, cite: [wp-deltoid, kh-deltoid, dc-deltoideus]}
+  - {cat: R, text: "Lesion of Nervus axillaris (e.g. fracture of Collum chirurgicum humeri, shoulder dislocation) paralyses the muscle: abduction largely lost, shoulder contour flattened", status: cross-checked, cite: [kh-deltoid, wp-deltoid, dc-deltoideus]}
