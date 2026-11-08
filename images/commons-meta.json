@@ -17,6 +17,42 @@
   "sha1": "4afc7815698e5a6f578a4007977ac8da9f0c25ca",
   "source": "en:Abductor digiti minimi muscle of hand"
  },
+ "img.abductor-digiti-minimi-pedis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "FootMuscles.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:FootMuscles.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "footmuscles.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1488
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "8b673c8635e1c0d9453bec8be2ea7e09ae829a34",
+  "source": "en:Abductor digiti minimi muscle of foot"
+ },
+ "img.abductor-hallucis": {
+  "attribution_required": "false",
+  "author": "Dr. Johannes Sobotta",
+  "credit": "Sobotta's Atlas and Text-book of Human Anatomy 1909",
+  "file": "Sobo_1909_310.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_310.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sobo-1909-310.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1438,
+   2019
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b39a8d39239f109c4e4ec370ced501c559cf28d1",
+  "source": "en:Abductor hallucis muscle"
+ },
  "img.abductor-pollicis-brevis": {
   "attribution_required": "true",
   "author": "CFCF",
@@ -52,6 +88,78 @@
   "retrieved": "2026-11-08",
   "sha1": "7128a9dced8011c91c9a87c6be46a76f5c101678",
   "source": "en:Abductor pollicis longus muscle"
+ },
+ "img.adductor-brevis": {
+  "attribution_required": "true",
+  "author": "Beth ohara",
+  "credit": "Own work",
+  "file": "Anterior_Hip_Muscles_2.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Anterior_Hip_Muscles_2.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "anterior-hip-muscles-2.png",
+  "modified": "",
+  "original_size": [
+   408,
+   612
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7b466c1bdc72cfba282a387e107ffef11b8410a1",
+  "source": "en:Adductor brevis muscle"
+ },
+ "img.adductor-hallucis": {
+  "attribution_required": "false",
+  "author": "Image:Gray445.png modified by Uwe Gille",
+  "credit": "Image:Gray445.png",
+  "file": "Musculus_adductor_hallucis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculus_adductor_hallucis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculus-adductor-hallucis.png",
+  "modified": "",
+  "original_size": [
+   361,
+   800
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "6500c8fbffeaf7265fce172efd38d0c501a4256f",
+  "source": "en:Adductor hallucis muscle"
+ },
+ "img.adductor-longus": {
+  "attribution_required": "true",
+  "author": "Beth ohara",
+  "credit": "Own work",
+  "file": "Anterior_Hip_Muscles_2.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Anterior_Hip_Muscles_2.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "anterior-hip-muscles-2.png",
+  "modified": "",
+  "original_size": [
+   408,
+   612
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7b466c1bdc72cfba282a387e107ffef11b8410a1",
+  "source": "en:Adductor longus muscle"
+ },
+ "img.adductor-magnus": {
+  "attribution_required": "true",
+  "author": "Beth ohara",
+  "credit": "Own work",
+  "file": "Anterior_Hip_Muscles_2.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Anterior_Hip_Muscles_2.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "anterior-hip-muscles-2.png",
+  "modified": "",
+  "original_size": [
+   408,
+   612
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7b466c1bdc72cfba282a387e107ffef11b8410a1",
+  "source": "en:Adductor magnus muscle"
  },
  "img.adductor-pollicis": {
   "attribution_required": "true",
@@ -143,6 +251,42 @@
   "sha1": "879de70a86d4701b7d9b07f4a7d2df012d5469f4",
   "source": "en:Brachioradialis"
  },
+ "img.buccinator": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 380",
+  "file": "Buccinator.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Buccinator.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "buccinator.jpg",
+  "modified": "",
+  "original_size": [
+   288,
+   276
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "3904a8a41e51e7be4ea19dc0842b84fa2d85b41f",
+  "source": "en:Buccinator muscle"
+ },
+ "img.bulbospongiosus": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray406.png",
+  "file": "Bulbospongiosus-Male.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Bulbospongiosus-Male.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "bulbospongiosus-male.png",
+  "modified": "",
+  "original_size": [
+   370,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "41a4d10aa2e8aeeea21d9dfd97612f32579c5239",
+  "source": "en:Bulbospongiosus muscle"
+ },
  "img.collaterale-ulnare": {
   "attribution_required": "false",
   "author": "Henry Vandyke Carter, annotated by Mikael Häggström",
@@ -233,6 +377,24 @@
   "sha1": "bb8a2064943a649c72495bfac4322702935c6d72",
   "source": ""
  },
+ "img.corrugator-supercilii": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "This file was derived from: Gray379.png",
+  "file": "Gray379corrugator.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray379corrugator.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray379corrugator.png",
+  "modified": "",
+  "original_size": [
+   535,
+   450
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "65a09ffcbfb2295c07c3e7fd4b8cb9003ce0d0d5",
+  "source": "en:Corrugator supercilii muscle"
+ },
  "img.deltoideus": {
   "attribution_required": "true",
   "author": "Original: sv:Användare:Chrizz",
@@ -250,6 +412,96 @@
   "retrieved": "2026-11-01",
   "sha1": "4dd69fe0d3a32f01efdf7fb77f9ea3c4796f668b",
   "source": "en:Deltoid muscle"
+ },
+ "img.depressor-anguli-oris": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 381",
+  "file": "Gray381.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray381.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray381.png",
+  "modified": "",
+  "original_size": [
+   426,
+   305
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "972f811b420379154bd2d33956d840f1d75a5a3d",
+  "source": "en:Depressor anguli oris muscle"
+ },
+ "img.depressor-labii-inferioris": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray378.png",
+  "file": "Depressor_labii_inferioris.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Depressor_labii_inferioris.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "depressor-labii-inferioris.png",
+  "modified": "",
+  "original_size": [
+   428,
+   410
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "5eefe02e3ad2605a2fe40fc947b504fdc821b512",
+  "source": "en:Depressor labii inferioris muscle"
+ },
+ "img.depressor-septi-nasi": {
+  "attribution_required": "false",
+  "author": "Original uploader was Engusz at hu.wikipedia",
+  "credit": "Originally from hu.wikipedia; description page is/was here.",
+  "file": "Musculusdepressorseptinasi.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculusdepressorseptinasi.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculusdepressorseptinasi.png",
+  "modified": "",
+  "original_size": [
+   620,
+   700
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b887a2110a9b4c119f6ce77b18f51424ab3c49e3",
+  "source": "en:Depressor septi nasi muscle"
+ },
+ "img.diaphragma": {
+  "attribution_required": "true",
+  "author": "Theresa knott",
+  "credit": "Own work",
+  "file": "Respiratory_system.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "respiratory-system.svg",
+  "modified": "",
+  "original_size": [
+   744,
+   810
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "e3379ce18d255595fe7ae49baa1ba1057024dd55",
+  "source": "en:Thoracic diaphragm"
+ },
+ "img.digastricus": {
+  "attribution_required": "false",
+  "author": "Image:Gray385.png modified by Uwe Gille",
+  "credit": "Image:Gray385.png",
+  "file": "Digastricus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Digastricus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "digastricus.png",
+  "modified": "",
+  "original_size": [
+   536,
+   568
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "c9b0a5c60c98bd1a77a567d9371102727165727e",
+  "source": "en:Digastric muscle"
  },
  "img.extensor-carpi-radialis-longus": {
   "attribution_required": "true",
@@ -323,6 +575,78 @@
   "sha1": "b95963173786ccbd96dd427d081934e2b524da8e",
   "source": "en:Extensor digitorum muscle"
  },
+ "img.extensor-digitorum-brevis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 441",
+  "file": "Gray441.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray441.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray441.png",
+  "modified": "",
+  "original_size": [
+   700,
+   488
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4e1fc4794ea2cd0327f33f0e0d8f5d1945c93e01",
+  "source": "en:Extensor digitorum brevis muscle"
+ },
+ "img.extensor-digitorum-longus": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 1241",
+  "file": "Gray1241.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray1241.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray1241.png",
+  "modified": "",
+  "original_size": [
+   575,
+   399
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "43bed728fbd20fa59200215b32549a3be16abb8a",
+  "source": "en:Extensor digitorum longus muscle"
+ },
+ "img.extensor-hallucis-brevis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 437",
+  "file": "Gray437-Musculus_extensor_hallucis_brevis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray437-Musculus_extensor_hallucis_brevis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray437-musculus-extensor-hallucis-brevis.png",
+  "modified": "",
+  "original_size": [
+   260,
+   353
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "f8447ce680d32fcaedf5bef5f942ca3376e1ca34",
+  "source": "en:Extensor hallucis brevis muscle"
+ },
+ "img.extensor-hallucis-longus": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 441",
+  "file": "Gray441.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray441.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray441.png",
+  "modified": "",
+  "original_size": [
+   700,
+   488
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4e1fc4794ea2cd0327f33f0e0d8f5d1945c93e01",
+  "source": "en:Extensor hallucis longus muscle"
+ },
  "img.extensor-indicis": {
   "attribution_required": "false",
   "author": "Henry Vandyke Carter",
@@ -377,6 +701,60 @@
   "sha1": "7128a9dced8011c91c9a87c6be46a76f5c101678",
   "source": "en:Extensor pollicis longus muscle"
  },
+ "img.fibularis-brevis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 441",
+  "file": "Gray441.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray441.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray441.png",
+  "modified": "",
+  "original_size": [
+   700,
+   488
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4e1fc4794ea2cd0327f33f0e0d8f5d1945c93e01",
+  "source": "en:Fibularis brevis"
+ },
+ "img.fibularis-longus": {
+  "attribution_required": "true",
+  "author": "Polygon data were generated by Database Center for Life Science (DBCLS)[2]",
+  "credit": "Polygon data are from BodyParts3D[1]",
+  "file": "Inferior_view_fibularis_longus_muscle_-_animation.gif",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Inferior_view_fibularis_longus_muscle_-_animation.gif",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "inferior-view-fibularis-longus-muscle-animation.gif",
+  "modified": "",
+  "original_size": [
+   600,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "31495cb5d59bec924af2f750c507e1db9e7a4745",
+  "source": "en:Fibularis longus"
+ },
+ "img.fibularis-tertius": {
+  "attribution_required": "true",
+  "author": "Polygon data were generated by Database Center for Life Science (DBCLS)",
+  "credit": "Polygon data are from BodyParts3D",
+  "file": "Peroneus_tertius_muscle_-_animation.gif",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Peroneus_tertius_muscle_-_animation.gif",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "peroneus-tertius-muscle-animation.gif",
+  "modified": "",
+  "original_size": [
+   600,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "8d3f49771b03db91874acbef96bcb72a68ed021b",
+  "source": "en:Fibularis tertius"
+ },
  "img.flexor-carpi-radialis": {
   "attribution_required": "false",
   "author": "Henry Vandyke Carter",
@@ -412,6 +790,60 @@
   "retrieved": "2026-11-08",
   "sha1": "5f4fa79dba22b037e1faf52a9af52afa52682d2f",
   "source": "en:Flexor digiti minimi brevis muscle of hand"
+ },
+ "img.flexor-digiti-minimi-brevis-pedis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "DeepSoleMuscles.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DeepSoleMuscles.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "deepsolemuscles.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1469
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "24b41ce43341dac06b2888f21e53e33789042db9",
+  "source": "en:Flexor digiti minimi brevis muscle of foot"
+ },
+ "img.flexor-digitorum-brevis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "FootMuscles.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:FootMuscles.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "footmuscles.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1488
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "8b673c8635e1c0d9453bec8be2ea7e09ae829a34",
+  "source": "en:Flexor digitorum brevis muscle"
+ },
+ "img.flexor-digitorum-longus": {
+  "attribution_required": "true",
+  "author": "Polygon data were generated by Database Center for Life Science (DBCLS)[2]",
+  "credit": "Polygon data are from BodyParts3D[1]",
+  "file": "Inferior_view_of_flexor_digitorum_longus_muscle_-_animation.gif",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Inferior_view_of_flexor_digitorum_longus_muscle_-_animation.gif",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "inferior-view-of-flexor-digitorum-longus-muscle-animation.gif",
+  "modified": "",
+  "original_size": [
+   600,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "fccb34bca83ca4d048c69b0d0d175af3850b4c8e",
+  "source": "en:Flexor digitorum longus muscle"
  },
  "img.flexor-digitorum-profundus": {
   "attribution_required": "false",
@@ -449,6 +881,42 @@
   "sha1": "67a07d9c61456bf50a83f4accbeab7fa6d44de3a",
   "source": "en:Flexor digitorum superficialis muscle"
  },
+ "img.flexor-hallucis-brevis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "DeepSoleMuscles.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DeepSoleMuscles.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "deepsolemuscles.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1469
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "24b41ce43341dac06b2888f21e53e33789042db9",
+  "source": "en:Flexor hallucis brevis muscle"
+ },
+ "img.flexor-hallucis-longus": {
+  "attribution_required": "true",
+  "author": "Polygon data were generated by Database Center for Life Science (DBCLS)[2]",
+  "credit": "Polygon data are from BodyParts3D[1]",
+  "file": "Posterior_compartment_of_leg_-_flexor_hallucis_longus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_compartment_of_leg_-_flexor_hallucis_longus.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "posterior-compartment-of-leg-flexor-hallucis-longus.png",
+  "modified": "",
+  "original_size": [
+   1200,
+   1200
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "5d3fa82bc55a9faef8abab5a7eb5f3a9f74baf0c",
+  "source": "en:Flexor hallucis longus muscle"
+ },
  "img.flexor-pollicis-brevis": {
   "attribution_required": "true",
   "author": "CFCF",
@@ -485,6 +953,186 @@
   "sha1": "a3102f4dbfd005e640eb1f1a4366fa4022bd0f33",
   "source": "en:Flexor pollicis longus muscle"
  },
+ "img.gastrocnemius": {
+  "attribution_required": "true",
+  "author": "Dr. Sanjoy Sanyal",
+  "credit": "Cropped from the YouTube video titled \"What is Triceps of Leg-Achilles Z-plasty-Freshmans Nerve - Sanjoy Sanyal.\" After cropped from 0:12 to 1:36, and 2:37 to 3:57, merged them into one. Original video URL is at https://www.youtube.com/watch?v=90-poXS8K5c&t=0m12s",
+  "file": "Gastrocnemius_muscle_by_Sanjoy_Sanyal_2018-06-02.webm",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gastrocnemius_muscle_by_Sanjoy_Sanyal_2018-06-02.webm",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "local": "gastrocnemius-muscle-by-sanjoy-sanyal-2018-06-02.webm",
+  "modified": "",
+  "original_size": [
+   1077,
+   606
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "8c39251de4f3e4a1413b0317d24e67104ac988c2",
+  "source": "en:Gastrocnemius muscle"
+ },
+ "img.gemellus-inferior": {
+  "attribution_required": "true",
+  "author": "Beth ohara~commonswiki",
+  "credit": "Own work",
+  "file": "Posterior_Hip_Muscles_1.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_Hip_Muscles_1.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "posterior-hip-muscles-1.png",
+  "modified": "",
+  "original_size": [
+   360,
+   437
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1e03b4e6dc9167661f4eb2d0afd70a3602d9b130",
+  "source": "en:Inferior gemellus muscle"
+ },
+ "img.gemellus-superior": {
+  "attribution_required": "true",
+  "author": "Beth ohara~commonswiki",
+  "credit": "Own work",
+  "file": "Posterior_Hip_Muscles_1.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_Hip_Muscles_1.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "posterior-hip-muscles-1.png",
+  "modified": "",
+  "original_size": [
+   360,
+   437
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1e03b4e6dc9167661f4eb2d0afd70a3602d9b130",
+  "source": "en:Superior gemellus muscle"
+ },
+ "img.geniohyoideus": {
+  "attribution_required": "false",
+  "author": "The original uploader was Mikael Häggström at English Wikipedia.",
+  "credit": "Image:386.png",
+  "file": "Geniohyoid_muscle.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Geniohyoid_muscle.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "geniohyoid-muscle.png",
+  "modified": "",
+  "original_size": [
+   600,
+   477
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "f77c5bb6cd0cc1abffa698feedf6b54ca523c4d5",
+  "source": "en:Geniohyoid muscle"
+ },
+ "img.gluteus-maximus": {
+  "attribution_required": "true",
+  "author": "BodyParts3D/Anatomography",
+  "credit": "BodyParts3D/Anatomography",
+  "file": "Gluteus_maximus_3D.gif",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gluteus_maximus_3D.gif",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "gluteus-maximus-3d.gif",
+  "modified": "",
+  "original_size": [
+   640,
+   640
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "3cdf6cca3a5ba0589d1cc4bd4b4bdc73c093042f",
+  "source": "en:Gluteus maximus"
+ },
+ "img.gluteus-medius": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Gluteus_medius_muscle08.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gluteus_medius_muscle08.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "gluteus-medius-muscle08.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   4500,
+   4500
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "d6a18503ed6f829d6abdbefc911a9f5bc00d6e93",
+  "source": "en:Gluteus medius"
+ },
+ "img.gluteus-minimus": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Gluteus_minimus_muscle07.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gluteus_minimus_muscle07.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "gluteus-minimus-muscle07.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   4500,
+   4500
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7e75027a2c8380e1eb41d5208b09bf1903399a49",
+  "source": "en:Gluteus minimus"
+ },
+ "img.gracilis": {
+  "attribution_required": "true",
+  "author": "Beth ohara",
+  "credit": "Own work",
+  "file": "Anterior_Hip_Muscles_2.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Anterior_Hip_Muscles_2.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "anterior-hip-muscles-2.png",
+  "modified": "",
+  "original_size": [
+   408,
+   612
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7b466c1bdc72cfba282a387e107ffef11b8410a1",
+  "source": "en:Gracilis muscle"
+ },
+ "img.iliacus": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Iliacus_muscle06.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Iliacus_muscle06.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "iliacus-muscle06.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   4500,
+   4500
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "ff443a6cf8bde4f96370bc6ebc5ce6d7b4a11bed",
+  "source": "en:Iliacus muscle"
+ },
+ "img.iliocostalis": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray389.png",
+  "file": "Iliostalis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Iliostalis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "iliostalis.png",
+  "modified": "",
+  "original_size": [
+   625,
+   1179
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "d40575cedeb34fe36f9a418333da6a23ea9a3c73",
+  "source": "en:Iliocostalis"
+ },
  "img.infraspinatus": {
   "attribution_required": "false",
   "author": "Mikael Häggström. When using this image in external works, it may be cited as: Häggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain. or By Mikael Häggström, used with permission.",
@@ -502,6 +1150,132 @@
   "retrieved": "2026-11-01",
   "sha1": "bf1965f1430a58cf8035ce61a96c3f5cf47b163d",
   "source": "en:Infraspinatus muscle"
+ },
+ "img.intercostales-externi": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "External_intercostal_muscles_back.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:External_intercostal_muscles_back.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "external-intercostal-muscles-back.png",
+  "modified": "",
+  "original_size": [
+   900,
+   900
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "283248dacc8659dbabcb7fbaeb424ed86b575efb",
+  "source": "en:External intercostal muscles"
+ },
+ "img.intercostales-interni": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Internal_intercostal_muscles_back.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Internal_intercostal_muscles_back.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "internal-intercostal-muscles-back.png",
+  "modified": "",
+  "original_size": [
+   900,
+   900
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "59c1e51e373f64c701138ff1ab6a16d879b70ce7",
+  "source": "en:Internal intercostal muscles"
+ },
+ "img.intercostales-intimi": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Innermost_intercostal_muscles_back.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Innermost_intercostal_muscles_back.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "innermost-intercostal-muscles-back.png",
+  "modified": "",
+  "original_size": [
+   900,
+   900
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "32a9f3a82c8127ee62b24bcb01cfe63e0de92c3b",
+  "source": "en:Innermost intercostal muscle"
+ },
+ "img.interossei-dorsales-pedis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "DorsalInterosseiMuscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DorsalInterosseiMuscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "dorsalinterosseimuscles.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1483
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "cfa18f2ea61d9f5bf281f769500621b002c3c4f1",
+  "source": "en:Dorsal interossei of the foot"
+ },
+ "img.interossei-plantares": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "PlantarInterosseiMuscles.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:PlantarInterosseiMuscles.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "plantarinterosseimuscles.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1503
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "680462b97416efe6baf4993d66c149058ba646e0",
+  "source": "en:Plantar interossei muscles"
+ },
+ "img.ischiocavernosus": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray406.png",
+  "file": "Ischiocavernosus-male.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ischiocavernosus-male.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "ischiocavernosus-male.png",
+  "modified": "",
+  "original_size": [
+   370,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "10d448632c655684981861685d26507ccf79f72e",
+  "source": "en:Ischiocavernosus muscle"
+ },
+ "img.ischiococcygeus": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 404",
+  "file": "Gray404.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray404.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray404.png",
+  "modified": "",
+  "original_size": [
+   500,
+   520
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "bd83469b3b0d797e050c967a8214d7fb64d90d34",
+  "source": "en:Coccygeus muscle"
  },
  "img.latissimus-dorsi": {
   "attribution_required": "false",
@@ -521,6 +1295,60 @@
   "sha1": "2534636868f1f6ba33ae7598ddcd203dccbd717f",
   "source": "en:Latissimus dorsi muscle"
  },
+ "img.levator-anguli-oris": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 381",
+  "file": "Gray381.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray381.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray381.png",
+  "modified": "",
+  "original_size": [
+   426,
+   305
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "972f811b420379154bd2d33956d840f1d75a5a3d",
+  "source": "en:Levator anguli oris"
+ },
+ "img.levator-labii-superioris": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray378.png",
+  "file": "Levator_labii_superioris.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Levator_labii_superioris.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "levator-labii-superioris.png",
+  "modified": "",
+  "original_size": [
+   428,
+   410
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "820c8c386d9aace93595a41620411c529f730371",
+  "source": "en:Levator labii superioris"
+ },
+ "img.levator-labii-superioris-alaeque-nasi": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Musculuslevatorlabiisuperiorisalaequenasi.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculuslevatorlabiisuperiorisalaequenasi.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculuslevatorlabiisuperiorisalaequenasi.png",
+  "modified": "",
+  "original_size": [
+   531,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "97383951cf171e18f780f08f8b79f1b2beae854f",
+  "source": "en:Levator labii superioris alaeque nasi muscle"
+ },
  "img.levator-scapulae": {
   "attribution_required": "false",
   "author": "modified by Uwe Gille",
@@ -539,6 +1367,78 @@
   "sha1": "4097baa8c9765b04d6a686933be99061c379c2f2",
   "source": "en:Levator scapulae muscle"
  },
+ "img.levatores-costarum": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray389.png",
+  "file": "Levatores_costarum.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Levatores_costarum.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "levatores-costarum.png",
+  "modified": "",
+  "original_size": [
+   451,
+   562
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "0e13deb732755aa83d1ea920c0da9a7fc038ff8d",
+  "source": "en:Levatores costarum muscles"
+ },
+ "img.longissimus": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray389.png",
+  "file": "Longissimus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Longissimus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "longissimus.png",
+  "modified": "",
+  "original_size": [
+   625,
+   1179
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "6f75d3b65c2334e2d3aa1cc44f955821068d44e9",
+  "source": "en:Longissimus"
+ },
+ "img.longus-capitis": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray387.png",
+  "file": "Longus_capitis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Longus_capitis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "longus-capitis.png",
+  "modified": "",
+  "original_size": [
+   443,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "f6cece32e5d9bb2f930f97b8e9205a1442c5689d",
+  "source": "en:Longus capitis muscle"
+ },
+ "img.longus-colli": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray387.png",
+  "file": "Longus_colli.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Longus_colli.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "longus-colli.png",
+  "modified": "",
+  "original_size": [
+   443,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "606c46487c0184ced8d6a3a14af0d88e535ce9af",
+  "source": "en:Longus colli muscle"
+ },
  "img.lumbricales-manus": {
   "attribution_required": "false",
   "author": "Image:Gray427.png modified",
@@ -556,6 +1456,258 @@
   "retrieved": "2026-11-08",
   "sha1": "73f7e83b51ad79332cfe7431f621e90a6e0722e1",
   "source": "en:Lumbricals of the hand"
+ },
+ "img.lumbricales-pedis": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray444.png",
+  "file": "Lumbricales_pedis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Lumbricales_pedis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "lumbricales-pedis.png",
+  "modified": "",
+  "original_size": [
+   330,
+   800
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "68b6c87eaf3ca4735ab42759a4b82dbf6be5e2f8",
+  "source": "en:Lumbricals of the foot"
+ },
+ "img.masseter": {
+  "attribution_required": "true",
+  "author": "Kevjonesin",
+  "credit": "Own work",
+  "file": "Gray378_(masseter_highlight).png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray378_(masseter_highlight).png",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "local": "gray378-masseter-highlight.png",
+  "modified": "",
+  "original_size": [
+   423,
+   403
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7d596c336c80a67a8cb3f4c18a0b015109c569ea",
+  "source": "en:Masseter muscle"
+ },
+ "img.mentalis": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray378.png",
+  "file": "Mentalis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Mentalis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "mentalis.png",
+  "modified": "",
+  "original_size": [
+   428,
+   410
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "e81d4e4366989e391e4113e408cfc714f2887b5a",
+  "source": "en:Mentalis muscle"
+ },
+ "img.multifidus": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray389.png",
+  "file": "Multifidi.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Multifidi.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "multifidi.png",
+  "modified": "",
+  "original_size": [
+   432,
+   692
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7a5a939dd1502a920c0397a5b4bf3b37d486f7e7",
+  "source": "en:Multifidus muscle"
+ },
+ "img.mylohyoideus": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Transferred from en.wikipedia to Commons by IngerAlHaosului using CommonsHelper. Source image",
+  "file": "Mylohyoid_muscle.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Mylohyoid_muscle.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "mylohyoid-muscle.png",
+  "modified": "",
+  "original_size": [
+   600,
+   477
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "9b73d01d2ad3c029bce257f8b60f8113d2a6bca0",
+  "source": "en:Mylohyoid muscle"
+ },
+ "img.nasalis": {
+  "attribution_required": "false",
+  "author": "Dr. Johannes Sobotta",
+  "credit": "Sobotta's Atlas and Text-book of Human Anatomy 1909",
+  "file": "Sobo_1909_266.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_266.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sobo-1909-266.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1881,
+   1758
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "654c1f6e99649b9720abdc63bc4ac748459e4d45",
+  "source": "en:Nasalis muscle"
+ },
+ "img.obliquus-capitis-inferior": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:389.png",
+  "file": "Obliquus_capitis_inferior_muscle.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Obliquus_capitis_inferior_muscle.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "obliquus-capitis-inferior-muscle.png",
+  "modified": "",
+  "original_size": [
+   625,
+   1179
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "2d2c38a6d3978cf9dc092771b3f48dc6e1d3f126",
+  "source": "en:Obliquus capitis inferior muscle"
+ },
+ "img.obliquus-capitis-superior": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Obliquus_capitis_superior_muscle06.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Obliquus_capitis_superior_muscle06.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "obliquus-capitis-superior-muscle06.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   4500,
+   4500
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "994f0606f55a056fb90741bea3cd4bf19bca2566",
+  "source": "en:Obliquus capitis superior muscle"
+ },
+ "img.obliquus-externus-abdominis": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Illu_trunk_muscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Illu_trunk_muscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "illu-trunk-muscles.jpg",
+  "modified": "",
+  "original_size": [
+   520,
+   307
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "9155676aff23f2e29f0df85a80afed2d3efd12ad",
+  "source": "en:Abdominal external oblique muscle"
+ },
+ "img.obliquus-internus-abdominis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 395",
+  "file": "Gray395.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray395.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray395.png",
+  "modified": "",
+  "original_size": [
+   483,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7fb50650a38b2217217a0d161add543d33d77a5f",
+  "source": "en:Abdominal internal oblique muscle"
+ },
+ "img.obturatorius-externus": {
+  "attribution_required": "true",
+  "author": "Beth ohara~commonswiki",
+  "credit": "Own work",
+  "file": "Posterior_Hip_Muscles_1.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_Hip_Muscles_1.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "posterior-hip-muscles-1.png",
+  "modified": "",
+  "original_size": [
+   360,
+   437
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1e03b4e6dc9167661f4eb2d0afd70a3602d9b130",
+  "source": "en:External obturator muscle"
+ },
+ "img.obturatorius-internus": {
+  "attribution_required": "true",
+  "author": "Beth ohara~commonswiki",
+  "credit": "Own work",
+  "file": "Posterior_Hip_Muscles_1.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_Hip_Muscles_1.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "posterior-hip-muscles-1.png",
+  "modified": "",
+  "original_size": [
+   360,
+   437
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1e03b4e6dc9167661f4eb2d0afd70a3602d9b130",
+  "source": "en:Internal obturator muscle"
+ },
+ "img.occipitofrontalis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 378",
+  "file": "Gray378.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray378.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray378.png",
+  "modified": "",
+  "original_size": [
+   620,
+   700
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "939b4f930d07ec7affcafeb7746585b87cea70c3",
+  "source": "en:Occipitofrontalis muscle"
+ },
+ "img.omohyoideus": {
+  "attribution_required": "true",
+  "author": "Olek Remesz (wiki-pl: Orem, commons: Orem)",
+  "credit": "Own work, based on this picture from Gray's Anatomy.",
+  "file": "Musculi_colli_omohyoideus.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculi_colli_omohyoideus.svg",
+  "licence": "CC BY-SA 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "local": "musculi-colli-omohyoideus.svg",
+  "modified": "",
+  "original_size": [
+   1150,
+   975
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "0e883025f4531f4599c64fcca7d51152d76417ca",
+  "source": "en:Omohyoid muscle"
  },
  "img.opponens-digiti-minimi": {
   "attribution_required": "true",
@@ -593,6 +1745,42 @@
   "sha1": "ed32f6d20fa32735d38ac4596713487042d47c57",
   "source": "en:Opponens pollicis muscle"
  },
+ "img.orbicularis-oculi": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 379",
+  "file": "Gray379.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray379.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray379.png",
+  "modified": "",
+  "original_size": [
+   535,
+   450
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "903f60a25af6c588e61aa0353797c500a45ccc04",
+  "source": "en:Orbicularis oculi muscle"
+ },
+ "img.orbicularis-oris": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Orbicularis_oris.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Orbicularis_oris.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "orbicularis-oris.jpg",
+  "modified": "",
+  "original_size": [
+   278,
+   259
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "6ec249e805ab0db2f655f270474d67fd1aa9491c",
+  "source": "en:Orbicularis oris muscle"
+ },
  "img.palmaris-brevis": {
   "attribution_required": "false",
   "author": "Unknown author",
@@ -628,6 +1816,24 @@
   "retrieved": "2026-11-08",
   "sha1": "bb4aebc11bdf91784a0bab58ca45ff4b6aa65eb7",
   "source": "en:Palmaris longus muscle"
+ },
+ "img.pectineus": {
+  "attribution_required": "true",
+  "author": "Beth ohara",
+  "credit": "Own work",
+  "file": "Anterior_Hip_Muscles_2.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Anterior_Hip_Muscles_2.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "anterior-hip-muscles-2.png",
+  "modified": "",
+  "original_size": [
+   408,
+   612
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7b466c1bdc72cfba282a387e107ffef11b8410a1",
+  "source": "en:Pectineus muscle"
  },
  "img.pectoralis-major": {
   "attribution_required": "false",
@@ -665,6 +1871,96 @@
   "sha1": "9c823ebba704288530341d3df05055e9e1023d8e",
   "source": "en:Pectoralis minor muscle"
  },
+ "img.piriformis": {
+  "attribution_required": "false",
+  "author": "Johannes Sobotta",
+  "credit": "File:Sobo_1909_295.png",
+  "file": "Piriformis.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Piriformis.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "piriformis.jpg",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1767,
+   2079
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a9ccb637440419b5d110ea83412f04c75c5958ac",
+  "source": "en:Piriformis muscle"
+ },
+ "img.plantaris": {
+  "attribution_required": "true",
+  "author": "Polygon data is generated by Database Center for Life Science (DBCLS)",
+  "credit": "Polygon data is from BodyParts3D",
+  "file": "Plantaris_muscle_-_posterior_view.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Plantaris_muscle_-_posterior_view.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "plantaris-muscle-posterior-view.png",
+  "modified": "",
+  "original_size": [
+   1200,
+   1200
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "85ea1483e0c1dabf35c5a8c0fb00dd4ad95701ec",
+  "source": "en:Plantaris muscle"
+ },
+ "img.platysma": {
+  "attribution_required": "false",
+  "author": "Dr. Johannes Sobotta",
+  "credit": "Sobotta's Atlas and Text-book of Human Anatomy 1909",
+  "file": "Sobo_1909_267.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_267.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sobo-1909-267.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1641,
+   2250
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "72f0a3df75380f85cb870e9597f0dfd432a22774",
+  "source": "en:Platysma muscle"
+ },
+ "img.popliteus": {
+  "attribution_required": "true",
+  "author": "Polygon data were generated by Database Center for Life Science (DBCLS)[2]",
+  "credit": "Polygon data are from BodyParts3D[1]",
+  "file": "Posterior_compartment_of_leg_-_popliteus_muscle.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_compartment_of_leg_-_popliteus_muscle.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "posterior-compartment-of-leg-popliteus-muscle.png",
+  "modified": "",
+  "original_size": [
+   1200,
+   1200
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "9124c512e3cc5efa23ebbd8eaea9db58ae0df997",
+  "source": "en:Popliteus muscle"
+ },
+ "img.procerus": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray378.png",
+  "file": "Procerus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Procerus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "procerus.png",
+  "modified": "",
+  "original_size": [
+   428,
+   410
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b0797a005043c2bdb659dc7f3bb5b4bd90de7397",
+  "source": "en:Procerus muscle"
+ },
  "img.pronator-quadratus": {
   "attribution_required": "false",
   "author": "George A. Piersol",
@@ -682,6 +1978,240 @@
   "retrieved": "2026-11-08",
   "sha1": "a1a0203d875c4b2f0a6c4937f3722592004e9b2e",
   "source": "en:Pronator quadratus muscle"
+ },
+ "img.psoas-major": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Psoas_major_muscle11.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Psoas_major_muscle11.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "psoas-major-muscle11.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   4500,
+   4500
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "d7f236cf5ce927f091cf408ae01501a3f6a3f06a",
+  "source": "en:Psoas major muscle"
+ },
+ "img.psoas-minor": {
+  "attribution_required": "false",
+  "author": "Bemoeial",
+  "credit": "Own work",
+  "file": "Musculus_psoas_minor.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculus_psoas_minor.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculus-psoas-minor.png",
+  "modified": "",
+  "original_size": [
+   354,
+   580
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b5f61452d57120887e624593cab4f412e96e1734",
+  "source": "en:Psoas minor muscle"
+ },
+ "img.pterygoideus-lateralis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 383",
+  "file": "Musculuspterygoideuslateralis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculuspterygoideuslateralis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculuspterygoideuslateralis.png",
+  "modified": "",
+  "original_size": [
+   500,
+   422
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "5c5b190f0a81811a1d989e9e09037bb7b621eedb",
+  "source": "en:Lateral pterygoid muscle"
+ },
+ "img.pterygoideus-medialis": {
+  "attribution_required": "false",
+  "author": "Gray",
+  "credit": "Gray's anatomy",
+  "file": "Musculuspterygoideusmedialis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculuspterygoideusmedialis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculuspterygoideusmedialis.png",
+  "modified": "",
+  "original_size": [
+   500,
+   422
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "01277c79ec69155bb0e6dc6896db34f647f583cd",
+  "source": "en:Medial pterygoid muscle"
+ },
+ "img.pyramidalis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "PyramidalisMuscle.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:PyramidalisMuscle.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "pyramidalismuscle.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1017
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4f3e981076ce38ebfb6e4c1ba21abc721f8ca6db",
+  "source": "en:Pyramidalis muscle"
+ },
+ "img.quadratus-femoris": {
+  "attribution_required": "true",
+  "author": "Beth ohara~commonswiki",
+  "credit": "Own work",
+  "file": "Posterior_Hip_Muscles_1.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Posterior_Hip_Muscles_1.PNG",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "posterior-hip-muscles-1.png",
+  "modified": "",
+  "original_size": [
+   360,
+   437
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1e03b4e6dc9167661f4eb2d0afd70a3602d9b130",
+  "source": "en:Quadratus femoris muscle"
+ },
+ "img.quadratus-lumborum": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray389.png",
+  "file": "Quadratuslumborum.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Quadratuslumborum.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "quadratuslumborum.png",
+  "modified": "",
+  "original_size": [
+   462,
+   476
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a29dbe14df1ba8d2fd837760c54a14fd0c7aa24c",
+  "source": "en:Quadratus lumborum muscle"
+ },
+ "img.quadratus-plantae": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatpmie humaine",
+  "file": "MúsculosPlantares.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:M%C3%BAsculosPlantares.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "m-sculosplantares.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1448
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "2952a38f62a4322b6d74620f71c3bac6408de480",
+  "source": "en:Quadratus plantae muscle"
+ },
+ "img.rectus-abdominis": {
+  "attribution_required": "true",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Rectus_abdominis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rectus_abdominis.png",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "rectus-abdominis.png",
+  "modified": "",
+  "original_size": [
+   510,
+   510
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "d35d1405ea4772fc7772f00388522516a80dca03",
+  "source": "en:Rectus abdominis muscle"
+ },
+ "img.rectus-capitis-anterior": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Transferred from en.wikipedia to Commons by IngerAlHaosului using CommonsHelper.",
+  "file": "Rectus_capitis_anterior_muscle.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rectus_capitis_anterior_muscle.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "rectus-capitis-anterior-muscle.png",
+  "modified": "",
+  "original_size": [
+   443,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a2f1056b7539d564d4490700db5db137001fb530",
+  "source": "en:Rectus capitis anterior muscle"
+ },
+ "img.rectus-capitis-lateralis": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Rectus_capitis_lateralis_muscle01.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rectus_capitis_lateralis_muscle01.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "rectus-capitis-lateralis-muscle01.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   4500,
+   4500
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "2ce285909b3fc7ef54bb58d8c9135c8a80c89de8",
+  "source": "en:Rectus capitis lateralis muscle"
+ },
+ "img.rectus-capitis-posterior-major": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:389.png",
+  "file": "Rectus_capitis_posterior_major_muscle.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rectus_capitis_posterior_major_muscle.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "rectus-capitis-posterior-major-muscle.png",
+  "modified": "",
+  "original_size": [
+   625,
+   1179
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "cbeb4d681168489b4fb18fa3daf73ed78901b7f3",
+  "source": "en:Rectus capitis posterior major muscle"
+ },
+ "img.rectus-capitis-posterior-minor": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Rectus_capitis_posterior_minor_muscle_back.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rectus_capitis_posterior_minor_muscle_back.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "rectus-capitis-posterior-minor-muscle-back.png",
+  "modified": "",
+  "original_size": [
+   900,
+   900
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "6dfe8afb6becdf0a6ae4d529e389190576dc58a8",
+  "source": "en:Rectus capitis posterior minor muscle"
  },
  "img.rhomboideus-major": {
   "attribution_required": "false",
@@ -719,6 +2249,150 @@
   "sha1": "e40f1221555401843e1b4942b09f391a8e01322e",
   "source": "en:Rhomboid minor muscle"
  },
+ "img.risorius": {
+  "attribution_required": "false",
+  "author": "Sobotta, colour changed by was_a_bee.",
+  "credit": "File:Sobo_1909_260.png",
+  "file": "Sobo_1909_260_-_Risorius.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_260_-_Risorius.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sobo-1909-260-risorius.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   2412,
+   2104
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "328d475cf1d5be94f70bae5384fc650824b8a034",
+  "source": "en:Risorius"
+ },
+ "img.rotatores": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "Anatomography 4.3",
+  "file": "Rotatores.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rotatores.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "rotatores.png",
+  "modified": "",
+  "original_size": [
+   1056,
+   1431
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "43d82b47eff61c03c6a18b9c2813f1b365cf7dd1",
+  "source": "en:Rotatores muscles"
+ },
+ "img.sartorius": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Image:Illu lower extremity muscles.jpg",
+  "file": "Sartorius.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sartorius.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sartorius.png",
+  "modified": "",
+  "original_size": [
+   330,
+   412
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "c72a430ca3c14123d1f37177f727121fa3da8afd",
+  "source": "en:Sartorius muscle"
+ },
+ "img.scalenus-anterior": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:Gray387.png",
+  "file": "Scalenus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Scalenus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "scalenus.png",
+  "modified": "",
+  "original_size": [
+   450,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "26d0cccc77b75ea98e9170c995084ce046a90192",
+  "source": "en:Scalenus anterior"
+ },
+ "img.scalenus-medius": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:Gray387.png",
+  "file": "Scalenus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Scalenus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "scalenus.png",
+  "modified": "",
+  "original_size": [
+   450,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "26d0cccc77b75ea98e9170c995084ce046a90192",
+  "source": "en:Scalenus medius"
+ },
+ "img.scalenus-posterior": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:Gray387.png",
+  "file": "Scalenus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Scalenus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "scalenus.png",
+  "modified": "",
+  "original_size": [
+   450,
+   600
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "26d0cccc77b75ea98e9170c995084ce046a90192",
+  "source": "en:Scalenus posterior"
+ },
+ "img.semispinalis": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Semispinalis_capitis_-_animation01.gif",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Semispinalis_capitis_-_animation01.gif",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "semispinalis-capitis-animation01.gif",
+  "modified": "",
+  "original_size": [
+   450,
+   450
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7df9c27a6a42f3fa0e6571cef12cda38f5d8c178",
+  "source": "en:Semispinalis muscles"
+ },
+ "img.semitendinosus": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 432",
+  "file": "Gray432_color.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray432_color.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray432-color.png",
+  "modified": "",
+  "original_size": [
+   683,
+   700
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "548eb923a4577cb39c400b5ae72faa05817d6227",
+  "source": "en:Semitendinosus muscle"
+ },
  "img.serratus-anterior": {
   "attribution_required": "false",
   "author": "Leo Testut",
@@ -736,6 +2410,168 @@
   "retrieved": "2026-11-08",
   "sha1": "c551f275e2950bfd43c865f01d3687a6b1d04820",
   "source": "en:Serratus anterior muscle"
+ },
+ "img.soleus": {
+  "attribution_required": "false",
+  "author": "Johannes Sobotta",
+  "credit": "ATLAS OF HUMAN ANATOMY",
+  "file": "SoleusAndArch.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:SoleusAndArch.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "soleusandarch.jpg",
+  "modified": "",
+  "original_size": [
+   626,
+   603
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "34a3da6f61755b185d7f0cb8a04290237b0e28ee",
+  "source": "en:Soleus muscle"
+ },
+ "img.sphincter-ani-externus": {
+  "attribution_required": "true",
+  "author": "Waterced",
+  "credit": "Own work using: http://digestive.niddk.nih.gov/ddiseases/pubs/fecalincontinence/images/anorectum.gif",
+  "file": "Anorectum-en.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Anorectum-en.svg",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "local": "anorectum-en.svg",
+  "modified": "",
+  "original_size": [
+   240,
+   270
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "0fdc0fed8f18151845f51ab993212a292a9170b7",
+  "source": "en:External anal sphincter"
+ },
+ "img.spinalis": {
+  "attribution_required": "false",
+  "author": "Uwe Gille",
+  "credit": "modified from Image:Gray389.png",
+  "file": "Spinalis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Spinalis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "spinalis.png",
+  "modified": "",
+  "original_size": [
+   460,
+   668
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "201738e37efeac634c0d82c406700631ec1bf7e9",
+  "source": "en:Spinalis"
+ },
+ "img.splenius-capitis": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray409.png",
+  "file": "Musculus_splenius_capitis_marked.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculus_splenius_capitis_marked.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculus-splenius-capitis-marked.png",
+  "modified": "",
+  "original_size": [
+   733,
+   1156
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "f32947d91f502b1fde50950fbf07f01a5e2dba23",
+  "source": "en:Splenius capitis muscle"
+ },
+ "img.splenius-cervicis": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Anatomie Humaine",
+  "file": "DeepNapeMuscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DeepNapeMuscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "deepnapemuscles.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1142
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "686ef0d0e37bfca1041e8a706c5f3aeb8c445dd0",
+  "source": "en:Splenius cervicis muscle"
+ },
+ "img.sternocleidomastoideus": {
+  "attribution_required": "false",
+  "author": "Image:Gray385.png modified by Uwe Gille",
+  "credit": "Image:Gray385.png",
+  "file": "Sternocleidomastoideus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sternocleidomastoideus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sternocleidomastoideus.png",
+  "modified": "",
+  "original_size": [
+   536,
+   568
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "42a484557959242d1c08b680015e45d0a0005cd6",
+  "source": "en:Sternocleidomastoid muscle"
+ },
+ "img.sternohyoideus": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:386.png",
+  "file": "Sternohyoid_muscle.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sternohyoid_muscle.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sternohyoid-muscle.png",
+  "modified": "",
+  "original_size": [
+   600,
+   477
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "20fc8aacf97a18e9e0f61b8ddd0fb538ff5960a0",
+  "source": "en:Sternohyoid muscle"
+ },
+ "img.sternothyroideus": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray386.png",
+  "file": "Sternothyroideus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sternothyroideus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sternothyroideus.png",
+  "modified": "",
+  "original_size": [
+   600,
+   477
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "47988ba647f4b174821058e4dc71dab30c1ac85b",
+  "source": "en:Sternothyroid muscle"
+ },
+ "img.stylohyoideus": {
+  "attribution_required": "true",
+  "author": "Olek Remesz (wiki-pl: Orem, commons: Orem)",
+  "credit": "Own work based on: this picture from Gray's Anatomy.",
+  "file": "Musculi_colli_stylohyoideus.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculi_colli_stylohyoideus.svg",
+  "licence": "CC BY-SA 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "local": "musculi-colli-stylohyoideus.svg",
+  "modified": "",
+  "original_size": [
+   1150,
+   975
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "bc6dc5c802fc397a6168e2f6f0ffbea1f2d2b507",
+  "source": "en:Stylohyoid muscle"
  },
  "img.subclavius": {
   "attribution_required": "true",
@@ -809,6 +2645,42 @@
   "sha1": "dc3a2938dc534e3e8b856654168fa401378ef2bd",
   "source": "en:Supraspinatus muscle"
  },
+ "img.temporalis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 382",
+  "file": "Gray382.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray382.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray382.png",
+  "modified": "",
+  "original_size": [
+   500,
+   405
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "42cf61a97450742eac22ed7aefd1df61f11962cf",
+  "source": "en:Temporalis muscle"
+ },
+ "img.tensor-fasciae-latae": {
+  "attribution_required": "true",
+  "author": "Jmarchn",
+  "credit": "Own work based on: Gray430.png",
+  "file": "Gray430_with_TensorFasciaLata-en.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray430_with_TensorFasciaLata-en.svg",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "local": "gray430-with-tensorfascialata-en.svg",
+  "modified": "",
+  "original_size": [
+   678,
+   1192
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "79fd1e389d980df75debdd06046b5d4272f9d7f3",
+  "source": "en:Tensor fasciae latae muscle"
+ },
  "img.teres-major": {
   "attribution_required": "false",
   "author": "User:Mikael Häggström",
@@ -845,6 +2717,132 @@
   "sha1": "796c6b62ebdfbb4939db2ad97d8be271b5c1c8ab",
   "source": "en:Teres minor muscle"
  },
+ "img.thyrohyoideus": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Transferred from en.wikipedia to Commons by IngerAlHaosului using CommonsHelper.",
+  "file": "Thyrohyoid_muscle.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Thyrohyoid_muscle.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "thyrohyoid-muscle.png",
+  "modified": "",
+  "original_size": [
+   553,
+   593
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a63baf8ec37c342247ad7cecf6751b98aba27ff1",
+  "source": "en:Thyrohyoid muscle"
+ },
+ "img.tibialis-anterior": {
+  "attribution_required": "true",
+  "author": "Bildberabetning: sv:Användare:Chrizz. Original uploader was Chrizz at sv.wikipedia",
+  "credit": "Originally from sv.wikipedia; description page is/was here.",
+  "file": "Tibialis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Tibialis.png",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "tibialis.png",
+  "modified": "",
+  "original_size": [
+   510,
+   510
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "15f21af07b5e44c7acc604777278966283583c41",
+  "source": "en:Tibialis anterior muscle"
+ },
+ "img.tibialis-posterior": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 442",
+  "file": "Gray442.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray442.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray442.png",
+  "modified": "",
+  "original_size": [
+   700,
+   436
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "ee1ee805de8026b3300daef7f640c7bb9690584a",
+  "source": "en:Tibialis posterior muscle"
+ },
+ "img.transversus-abdominis": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Illu_trunk_muscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Illu_trunk_muscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "illu-trunk-muscles.jpg",
+  "modified": "",
+  "original_size": [
+   520,
+   307
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "9155676aff23f2e29f0df85a80afed2d3efd12ad",
+  "source": "en:Transverse abdominal muscle"
+ },
+ "img.transversus-perinei-profundus": {
+  "attribution_required": "true",
+  "author": "Openstax",
+  "credit": "https://cnx.org/contents/FPtK1zmh@8.25:fEI3C8Ot@10/Preface",
+  "file": "1116_Muscle_of_the_Male_Perineum.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1116_Muscle_of_the_Male_Perineum.png",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "local": "1116-muscle-of-the-male-perineum.png",
+  "modified": "",
+  "original_size": [
+   1176,
+   1226
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "5ffde4a7385e0adabd308938411c75b8cb4c49a8",
+  "source": "en:Deep transverse perineal muscle"
+ },
+ "img.transversus-perinei-superficialis": {
+  "attribution_required": "true",
+  "author": "Openstax",
+  "credit": "https://cnx.org/contents/FPtK1zmh@8.25:fEI3C8Ot@10/Preface",
+  "file": "1116_Muscle_of_the_Male_Perineum.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1116_Muscle_of_the_Male_Perineum.png",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "local": "1116-muscle-of-the-male-perineum.png",
+  "modified": "",
+  "original_size": [
+   1176,
+   1226
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "5ffde4a7385e0adabd308938411c75b8cb4c49a8",
+  "source": "en:Superficial transverse perineal muscle"
+ },
+ "img.transversus-thoracis": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray390.png",
+  "file": "Transversus_thoracis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Transversus_thoracis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "transversus-thoracis.png",
+  "modified": "",
+  "original_size": [
+   391,
+   626
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "06d748ae4f2312f879484767eeab49e99d5f6625",
+  "source": "en:Transversus thoracis muscle"
+ },
  "img.trapezius": {
   "attribution_required": "true",
   "author": "Unknown author",
@@ -880,5 +2878,95 @@
   "retrieved": "2026-11-01",
   "sha1": "cb1335ea750f1db1751b267dfca0079742012ee1",
   "source": "en:Triceps"
+ },
+ "img.vastus-intermedius": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Illu_lower_extremity_muscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Illu_lower_extremity_muscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "illu-lower-extremity-muscles.jpg",
+  "modified": "",
+  "original_size": [
+   330,
+   412
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1a9c43701a350665e05adb5acb8cdc4fcc391e01",
+  "source": "en:Vastus intermedius muscle"
+ },
+ "img.vastus-lateralis": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Illu_lower_extremity_muscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Illu_lower_extremity_muscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "illu-lower-extremity-muscles.jpg",
+  "modified": "",
+  "original_size": [
+   330,
+   412
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1a9c43701a350665e05adb5acb8cdc4fcc391e01",
+  "source": "en:Vastus lateralis muscle"
+ },
+ "img.vastus-medialis": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Illu_lower_extremity_muscles.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Illu_lower_extremity_muscles.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "illu-lower-extremity-muscles.jpg",
+  "modified": "",
+  "original_size": [
+   330,
+   412
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1a9c43701a350665e05adb5acb8cdc4fcc391e01",
+  "source": "en:Vastus medialis"
+ },
+ "img.zygomaticus-major": {
+  "attribution_required": "false",
+  "author": "Sobotta, colour changed by was_a_bee.",
+  "credit": "File:Sobo_1909_260.png",
+  "file": "Sobo_1909_260_-_Zygomaticus_major_muscle.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sobo_1909_260_-_Zygomaticus_major_muscle.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "sobo-1909-260-zygomaticus-major-muscle.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   2412,
+   2104
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "feb1d4f3ff4e8f901c679ae2282c6d26e36e1135",
+  "source": "en:Zygomaticus major muscle"
+ },
+ "img.zygomaticus-minor": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Musculuszygomaticusminor.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculuszygomaticusminor.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculuszygomaticusminor.png",
+  "modified": "",
+  "original_size": [
+   619,
+   389
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "742f46e3d195c93d5a3213299237dae1a51855fc",
+  "source": "en:Zygomaticus minor muscle"
  }
 }

@@ -1,3 +1,7 @@
+img.rectus-femoris: article en:Rectus femoris muscle has no lead image
+img.biceps-femoris: article en:Biceps femoris muscle has no lead image
+img.semimembranosus: article en:Semimembranosus muscle has no lead image
+img.levator-ani: article en:Levator ani has no lead image
 img.pronator-teres: article en:Pronator teres muscle has no lead image
 img.flexor-carpi-ulnaris: article en:Flexor carpi ulnaris muscle has no lead image
 img.extensor-carpi-radialis-brevis: article en:Extensor carpi radialis brevis muscle has no lead image
