@@ -1,0 +1,84 @@
+# Ligaments of the shoulder girdle, shoulder, wrist and hand (elbow ligaments: data/ligaments/elbow/).
+# Sources: TTUHSC joint tables + TeachMeAnatomy + Kenhub. Only facts stated by two of them are included.
+defaults: {kind: ligament, region: Membrum superius, status: cross-checked}
+structures:
+  - id: l.sternoclaviculare-anterius
+    name: Ligamentum sternoclaviculare anterius
+    cite: [ttu-joints-ul, kh-sc-joint]
+    L: ["Clavicula — Extremitas sternalis <-> Manubrium sterni"]
+    F: [{text: "Reinforces the capsule of the Articulatio sternoclavicularis anteriorly", cite: [tma-sc-joint, kh-sc-joint]}]
+
+  - id: l.sternoclaviculare-posterius
+    name: Ligamentum sternoclaviculare posterius
+    cite: [ttu-joints-ul, kh-sc-joint]
+    L: ["Clavicula — Extremitas sternalis <-> Manubrium sterni (posterior side)"]
+    F: [{text: "Reinforces the capsule of the Articulatio sternoclavicularis posteriorly", cite: [tma-sc-joint, kh-sc-joint]}]
+
+  - id: l.interclaviculare
+    name: Ligamentum interclaviculare
+    cite: [tma-sc-joint, kh-sc-joint]
+    L: ["Clavicula — Extremitas sternalis <-> Clavicula of the other side (across the Incisura jugularis)"]
+    F: ["Strengthens the capsule of the Articulatio sternoclavicularis superiorly"]
+
+  - id: l.costoclaviculare
+    name: Ligamentum costoclaviculare
+    cite: [ttu-joints-ul, tma-sc-joint, kh-sc-joint]
+    L: ["Costa I and its costal cartilage <-> Clavicula — inferior surface (medial end)"]
+    F: ["Limits elevation of the clavicle (main stabiliser of the Articulatio sternoclavicularis)"]
+
+  - id: l.acromioclaviculare
+    name: Ligamentum acromioclaviculare
+    cite: [tma-ac-joint, kh-ac-joint]
+    L: ["Acromion <-> Clavicula — Extremitas acromialis"]
+    F: ["Reinforces the capsule of the Articulatio acromioclavicularis superiorly"]
+
+  - id: l.glenohumeralia
+    name: Ligamenta glenohumeralia
+    cite: [ttu-joints-ul, kh-shoulder-joint, tma-shoulder-joint]
+    parts: [Ligamentum glenohumerale superius, Ligamentum glenohumerale medium, Ligamentum glenohumerale inferius]
+    L: ["Margo glenoidalis scapulae / Labrum glenoidale <-> Humerus (Tuberculum minus and Collum anatomicum)"]
+    W: [{text: "Capsula articularis of the Articulatio humeri (they are thickenings of its anterior part)", cite: [ttu-joints-ul, tma-shoulder-joint]}]
+    F: [{text: "Stabilise the Articulatio humeri anteriorly", cite: [tma-shoulder-joint, kh-shoulder-joint]}]
+
+  - id: l.transversum-humeri
+    name: Ligamentum transversum humeri
+    cite: [ttu-joints-ul, tma-shoulder-joint, kh-shoulder-joint]
+    L: ["Tuberculum majus humeri <-> Tuberculum minus humeri (bridging the Sulcus intertubercularis)"]
+    F: ["Holds the tendon of Caput longum musculi bicipitis brachii in the Sulcus intertubercularis"]
+
+  - id: l.radiocarpale-palmare
+    name: Ligamentum radiocarpale palmare
+    cite: [tma-wrist, kh-wrist]
+    L: ["Radius — distal end (palmar) -> Ossa carpi of both rows (incl. Os scaphoideum, Os lunatum, Os capitatum)"]
+    F: ["Stabilises the Articulatio radiocarpea on the palmar side"]
+
+  - id: l.radiocarpale-dorsale
+    name: Ligamentum radiocarpale dorsale
+    cite: [tma-wrist, kh-wrist]
+    L: ["Radius — distal end (dorsal) -> Ossa carpi (incl. Os triquetrum)"]
+    F: ["Stabilises the Articulatio radiocarpea on the dorsal side"]
+
+  - id: l.collaterale-carpi-ulnare
+    name: Ligamentum collaterale carpi ulnare
+    cite: [ttu-joints-ul, tma-wrist, kh-wrist]
+    L: ["Processus styloideus ulnae -> Os triquetrum (and Os pisiforme)"]
+    F:
+      - {text: "Limits radial deviation (abduction) of the hand", status: disputed, cite: [tma-wrist]}
+      - {text: "Limits ulnar deviation (adduction) of the hand", status: disputed, cite: [kh-wrist]}
+
+  - id: l.collaterale-carpi-radiale
+    name: Ligamentum collaterale carpi radiale
+    cite: [ttu-joints-ul, tma-wrist, kh-wrist]
+    L: ["Processus styloideus radii -> Os scaphoideum and Os trapezium"]
+
+  - id: l.collateralia-metacarpophalangea
+    name: Ligamenta collateralia articulationum metacarpophalangearum
+    cite: [kh-mcp, wp-mcp-collateral]
+    L: ["Caput ossis metacarpi — sides (dorsal tubercles) -> Basis phalangis proximalis (palmar side)"]
+    F: ["Taut in flexion and lax in extension: the MCP joint is stable in full flexion"]
+
+  - id: l.metacarpale-transversum-profundum
+    name: Ligamenta metacarpalia transversa profunda
+    cite: [ttu-joints-ul, kh-mcp]
+    L: ["Palmar side of Articulatio metacarpophalangea II <-> … V (link neighbouring MCP joints)"]
+    F: ["Bind the metacarpal heads together and stabilise the MCP joints (grip)"]

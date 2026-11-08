@@ -1,0 +1,105 @@
+# Ligaments of the vertebral column, craniovertebral joints, ribs and temporomandibular joint.
+# Sources: TTUHSC joint tables + Kenhub + TeachMeAnatomy / Radiopaedia / WikiMSK.
+defaults: {kind: ligament, region: Columna vertebralis, status: cross-checked}
+structures:
+  - id: l.longitudinale-anterius
+    name: Ligamentum longitudinale anterius
+    cite: [ttu-joints, kh-vertebral-ligaments]
+    L: ["Skull base / Atlas (anterior) -> Os sacrum, along the anterior surfaces of the vertebral bodies"]
+
+  - id: l.longitudinale-posterius
+    name: Ligamentum longitudinale posterius
+    cite: [ttu-joints, kh-vertebral-ligaments]
+    L: ["Axis (C2) -> Os sacrum, along the posterior surfaces of the vertebral bodies (inside the Canalis vertebralis)"]
+
+  - id: l.flava
+    name: Ligamenta flava
+    cite: [ttu-joints, kh-vertebral-ligaments]
+    L: ["Lamina arcus vertebrae <-> Lamina of the adjacent vertebra"]
+
+  - id: l.interspinalia
+    name: Ligamenta interspinalia
+    cite: [ttu-joints, kh-vertebral-ligaments]
+    L: ["Processus spinosus <-> Processus spinosus of the adjacent vertebra"]
+
+  - id: l.supraspinale
+    name: Ligamentum supraspinale
+    cite: [ttu-joints, kh-vertebral-ligaments]
+    L: ["Tips of the Processus spinosi from C7 -> Os sacrum"]
+
+  - id: l.nuchae
+    name: Ligamentum nuchae
+    cite: [ttu-joints, kh-vertebral-ligaments]
+    L: ["Os occipitale (Protuberantia occipitalis externa) -> Processus spinosus C7 (attached to the cervical spinous processes)"]
+    F: ["Attachment for neck and shoulder muscles"]
+
+  - id: l.transversum-atlantis
+    name: Ligamentum transversum atlantis
+    region: Articulationes craniovertebrales
+    cite: [kh-atlantoaxial, wm-atlantoaxial]
+    L: [{text: "Massa lateralis atlantis <-> Massa lateralis atlantis of the other side", cite: [kh-atlantoaxial, ttu-joints], status: draft}]
+    F: ["Holds the Dens axis against the atlas; prevents forward sliding of the atlas on the axis"]
+
+  - id: l.alaria
+    name: Ligamenta alaria
+    region: Articulationes craniovertebrales
+    cite: [kh-atlantoaxial, wm-atlantoaxial]
+    L: ["Dens axis (upper end) -> Os occipitale (Condyli occipitales / margin of the Foramen magnum)"]
+    F: ["Limit rotation at the Articulatio atlantoaxialis"]
+
+  - id: l.capitis-costae-radiatum
+    name: Ligamentum capitis costae radiatum
+    region: Thorax
+    cite: [kh-costovertebral, rp-costovertebral]
+    L: ["Caput costae -> Corpora vertebrarum (adjacent) and Discus intervertebralis"]
+
+  - id: l.capitis-costae-intraarticulare
+    name: Ligamentum capitis costae intraarticulare
+    region: Thorax
+    cite: [kh-costovertebral, rp-costovertebral]
+    L: ["Crista capitis costae <-> Discus intervertebralis"]
+
+  - id: l.costotransversarium
+    name: Ligamentum costotransversarium
+    region: Thorax
+    cite: [kh-costovertebral, rp-costovertebral]
+    L: ["Collum costae (posterior) <-> Processus transversus (anterior)"]
+
+  - id: l.costotransversarium-superius
+    name: Ligamentum costotransversarium superius
+    region: Thorax
+    cite: [kh-costovertebral, rp-costovertebral]
+    L: ["Collum costae (upper border) -> Processus transversus of the vertebra above (lower surface)"]
+
+  - id: l.costotransversarium-laterale
+    name: Ligamentum costotransversarium laterale
+    region: Thorax
+    cite: [kh-costovertebral, rp-costovertebral]
+    L: ["Tuberculum costae (non-articular part) <-> Apex of the Processus transversus"]
+
+  - id: l.sternocostalia-radiata
+    name: Ligamenta sternocostalia radiata
+    region: Thorax
+    cite: [ttu-joints, kh-sternocostal]
+    L: ["Cartilagines costales I–VII (sternal ends) -> Sternum (anterior and posterior surfaces)"]
+    F: ["Reinforce the Articulationes sternocostales"]
+
+  - id: l.laterale-atm
+    name: Ligamentum laterale (Articulationis temporomandibularis)
+    region: Caput
+    cite: [tma-tmj, kh-tmj]
+    L: ["Os temporale (Tuberculum articulare / margin of the Fossa mandibularis) -> Collum mandibulae"]
+    F: ["Prevents posterior dislocation of the Articulatio temporomandibularis"]
+
+  - id: l.sphenomandibulare
+    name: Ligamentum sphenomandibulare
+    region: Caput
+    cite: [ttu-joints, kh-tmj]
+    L: ["Spina ossis sphenoidalis -> Lingula mandibulae"]
+
+  - id: l.stylomandibulare
+    name: Ligamentum stylomandibulare
+    region: Caput
+    cite: [ttu-joints, kh-tmj]
+    L: ["Processus styloideus -> Angulus mandibulae"]
+    W: [{text: "Fascia parotidea (it is a thickening of it)", cite: [ttu-joints, tma-tmj]}]

@@ -90,3 +90,37 @@ tma-suprahyoid: {title: "The Suprahyoid Muscles – TeachMeAnatomy", url: "https
 tma-infrahyoid: {title: "The Infrahyoid Muscles – TeachMeAnatomy", url: "https://teachmeanatomy.info/neck/muscles/infrahyoid/", accessed: "2026-11-08"}
 tma-mastication: {title: "The Muscles of Mastication – TeachMeAnatomy", url: "https://teachmeanatomy.info/head/muscles/mastication/", accessed: "2026-11-08"}
 tma-facial: {title: "Muscles of Facial Expression – TeachMeAnatomy", url: "https://teachmeanatomy.info/head/muscles/facial-expression/", accessed: "2026-11-08"}
+
+# --- Ligament sources
+ttu-joints-ul: {title: "Joints of the Upper Limb – Medical Gross Anatomy tables (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/joints_upperlimb.html", accessed: "2026-11-08"}
+ttu-joints-ll: {title: "Joints of the Lower Limb – Medical Gross Anatomy tables (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/joints_lowerlimb.html", accessed: "2026-11-08"}
+ttu-joints-pelvis: {title: "Joints of the Pelvis and Perineum – Medical Gross Anatomy tables (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/joints_pelvis_perineum.html", accessed: "2026-11-08"}
+ttu-joints: {title: "Joints – Medical Gross Anatomy tables, listed alphabetically (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/joints_alpha.html", accessed: "2026-11-08"}
+tma-shoulder-joint: {title: "The Shoulder Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/joints/shoulder/", accessed: "2026-11-08"}
+kh-shoulder-joint: {title: "The shoulder joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/the-shoulder-joint", accessed: "2026-11-08"}
+tma-sc-joint: {title: "The Sternoclavicular Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/joints/sternoclavicular/", accessed: "2026-11-08"}
+kh-sc-joint: {title: "Sternoclavicular joint – Kenhub", url: "https://kenhub.com/en/library/anatomy/sternoclavicular-joint", accessed: "2026-11-08"}
+tma-ac-joint: {title: "The Acromioclavicular Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/joints/acromioclavicular", accessed: "2026-11-08"}
+kh-ac-joint: {title: "Acromioclavicular (AC) joint – Kenhub", url: "https://kenhub.com/en/library/anatomy/acromioclavicular-ac-joint", accessed: "2026-11-08"}
+tma-wrist: {title: "The Wrist Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/joints/wrist-joint/", accessed: "2026-11-08"}
+kh-wrist: {title: "Radiocarpal joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/the-wrist-joint", accessed: "2026-11-08"}
+kh-mcp: {title: "Metacarpophalangeal (MCP) joints – Kenhub", url: "https://kenhub.com/en/library/anatomy/metacarpophalangeal-mcp-joints", accessed: "2026-11-08"}
+wp-mcp-collateral: {title: "Collateral ligaments of metacarpophalangeal joints – Wikipedia", url: "https://en.wikipedia.org/wiki/Collateral_ligaments_of_metacarpophalangeal_joints", accessed: "2026-11-08"}
+tma-hip-joint: {title: "The Hip Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/joints/hip-joint/", accessed: "2026-11-08"}
+kh-hip-joint: {title: "Hip joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/hip-joint", accessed: "2026-11-08"}
+tma-knee-joint: {title: "The Knee Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/joints/knee-joint/", accessed: "2026-11-08"}
+kh-knee-joint: {title: "Knee joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/the-knee-joint", accessed: "2026-11-08"}
+tma-tibiofibular: {title: "The Tibiofibular Joints – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/joints/tibiofibular-joints", accessed: "2026-11-08"}
+kh-tibiofibular: {title: "Tibiofibular joints – Kenhub", url: "https://kenhub.com/en/library/anatomy/tibiofibular-joints", accessed: "2026-11-08"}
+tma-ankle-joint: {title: "The Ankle Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/joints/ankle-joint/", accessed: "2026-11-08"}
+kh-ankle-joint: {title: "The ankle joint – Kenhub", url: "https://kenhub.com/en/library/anatomy/the-ankle-joint", accessed: "2026-11-08"}
+kh-foot-joints: {title: "Joints and ligaments of the foot – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/joints-and-ligaments-of-the-foot", accessed: "2026-11-08"}
+kh-sacroiliac: {title: "Sacroiliac joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/sacroiliac-joint", accessed: "2026-11-08"}
+kh-vertebral-ligaments: {title: "Joints and ligaments of the vertebral column – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/joints-and-ligaments-of-the-vertebral-column", accessed: "2026-11-08"}
+kh-atlantoaxial: {title: "Atlantoaxial joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/atlantoaxial-joint", accessed: "2026-11-08"}
+wm-atlantoaxial: {title: "Atlanto-axial Joint – WikiMSK", url: "https://wikimsk.org/wiki/Atlanto-axial_Joint", accessed: "2026-11-08"}
+kh-costovertebral: {title: "Costovertebral and costotransverse joints – Kenhub", url: "https://kenhub.com/en/library/anatomy/costovertebral-joints", accessed: "2026-11-08"}
+rp-costovertebral: {title: "Costovertebral joints – Radiopaedia", url: "https://radiopaedia.org/articles/50870", accessed: "2026-11-08"}
+kh-sternocostal: {title: "Sternocostal joints – Kenhub", url: "https://kenhub.com/en/library/anatomy/sternocostal-joints", accessed: "2026-11-08"}
+tma-tmj: {title: "The Temporomandibular Joint – TeachMeAnatomy", url: "https://teachmeanatomy.info/head/joints/temporomandibular/", accessed: "2026-11-08"}
+kh-tmj: {title: "The temporomandibular joint – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/the-temporomandibular-joint", accessed: "2026-11-08"}

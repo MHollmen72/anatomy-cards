@@ -1,0 +1,163 @@
+# Ligaments of the pelvis, hip, knee, tibiofibular joints, ankle and foot.
+# Sources: TTUHSC joint tables + TeachMeAnatomy + Kenhub. Only facts stated by two of them are included.
+defaults: {kind: ligament, region: Membrum inferius, status: cross-checked}
+structures:
+  # --- pelvis
+  - id: l.sacrospinale
+    name: Ligamentum sacrospinale
+    region: Pelvis
+    cite: [ttu-joints-pelvis, kh-sacroiliac]
+    L: ["Spina ischiadica <-> Os sacrum and Os coccygis — lateral border"]
+    F: ["With the Ligamentum sacrotuberale converts the Incisurae ischiadicae into the Foramen ischiadicum majus and minus"]
+
+  - id: l.sacrotuberale
+    name: Ligamentum sacrotuberale
+    region: Pelvis
+    cite: [ttu-joints-pelvis, kh-sacroiliac]
+    L: ["Tuber ischiadicum <-> Os sacrum and Os coccygis — lateral border"]
+    F: ["With the Ligamentum sacrospinale converts the Incisurae ischiadicae into the Foramen ischiadicum majus and minus"]
+
+  # --- hip
+  - id: l.iliofemorale
+    name: Ligamentum iliofemorale
+    cite: [ttu-joints-ll, tma-hip-joint, kh-hip-joint]
+    L: ["Spina iliaca anterior inferior -> Linea intertrochanterica femoris"]
+    W: ["Capsula articularis of the Articulatio coxae"]
+    F: [{text: "Limits hyperextension of the Articulatio coxae", cite: [tma-hip-joint, kh-hip-joint]}]
+
+  - id: l.pubofemorale
+    name: Ligamentum pubofemorale
+    cite: [ttu-joints-ll, tma-hip-joint, kh-hip-joint]
+    L: [{text: "Ramus superior ossis pubis -> Femur — lower part of the Linea intertrochanterica", cite: [tma-hip-joint, kh-hip-joint]}]
+    W: [{text: "Capsula articularis of the Articulatio coxae", cite: [ttu-joints-ll, kh-hip-joint]}]
+    F: [{text: "Limits excessive abduction of the Articulatio coxae", cite: [tma-hip-joint, kh-hip-joint]}]
+
+  - id: l.ischiofemorale
+    name: Ligamentum ischiofemorale
+    cite: [ttu-joints-ll, tma-hip-joint, kh-hip-joint]
+    L: [{text: "Corpus ossis ischii (below the acetabulum) -> Femur — Trochanter major (base)", cite: [tma-hip-joint, kh-hip-joint]}]
+    F: ["Reinforces the capsule of the Articulatio coxae posteriorly"]
+
+  - id: l.capitis-femoris
+    name: Ligamentum capitis femoris
+    cite: [ttu-joints-ll, tma-hip-joint, kh-hip-joint]
+    L: ["Fossa acetabuli / Incisura acetabuli <-> Fovea capitis femoris"]
+    F: ["Carries the artery to the head of the femur (branch of the Arteria obturatoria)"]
+
+  - id: l.transversum-acetabuli
+    name: Ligamentum transversum acetabuli
+    cite: [ttu-joints-ll, kh-hip-joint]
+    L: ["Bridges the Incisura acetabuli (one side of the notch <-> the other)"]
+    F: ["Vessels (acetabular branch) pass beneath it into the joint"]
+
+  # --- knee
+  - id: l.patellae
+    name: Ligamentum patellae
+    cite: [ttu-joints-ll, tma-knee-joint, kh-knee-joint]
+    L: ["Patella (apex) -> Tuberositas tibiae"]
+    W: ["Continuation of the tendon of Musculus quadriceps femoris"]
+
+  - id: l.collaterale-tibiale
+    name: Ligamentum collaterale tibiale
+    cite: [ttu-joints-ll, tma-knee-joint, kh-knee-joint]
+    L: ["Epicondylus medialis femoris -> Condylus medialis tibiae (medial surface)"]
+    W: [{text: "Meniscus medialis", cite: [ttu-joints-ll, tma-knee-joint]}, {text: "Capsula articularis of the Articulatio genus", cite: [ttu-joints-ll, tma-knee-joint]}]
+    F: [{text: "Limits sideways (medial-side) movement and stabilises the knee", cite: [tma-knee-joint, kh-knee-joint]}]
+
+  - id: l.collaterale-fibulare
+    name: Ligamentum collaterale fibulare
+    cite: [ttu-joints-ll, tma-knee-joint, kh-knee-joint]
+    L: ["Epicondylus lateralis femoris -> Caput fibulae (lateral surface)"]
+    F: [{text: "Limits sideways (lateral-side) movement and stabilises the knee", cite: [tma-knee-joint, kh-knee-joint]}]
+
+  - id: l.cruciatum-anterius
+    name: Ligamentum cruciatum anterius
+    cite: [ttu-joints-ll, tma-knee-joint, kh-knee-joint]
+    L: ["Area intercondylaris anterior tibiae <-> Condylus lateralis femoris — medial (inner) surface"]
+    W:
+      - {text: "Meniscus medialis", status: disputed, cite: [tma-knee-joint]}
+      - {text: "Cornu anterius of the Meniscus lateralis", status: disputed, cite: [kh-knee-joint]}
+    F: ["Prevents anterior displacement of the tibia relative to the femur"]
+
+  - id: l.cruciatum-posterius
+    name: Ligamentum cruciatum posterius
+    cite: [ttu-joints-ll, tma-knee-joint, kh-knee-joint]
+    L: ["Area intercondylaris posterior tibiae <-> Condylus medialis femoris — lateral (inner) surface"]
+    F: ["Prevents posterior displacement of the tibia relative to the femur"]
+
+  - id: l.meniscofemorale-posterius
+    name: Ligamentum meniscofemorale posterius
+    cite: [ttu-joints-ll, kh-knee-joint]
+    L: ["Meniscus lateralis — posterior horn -> Condylus medialis femoris (lateral surface)"]
+
+  # --- tibiofibular joints
+  - id: l.capitis-fibulae-anterius
+    name: Ligamentum capitis fibulae anterius
+    cite: [tma-tibiofibular, kh-tibiofibular]
+    L: ["Caput fibulae (anterior) -> Condylus lateralis tibiae (anterior)"]
+    F: ["Stabilises the Articulatio tibiofibularis (proximal joint)"]
+
+  - id: l.capitis-fibulae-posterius
+    name: Ligamentum capitis fibulae posterius
+    cite: [tma-tibiofibular, kh-tibiofibular]
+    L: ["Caput fibulae (posterior) -> Condylus lateralis tibiae (posterior)"]
+    F: ["Stabilises the Articulatio tibiofibularis (proximal joint)"]
+
+  - id: l.tibiofibulare-anterius
+    name: Ligamentum tibiofibulare anterius
+    cite: [ttu-joints-ll, kh-tibiofibular]
+    L: ["Tibia — distal end, anterior <-> Fibula — distal end, anterior"]
+    F: [{text: "Reinforces the Syndesmosis tibiofibularis", cite: [ttu-joints-ll, tma-tibiofibular]}]
+
+  - id: l.tibiofibulare-posterius
+    name: Ligamentum tibiofibulare posterius
+    cite: [ttu-joints-ll, kh-tibiofibular]
+    L: ["Tibia — distal end, posterior <-> Fibula — distal end, posterior"]
+    F: [{text: "Reinforces the Syndesmosis tibiofibularis", cite: [ttu-joints-ll, tma-tibiofibular]}]
+
+  # --- ankle
+  - id: l.collaterale-mediale-deltoideum
+    name: Ligamentum collaterale mediale (Ligamentum deltoideum)
+    cite: [ttu-joints-ll, kh-ankle-joint]
+    parts: [Pars tibionavicularis, Pars tibiocalcanea, Pars tibiotalaris anterior, Pars tibiotalaris posterior]
+    L: ["Pars tibionavicularis :: Malleolus medialis -> Os naviculare (tuberosity)",
+        "Pars tibiocalcanea :: Malleolus medialis -> Sustentaculum tali",
+        "Pars tibiotalaris anterior :: Malleolus medialis -> Talus (medial, anterior)",
+        "Pars tibiotalaris posterior :: Malleolus medialis -> Talus (medial, posterior)"]
+    F: [{text: "Resists over-eversion of the foot", cite: [tma-ankle-joint, kh-ankle-joint]}]
+
+  - id: l.talofibulare-anterius
+    name: Ligamentum talofibulare anterius
+    cite: [ttu-joints-ll, tma-ankle-joint, kh-ankle-joint]
+    L: ["Malleolus lateralis -> Talus — lateral side of the neck (anterolateral)"]
+    F: [{text: "Reinforces the lateral side of the Articulatio talocruralis", cite: [ttu-joints-ll, kh-ankle-joint]}]
+
+  - id: l.calcaneofibulare
+    name: Ligamentum calcaneofibulare
+    cite: [ttu-joints-ll, tma-ankle-joint, kh-ankle-joint]
+    L: ["Malleolus lateralis (apex) -> Calcaneus — lateral surface"]
+    F: [{text: "Reinforces the lateral side of the Articulatio talocruralis", cite: [ttu-joints-ll, kh-ankle-joint]}]
+
+  - id: l.talofibulare-posterius
+    name: Ligamentum talofibulare posterius
+    cite: [ttu-joints-ll, tma-ankle-joint, kh-ankle-joint]
+    L: ["Malleolus lateralis (fossa) -> Talus — posterior (lateral tubercle)"]
+    F: [{text: "Reinforces the lateral side of the Articulatio talocruralis", cite: [ttu-joints-ll, kh-ankle-joint]}]
+
+  # --- foot
+  - id: l.calcaneonaviculare-plantare
+    name: Ligamentum calcaneonaviculare plantare
+    synonyms: ["spring ligament"]
+    cite: [ttu-joints-ll, kh-foot-joints]
+    L: ["Sustentaculum tali -> Os naviculare — plantar surface"]
+
+  - id: l.plantare-longum
+    name: Ligamentum plantare longum
+    cite: [ttu-joints-ll, kh-foot-joints]
+    L: ["Calcaneus — plantar surface -> Os cuboideum and the bases of the lateral metatarsals"]
+
+  - id: l.calcaneocuboideum-plantare
+    name: Ligamentum calcaneocuboideum plantare
+    synonyms: ["short plantar ligament"]
+    cite: [ttu-joints-ll, kh-foot-joints]
+    L: ["Calcaneus — plantar surface (anterior) -> Os cuboideum — plantar surface"]

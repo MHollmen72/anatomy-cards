@@ -6,7 +6,7 @@ name: Import images
 on:
   push:
     branches: [main]
-    paths: ["data/images.yaml", "scripts/import_images.py"]
+    paths: ["data/**", "scripts/import_images.py"]
   workflow_dispatch:
 
 permissions:
