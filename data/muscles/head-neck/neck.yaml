@@ -1,0 +1,153 @@
+# Neck. Sources: TTUHSC muscle tables + Kenhub neck overview (+ TeachMeAnatomy hyoid pages).
+defaults: {kind: muscle, region: Collum, status: cross-checked, cite: [ttu-muscles, kh-neck]}
+structures:
+  - id: m.platysma
+    name: Platysma
+    img: "en:Platysma muscle"
+    N: ["Nervus facialis (VII) — Ramus colli"]
+    U: ["Skin and fascia of the upper thorax (over the clavicle region)"]
+    A: ["Margo inferior mandibulae", "Skin of the lower face and the corners of the mouth"]
+    F: ["Pulls the corners of the mouth downwards — Facies"]
+
+  - id: m.sternocleidomastoideus
+    name: Musculus sternocleidomastoideus
+    img: "en:Sternocleidomastoid muscle"
+    parts: [Caput sternale, Caput claviculare]
+    N: ["Nervus accessorius (XI)", "Rami anteriores C2–C3"]
+    U: ["Caput sternale :: Manubrium sterni", "Caput claviculare :: Clavicula — medial third"]
+    A: ["Processus mastoideus"]
+    F: ["Rotation of the head to the opposite side (one side) — cervical spine / Articulationes capitis", "Flexio of the neck (both sides) — cervical spine"]
+
+  - id: m.scalenus-anterior
+    name: Musculus scalenus anterior
+    img: "en:Scalenus anterior"
+    N: ["Rami anteriores of the cervical spinal nerves"]
+    U: ["Tubercula anteriora of the transverse processes C3–C6"]
+    A: ["Costa I — Tuberculum musculi scaleni anterioris"]
+    F: ["Elevatio of rib I (forced inspiration) — Articulationes costovertebrales", "Lateral flexion of the neck — cervical spine"]
+
+  - id: m.scalenus-medius
+    name: Musculus scalenus medius
+    img: "en:Scalenus medius"
+    N: ["Rami anteriores of the cervical spinal nerves"]
+    U: ["Processus transversi of the cervical vertebrae (posterior tubercles)"]
+    A: ["Costa I — upper surface, behind the Sulcus arteriae subclaviae"]
+    F: ["Elevatio of rib I (forced inspiration) — Articulationes costovertebrales", "Lateral flexion of the neck — cervical spine"]
+
+  - id: m.scalenus-posterior
+    name: Musculus scalenus posterior
+    img: "en:Scalenus posterior"
+    N: ["Rami anteriores of the lower cervical spinal nerves"]
+    U: ["Tubercula posteriora of the lower cervical vertebrae"]
+    A: ["Costa II — outer surface"]
+    F: ["Elevatio of rib II — Articulationes costovertebrales", "Lateral flexion of the neck — cervical spine"]
+
+  - id: m.longus-colli
+    name: Musculus longus colli
+    img: "en:Longus colli muscle"
+    N: ["Rami anteriores of the cervical spinal nerves"]
+    U: ["Vertebral bodies and anterior tubercles C3–T3"]
+    A: ["Tuberculum anterius atlantis", "Corpora vertebrarum C2–C4", "Tubercula anteriora C5–C6"]
+    F: ["Flexio of the neck — cervical spine"]
+
+  - id: m.longus-capitis
+    name: Musculus longus capitis
+    img: "en:Longus capitis muscle"
+    N: ["Rami anteriores of the upper cervical spinal nerves"]
+    U: ["Tubercula anteriora of the transverse processes C3–C6"]
+    A: ["Os occipitale — Pars basilaris"]
+    F: ["Flexio of the head — Articulationes capitis"]
+
+  - id: m.rectus-capitis-anterior
+    name: Musculus rectus capitis anterior
+    img: "en:Rectus capitis anterior muscle"
+    N: ["Ramus anterior C1"]
+    U: ["Massa lateralis atlantis"]
+    A: ["Os occipitale — Pars basilaris"]
+    F: ["Flexio of the head — Articulatio atlantooccipitalis"]
+
+  - id: m.rectus-capitis-lateralis
+    name: Musculus rectus capitis lateralis
+    img: "en:Rectus capitis lateralis muscle"
+    N: ["Ramus anterior C1"]
+    U: ["Processus transversus atlantis"]
+    A: ["Os occipitale — Processus jugularis (beside the Foramen magnum)"]
+    F: ["Lateral flexion of the head — Articulatio atlantooccipitalis"]
+
+  # --- suprahyoid
+  - id: m.digastricus
+    name: Musculus digastricus
+    cite: [ttu-muscles, kh-neck, tma-suprahyoid]
+    img: "en:Digastric muscle"
+    parts: [Venter anterior, Venter posterior]
+    N: ["Venter anterior :: Nervus mylohyoideus (from Nervus mandibularis, V3)", "Venter posterior :: Nervus facialis (VII)"]
+    U: ["Venter anterior :: Fossa digastrica mandibulae", "Venter posterior :: Incisura mastoidea ossis temporalis"]
+    A: ["Os hyoideum (via the intermediate tendon)"]
+    S: ["Intermediate tendon, anchored to the Os hyoideum by a fibrous sling"]
+    F: ["Elevatio of the Os hyoideum — Os hyoideum", "Depressio mandibulae (opens the mouth) — Articulatio temporomandibularis"]
+
+  - id: m.stylohyoideus
+    name: Musculus stylohyoideus
+    cite: [ttu-muscles, kh-neck, tma-suprahyoid]
+    img: "en:Stylohyoid muscle"
+    N: ["Nervus facialis (VII)"]
+    U: ["Processus styloideus ossis temporalis"]
+    A: ["Os hyoideum"]
+    F: ["Elevates and retracts the Os hyoideum — Os hyoideum"]
+
+  - id: m.mylohyoideus
+    name: Musculus mylohyoideus
+    cite: [ttu-muscles, kh-neck, tma-suprahyoid]
+    img: "en:Mylohyoid muscle"
+    N: ["Nervus mylohyoideus (from Nervus alveolaris inferior, V3)"]
+    U: ["Linea mylohyoidea mandibulae"]
+    A: ["Raphe mylohyoidea", "Corpus ossis hyoidei"]
+    F: ["Elevates the Os hyoideum and the floor of the mouth — Os hyoideum", "Depressio mandibulae — Articulatio temporomandibularis"]
+
+  - id: m.geniohyoideus
+    name: Musculus geniohyoideus
+    cite: [ttu-muscles, kh-neck, tma-suprahyoid]
+    img: "en:Geniohyoid muscle"
+    N: ["Ramus anterior C1 (running with Nervus hypoglossus, XII)"]
+    U: ["Spina mentalis inferior mandibulae"]
+    A: ["Corpus ossis hyoidei"]
+    F: ["Elevatio of the Os hyoideum — Os hyoideum", "Depressio mandibulae — Articulatio temporomandibularis"]
+
+  # --- infrahyoid
+  - id: m.sternohyoideus
+    name: Musculus sternohyoideus
+    cite: [ttu-muscles, kh-neck, tma-infrahyoid]
+    img: "en:Sternohyoid muscle"
+    N: ["Ansa cervicalis"]
+    U: ["Manubrium sterni (posterior)", "Clavicula — medial end"]
+    A: ["Corpus ossis hyoidei — lower border"]
+    F: ["Depressio of the Os hyoideum — Os hyoideum"]
+
+  - id: m.sternothyroideus
+    name: Musculus sternothyroideus
+    cite: [ttu-muscles, kh-neck, tma-infrahyoid]
+    img: "en:Sternothyroid muscle"
+    N: ["Ansa cervicalis"]
+    U: ["Manubrium sterni — posterior surface"]
+    A: ["Cartilago thyroidea — Linea obliqua"]
+    F: ["Depresses the larynx (Cartilago thyroidea) — Larynx"]
+
+  - id: m.thyrohyoideus
+    name: Musculus thyrohyoideus
+    cite: [ttu-muscles, kh-neck, tma-infrahyoid]
+    img: "en:Thyrohyoid muscle"
+    N: ["Ramus anterior C1 (running with Nervus hypoglossus, XII)"]
+    U: ["Cartilago thyroidea — Linea obliqua"]
+    A: ["Os hyoideum — lower border"]
+    F: ["Depressio of the Os hyoideum — Os hyoideum", "Elevates the larynx when the Os hyoideum is fixed — Larynx"]
+
+  - id: m.omohyoideus
+    name: Musculus omohyoideus
+    cite: [ttu-muscles, kh-neck, tma-infrahyoid]
+    img: "en:Omohyoid muscle"
+    parts: [Venter inferior, Venter superior]
+    N: ["Ansa cervicalis"]
+    U: ["Venter inferior :: Margo superior scapulae"]
+    A: ["Venter superior :: Os hyoideum — lower border"]
+    S: ["Intermediate tendon between the two bellies"]
+    F: ["Depressio of the Os hyoideum — Os hyoideum"]

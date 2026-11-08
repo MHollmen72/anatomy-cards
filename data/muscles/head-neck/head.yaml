@@ -1,0 +1,195 @@
+# Head: masticatory and facial muscles.
+# Sources: TTUHSC muscle tables + TeachMeAnatomy (mastication) / Kenhub (facial).
+defaults: {kind: muscle, region: Caput, status: cross-checked}
+structures:
+  # --- mastication
+  - id: m.masseter
+    name: Musculus masseter
+    cite: [ttu-muscles, tma-mastication]
+    img: "en:Masseter muscle"
+    N: ["Nervus mandibularis (V3) — Nervus massetericus"]
+    U: ["Arcus zygomaticus", "Os zygomaticum"]
+    A: ["Ramus mandibulae — lateral surface"]
+    F: ["Elevatio mandibulae (closes the mouth) — Articulatio temporomandibularis"]
+
+  - id: m.temporalis
+    name: Musculus temporalis
+    cite: [ttu-muscles, tma-mastication]
+    img: "en:Temporalis muscle"
+    N: ["Nervus mandibularis (V3) — Nervi temporales profundi"]
+    U: ["Fossa temporalis"]
+    A: ["Processus coronoideus mandibulae"]
+    F: ["Elevatio mandibulae — Articulatio temporomandibularis", "Retrusio mandibulae (posterior fibres) — Articulatio temporomandibularis"]
+
+  - id: m.pterygoideus-medialis
+    name: Musculus pterygoideus medialis
+    cite: [ttu-muscles, tma-mastication]
+    img: "en:Medial pterygoid muscle"
+    N: ["Nervus mandibularis (V3) — Nervus pterygoideus medialis"]
+    U: ["Lamina lateralis processus pterygoidei — medial surface", "Tuber maxillae", "Processus pyramidalis ossis palatini"]
+    A: ["Ramus and Angulus mandibulae — medial surface"]
+    F: ["Elevatio mandibulae — Articulatio temporomandibularis"]
+
+  - id: m.pterygoideus-lateralis
+    name: Musculus pterygoideus lateralis
+    cite: [ttu-muscles, tma-mastication]
+    img: "en:Lateral pterygoid muscle"
+    parts: [Caput superius, Caput inferius]
+    N: ["Nervus mandibularis (V3) — Nervus pterygoideus lateralis"]
+    U: ["Caput superius :: Ala major ossis sphenoidalis", "Caput inferius :: Lamina lateralis processus pterygoidei — lateral surface"]
+    A: ["Collum mandibulae (Processus condylaris)"]
+    F: ["Protrusio mandibulae — Articulatio temporomandibularis", "Opens the mouth (depresses the chin) — Articulatio temporomandibularis"]
+
+  # --- facial expression (all: Nervus facialis)
+  - id: m.occipitofrontalis
+    name: Musculus occipitofrontalis
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Occipitofrontalis muscle"
+    parts: [Venter frontalis, Venter occipitalis]
+    N: ["Venter frontalis :: Nervus facialis — Rami temporales", "Venter occipitalis :: Nervus facialis — Nervus auricularis posterior"]
+    U: ["Venter occipitalis :: Linea nuchalis superior"]
+    A: ["Venter occipitalis :: Galea aponeurotica"]
+    F: ["Venter frontalis :: Raises the eyebrows (wrinkles the forehead) — Facies", "Venter occipitalis :: Pulls the scalp backwards — Calvaria"]
+
+  - id: m.orbicularis-oculi
+    name: Musculus orbicularis oculi
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Orbicularis oculi muscle"
+    parts: [Pars orbitalis, Pars palpebralis]
+    N: ["Nervus facialis — Rami temporales et zygomatici"]
+    U: ["Pars orbitalis :: Medial orbital margin and Ligamentum palpebrale mediale", "Pars palpebralis :: Ligamentum palpebrale mediale"]
+    A: ["Pars palpebralis :: Lateral palpebral raphe / Ligamentum palpebrale laterale"]
+    F: ["Closes the eyelids — Palpebrae", "Pars palpebralis :: Gentle closure (blinking, sleep) — Palpebrae", "Pars orbitalis :: Forceful closure — Palpebrae"]
+
+  - id: m.corrugator-supercilii
+    name: Musculus corrugator supercilii
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Corrugator supercilii muscle"
+    N: ["Nervus facialis — Rami temporales"]
+    U: ["Arcus superciliaris — medial part"]
+    A: ["Skin of the eyebrow"]
+    F: ["Draws the eyebrows medially (frowning) — Facies"]
+
+  - id: m.procerus
+    name: Musculus procerus
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Procerus muscle"
+    N: ["Nervus facialis"]
+    U: ["Os nasale"]
+    A: ["Skin between the eyebrows (glabella)"]
+    F: ["Pulls the medial ends of the eyebrows down — Facies"]
+
+  - id: m.nasalis
+    name: Musculus nasalis
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Nasalis muscle"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Maxilla"]
+    A: ["Ala nasi and the aponeurosis over the nasal dorsum"]
+    F: ["Widens (alar part) and compresses (transverse part) the nostril — Nasus"]
+
+  - id: m.depressor-septi-nasi
+    name: Musculus depressor septi nasi
+    cite: [ttu-muscles, tma-facial]
+    img: "en:Depressor septi nasi muscle"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Maxilla — above the medial incisor"]
+    A: ["Septum nasi"]
+    F: ["Pulls the nasal septum down — Nasus"]
+
+  - id: m.levator-labii-superioris
+    name: Musculus levator labii superioris
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Levator labii superioris"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Margo infraorbitalis region (Maxilla / Os zygomaticum)"]
+    A: ["Skin of the upper lip"]
+    F: ["Elevates the upper lip — Os"]
+
+  - id: m.levator-labii-superioris-alaeque-nasi
+    name: Musculus levator labii superioris alaeque nasi
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Levator labii superioris alaeque nasi muscle"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Processus frontalis maxillae"]
+    A: ["Ala nasi", "Skin of the upper lip"]
+    F: ["Elevates the upper lip — Os"]
+
+  - id: m.zygomaticus-major
+    name: Musculus zygomaticus major
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Zygomaticus major muscle"
+    N: ["Nervus facialis — Rami zygomatici et buccales"]
+    U: ["Os zygomaticum — lateral surface"]
+    A: ["Angulus oris (modiolus)"]
+    F: ["Pulls the angle of the mouth upwards and outwards (smiling) — Os"]
+
+  - id: m.zygomaticus-minor
+    name: Musculus zygomaticus minor
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Zygomaticus minor muscle"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Os zygomaticum"]
+    A: ["Upper lip"]
+    F: ["Elevates the upper lip — Os"]
+
+  - id: m.levator-anguli-oris
+    name: Musculus levator anguli oris
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Levator anguli oris"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Fossa canina maxillae"]
+    A: ["Angulus oris (modiolus)"]
+    F: ["Elevates the angle of the mouth — Os"]
+
+  - id: m.risorius
+    name: Musculus risorius
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Risorius"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Fascia of the lateral cheek"]
+    A: ["Angulus oris (modiolus)"]
+    F: ["Draws the angle of the mouth laterally — Os"]
+
+  - id: m.depressor-anguli-oris
+    name: Musculus depressor anguli oris
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Depressor anguli oris muscle"
+    N: ["Nervus facialis — Ramus marginalis mandibulae"]
+    U: ["Mandibula — Linea obliqua"]
+    A: ["Angulus oris (modiolus)"]
+    F: ["Pulls the angle of the mouth downwards — Os"]
+
+  - id: m.depressor-labii-inferioris
+    name: Musculus depressor labii inferioris
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Depressor labii inferioris muscle"
+    U: ["Mandibula — anterior surface (Linea obliqua)"]
+    A: ["Skin of the lower lip"]
+    F: ["Depresses the lower lip — Os"]
+
+  - id: m.mentalis
+    name: Musculus mentalis
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Mentalis muscle"
+    N: ["Nervus facialis — Ramus marginalis mandibulae"]
+    U: ["Mandibula — near the symphysis (Fossa incisiva)"]
+    A: ["Skin of the chin"]
+    F: ["Wrinkles the skin of the chin — Mentum"]
+
+  - id: m.orbicularis-oris
+    name: Musculus orbicularis oris
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Orbicularis oris muscle"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Encircles the Rima oris (skin and mucosa of the lips)"]
+    F: ["Closes and purses the lips — Os"]
+
+  - id: m.buccinator
+    name: Musculus buccinator
+    cite: [ttu-muscles, kh-facial]
+    img: "en:Buccinator muscle"
+    N: ["Nervus facialis — Rami buccales"]
+    U: ["Raphe pterygomandibularis", "Maxilla and Mandibula — alveolar processes opposite the molars"]
+    A: ["Angulus oris (blends with Musculus orbicularis oris)"]
+    F: ["Presses the cheek against the teeth — Bucca"]
