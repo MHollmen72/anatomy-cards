@@ -1,1 +1,5 @@
-All images imported.
+img.pronator-teres: article en:Pronator teres muscle has no lead image
+img.flexor-carpi-ulnaris: article en:Flexor carpi ulnaris muscle has no lead image
+img.extensor-carpi-radialis-brevis: article en:Extensor carpi radialis brevis muscle has no lead image
+img.interossei-dorsales-manus: article en:Dorsal interossei of the hand has no lead image
+img.interossei-palmares: article en:Palmar interossei muscles has no lead image

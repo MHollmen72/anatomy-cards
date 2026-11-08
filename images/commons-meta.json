@@ -1,4 +1,76 @@
 {
+ "img.abductor-digiti-minimi-manus": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray427.png",
+  "file": "Musculus_abductor_digiti_minimi_(Hand).png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculus_abductor_digiti_minimi_(Hand).png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculus-abductor-digiti-minimi-hand.png",
+  "modified": "",
+  "original_size": [
+   636,
+   882
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4afc7815698e5a6f578a4007977ac8da9f0c25ca",
+  "source": "en:Abductor digiti minimi muscle of hand"
+ },
+ "img.abductor-pollicis-brevis": {
+  "attribution_required": "true",
+  "author": "CFCF",
+  "credit": "Own work",
+  "file": "1121_Intrinsic_Muscles_of_the_Hand_Superficial_sin.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1121_Intrinsic_Muscles_of_the_Hand_Superficial_sin.png",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "local": "1121-intrinsic-muscles-of-the-hand-superficial-sin.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1224,
+   1023
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "608a5da927f4b5e964e6d1f6066c08cac54d84d6",
+  "source": "en:Abductor pollicis brevis muscle"
+ },
+ "img.abductor-pollicis-longus": {
+  "attribution_required": "false",
+  "author": "Grant, John Charles Boileau",
+  "credit": "An atlas of anatomy, / by regions 1962",
+  "file": "Grant_1962_74.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Grant_1962_74.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "grant-1962-74.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   2400,
+   4352
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7128a9dced8011c91c9a87c6be46a76f5c101678",
+  "source": "en:Abductor pollicis longus muscle"
+ },
+ "img.adductor-pollicis": {
+  "attribution_required": "true",
+  "author": "CFCF",
+  "credit": "Own work",
+  "file": "1121_Intrinsic_Muscles_of_the_Hand_Superficial_sin.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1121_Intrinsic_Muscles_of_the_Hand_Superficial_sin.png",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "local": "1121-intrinsic-muscles-of-the-hand-superficial-sin.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1224,
+   1023
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "608a5da927f4b5e964e6d1f6066c08cac54d84d6",
+  "source": "en:Adductor pollicis muscle"
+ },
  "img.anulare-radii": {
   "attribution_required": "false",
   "author": "Henry Vandyke Carter",
@@ -52,6 +124,24 @@
   "retrieved": "2026-11-01",
   "sha1": "e59460e4b4d4939b1c89ab68440470818954b5e4",
   "source": "de:Musculus brachialis"
+ },
+ "img.brachioradialis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 417",
+  "file": "Gray417_color.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray417_color.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray417-color.png",
+  "modified": "",
+  "original_size": [
+   550,
+   422
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "879de70a86d4701b7d9b07f4a7d2df012d5469f4",
+  "source": "en:Brachioradialis"
  },
  "img.collaterale-ulnare": {
   "attribution_required": "false",
@@ -161,6 +251,240 @@
   "sha1": "4dd69fe0d3a32f01efdf7fb77f9ea3c4796f668b",
   "source": "en:Deltoid muscle"
  },
+ "img.extensor-carpi-radialis-longus": {
+  "attribution_required": "true",
+  "author": "DoPhotoShop",
+  "credit": "Own work using: http://dophotoshop.com/carpal-tunnel-exercises.php",
+  "file": "Carpal-Tunnel.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Carpal-Tunnel.svg",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "local": "carpal-tunnel.svg",
+  "modified": "",
+  "original_size": [
+   661,
+   404
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b95963173786ccbd96dd427d081934e2b524da8e",
+  "source": "en:Extensor carpi radialis longus muscle"
+ },
+ "img.extensor-carpi-ulnaris": {
+  "attribution_required": "false",
+  "author": "George A. Piersol",
+  "credit": "Human Anatomy",
+  "file": "SuperficialMuscularLayerOfPosteriorForearm&Hand.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:SuperficialMuscularLayerOfPosteriorForearm%26Hand.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "superficialmuscularlayerofposteriorforearm-hand.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1640
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4b75a85d39e0d7d4e0d2d81c0dbaf281fb9be8e8",
+  "source": "en:Extensor carpi ulnaris muscle"
+ },
+ "img.extensor-digiti-minimi": {
+  "attribution_required": "false",
+  "author": "Jones Quain",
+  "credit": "Human Anatomy",
+  "file": "ForearmMusculature.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:ForearmMusculature.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "forearmmusculature.png",
+  "modified": "",
+  "original_size": [
+   720,
+   1640
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "1ef5a4761e39d6096678f68778b6af406c1907f2",
+  "source": "en:Extensor digiti minimi muscle"
+ },
+ "img.extensor-digitorum": {
+  "attribution_required": "true",
+  "author": "DoPhotoShop",
+  "credit": "Own work using: http://dophotoshop.com/carpal-tunnel-exercises.php",
+  "file": "Carpal-Tunnel.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Carpal-Tunnel.svg",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "local": "carpal-tunnel.svg",
+  "modified": "",
+  "original_size": [
+   661,
+   404
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b95963173786ccbd96dd427d081934e2b524da8e",
+  "source": "en:Extensor digitorum muscle"
+ },
+ "img.extensor-indicis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 421",
+  "file": "Gray421.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray421.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray421.png",
+  "modified": "",
+  "original_size": [
+   550,
+   312
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "67a07d9c61456bf50a83f4accbeab7fa6d44de3a",
+  "source": "en:Extensor indicis muscle"
+ },
+ "img.extensor-pollicis-brevis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 1231",
+  "file": "Gray1231.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray1231.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray1231.png",
+  "modified": "",
+  "original_size": [
+   600,
+   299
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "3801c2d52167b9b398a16b2b07335be1f86e98af",
+  "source": "en:Extensor pollicis brevis muscle"
+ },
+ "img.extensor-pollicis-longus": {
+  "attribution_required": "false",
+  "author": "Grant, John Charles Boileau",
+  "credit": "An atlas of anatomy, / by regions 1962",
+  "file": "Grant_1962_74.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Grant_1962_74.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "grant-1962-74.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   2400,
+   4352
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "7128a9dced8011c91c9a87c6be46a76f5c101678",
+  "source": "en:Extensor pollicis longus muscle"
+ },
+ "img.flexor-carpi-radialis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 1231",
+  "file": "Gray1231.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray1231.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray1231.png",
+  "modified": "",
+  "original_size": [
+   600,
+   299
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "3801c2d52167b9b398a16b2b07335be1f86e98af",
+  "source": "en:Flexor carpi radialis muscle"
+ },
+ "img.flexor-digiti-minimi-brevis-manus": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Musculusflexordigitiminimibrevismanus.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculusflexordigitiminimibrevismanus.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculusflexordigitiminimibrevismanus.png",
+  "modified": "",
+  "original_size": [
+   434,
+   599
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "5f4fa79dba22b037e1faf52a9af52afa52682d2f",
+  "source": "en:Flexor digiti minimi brevis muscle of hand"
+ },
+ "img.flexor-digitorum-profundus": {
+  "attribution_required": "false",
+  "author": "George A. Piersol",
+  "credit": "Human Anatomy",
+  "file": "MusculaturaProdundaDelAntebrazo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:MusculaturaProdundaDelAntebrazo.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculaturaprodundadelantebrazo.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1640
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a3102f4dbfd005e640eb1f1a4366fa4022bd0f33",
+  "source": "en:Flexor digitorum profundus muscle"
+ },
+ "img.flexor-digitorum-superficialis": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 421",
+  "file": "Gray421.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray421.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray421.png",
+  "modified": "",
+  "original_size": [
+   550,
+   312
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "67a07d9c61456bf50a83f4accbeab7fa6d44de3a",
+  "source": "en:Flexor digitorum superficialis muscle"
+ },
+ "img.flexor-pollicis-brevis": {
+  "attribution_required": "true",
+  "author": "CFCF",
+  "credit": "Own work",
+  "file": "1121_Intrinsic_Muscles_of_the_Hand_Superficial_sin.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1121_Intrinsic_Muscles_of_the_Hand_Superficial_sin.png",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "local": "1121-intrinsic-muscles-of-the-hand-superficial-sin.png",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   1224,
+   1023
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "608a5da927f4b5e964e6d1f6066c08cac54d84d6",
+  "source": "en:Flexor pollicis brevis muscle"
+ },
+ "img.flexor-pollicis-longus": {
+  "attribution_required": "false",
+  "author": "George A. Piersol",
+  "credit": "Human Anatomy",
+  "file": "MusculaturaProdundaDelAntebrazo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:MusculaturaProdundaDelAntebrazo.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculaturaprodundadelantebrazo.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1640
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a3102f4dbfd005e640eb1f1a4366fa4022bd0f33",
+  "source": "en:Flexor pollicis longus muscle"
+ },
  "img.infraspinatus": {
   "attribution_required": "false",
   "author": "Mikael Häggström. When using this image in external works, it may be cited as: Häggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain. or By Mikael Häggström, used with permission.",
@@ -178,6 +502,258 @@
   "retrieved": "2026-11-01",
   "sha1": "bf1965f1430a58cf8035ce61a96c3f5cf47b163d",
   "source": "en:Infraspinatus muscle"
+ },
+ "img.latissimus-dorsi": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Anatomie Humaine",
+  "file": "Latissimus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Latissimus.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "latissimus.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   1047
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "2534636868f1f6ba33ae7598ddcd203dccbd717f",
+  "source": "en:Latissimus dorsi muscle"
+ },
+ "img.levator-scapulae": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray409.png",
+  "file": "Levator_scapulae.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Levator_scapulae.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "levator-scapulae.png",
+  "modified": "",
+  "original_size": [
+   733,
+   1156
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "4097baa8c9765b04d6a686933be99061c379c2f2",
+  "source": "en:Levator scapulae muscle"
+ },
+ "img.lumbricales-manus": {
+  "attribution_required": "false",
+  "author": "Image:Gray427.png modified",
+  "credit": "Image:Gray427.png",
+  "file": "Lumbricales_(hand).png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Lumbricales_(hand).png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "lumbricales-hand.png",
+  "modified": "",
+  "original_size": [
+   652,
+   900
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "73f7e83b51ad79332cfe7431f621e90a6e0722e1",
+  "source": "en:Lumbricals of the hand"
+ },
+ "img.opponens-digiti-minimi": {
+  "attribution_required": "true",
+  "author": "CFCF",
+  "credit": "Own work",
+  "file": "1121_Intrinsic_Muscles_of_the_Hand_Deep_LD.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1121_Intrinsic_Muscles_of_the_Hand_Deep_LD.png",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "local": "1121-intrinsic-muscles-of-the-hand-deep-ld.png",
+  "modified": "",
+  "original_size": [
+   1174,
+   753
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "ed32f6d20fa32735d38ac4596713487042d47c57",
+  "source": "en:Opponens digiti minimi muscle"
+ },
+ "img.opponens-pollicis": {
+  "attribution_required": "true",
+  "author": "CFCF",
+  "credit": "Own work",
+  "file": "1121_Intrinsic_Muscles_of_the_Hand_Deep_LD.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:1121_Intrinsic_Muscles_of_the_Hand_Deep_LD.png",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "local": "1121-intrinsic-muscles-of-the-hand-deep-ld.png",
+  "modified": "",
+  "original_size": [
+   1174,
+   753
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "ed32f6d20fa32735d38ac4596713487042d47c57",
+  "source": "en:Opponens pollicis muscle"
+ },
+ "img.palmaris-brevis": {
+  "attribution_required": "false",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Musculuspalmarisbrevis.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musculuspalmarisbrevis.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "musculuspalmarisbrevis.png",
+  "modified": "",
+  "original_size": [
+   434,
+   599
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "c2c43479405db6f7096be9b828ac93b41532508c",
+  "source": "en:Palmaris brevis muscle"
+ },
+ "img.palmaris-longus": {
+  "attribution_required": "false",
+  "author": "Popocops",
+  "credit": "Own work",
+  "file": "Palmaris_longus_tendon2.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palmaris_longus_tendon2.jpg",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "local": "palmaris-longus-tendon2.jpg",
+  "modified": "resized to 1200 px wide",
+  "original_size": [
+   3008,
+   3802
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "bb4aebc11bdf91784a0bab58ca45ff4b6aa65eb7",
+  "source": "en:Palmaris longus muscle"
+ },
+ "img.pectoralis-major": {
+  "attribution_required": "false",
+  "author": "Henry Vandyke Carter",
+  "credit": "Henry Gray (1918) Anatomy of the Human Body (See \"Book\" section below) Bartleby.com: Gray's Anatomy, Plate 410",
+  "file": "Gray410.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gray410.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "gray410.png",
+  "modified": "",
+  "original_size": [
+   531,
+   650
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "f413d72b3b9fe54cfeee60eb43eec161eb17bb99",
+  "source": "en:Pectoralis major muscle"
+ },
+ "img.pectoralis-minor": {
+  "attribution_required": "true",
+  "author": "Original: ‍Användare:Chrizz Vector: Pixelsquid🎱",
+  "credit": "Own work based on: Pectoralis minor.png:",
+  "file": "Pectoralis_minor.svg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pectoralis_minor.svg",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "pectoralis-minor.svg",
+  "modified": "",
+  "original_size": [
+   478,
+   478
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "9c823ebba704288530341d3df05055e9e1023d8e",
+  "source": "en:Pectoralis minor muscle"
+ },
+ "img.pronator-quadratus": {
+  "attribution_required": "false",
+  "author": "George A. Piersol",
+  "credit": "Human Anatomy",
+  "file": "PronatorQuadratus&SurroundingAnatomy.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:PronatorQuadratus%26SurroundingAnatomy.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "pronatorquadratus-surroundinganatomy.jpg",
+  "modified": "",
+  "original_size": [
+   715,
+   765
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "a1a0203d875c4b2f0a6c4937f3722592004e9b2e",
+  "source": "en:Pronator quadratus muscle"
+ },
+ "img.rhomboideus-major": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray409.png",
+  "file": "Rhomboideus_major.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rhomboideus_major.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "rhomboideus-major.png",
+  "modified": "",
+  "original_size": [
+   733,
+   1156
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "6b48eab1172fda13ddeda020438ad2e5c8e3ae24",
+  "source": "en:Rhomboid major muscle"
+ },
+ "img.rhomboideus-minor": {
+  "attribution_required": "false",
+  "author": "modified by Uwe Gille",
+  "credit": "Gray Image:Gray409.png",
+  "file": "Rhomboideus_minor.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rhomboideus_minor.png",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "rhomboideus-minor.png",
+  "modified": "",
+  "original_size": [
+   733,
+   1156
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "e40f1221555401843e1b4942b09f391a8e01322e",
+  "source": "en:Rhomboid minor muscle"
+ },
+ "img.serratus-anterior": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Traité d'anatomie humaine",
+  "file": "SerratusMagnus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:SerratusMagnus.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "serratusmagnus.jpg",
+  "modified": "",
+  "original_size": [
+   716,
+   877
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "c551f275e2950bfd43c865f01d3687a6b1d04820",
+  "source": "en:Serratus anterior muscle"
+ },
+ "img.subclavius": {
+  "attribution_required": "true",
+  "author": "Anatomography",
+  "credit": "en:Anatomography (setting page of this image)",
+  "file": "Subclavius_muscle_frontal2.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Subclavius_muscle_frontal2.png",
+  "licence": "CC BY-SA 2.1 jp",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "local": "subclavius-muscle-frontal2.png",
+  "modified": "",
+  "original_size": [
+   900,
+   900
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "99eaf5128799922ed2accfd61d68aaceeb8e36d2",
+  "source": "en:Subclavius muscle"
  },
  "img.subscapularis": {
   "attribution_required": "true",
@@ -197,6 +773,24 @@
   "sha1": "ed367566cc0e9e0d708d573f247a4113a940ba13",
   "source": "en:Subscapularis muscle"
  },
+ "img.supinator": {
+  "attribution_required": "false",
+  "author": "Leo Testut",
+  "credit": "Anatomie Humaine",
+  "file": "CroquisSupinadorCorto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:CroquisSupinadorCorto.jpg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "croquissupinadorcorto.jpg",
+  "modified": "",
+  "original_size": [
+   720,
+   809
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "0f78b81612fb088eb0ca28baa265b82b87cb2a8c",
+  "source": "en:Supinator muscle"
+ },
  "img.supraspinatus": {
   "attribution_required": "true",
   "author": "Anatomography",
@@ -215,6 +809,24 @@
   "sha1": "dc3a2938dc534e3e8b856654168fa401378ef2bd",
   "source": "en:Supraspinatus muscle"
  },
+ "img.teres-major": {
+  "attribution_required": "false",
+  "author": "User:Mikael Häggström",
+  "credit": "Image:Gray409.png",
+  "file": "Teres_major.PNG",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Teres_major.PNG",
+  "licence": "Public domain",
+  "licence_url": "",
+  "local": "teres-major.png",
+  "modified": "",
+  "original_size": [
+   733,
+   1156
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "0b82a79a3b87b077f26474cd1487b17d8b0bfd7b",
+  "source": "en:Teres major muscle"
+ },
  "img.teres-minor": {
   "attribution_required": "true",
   "author": "Anatomography",
@@ -232,6 +844,24 @@
   "retrieved": "2026-11-01",
   "sha1": "796c6b62ebdfbb4939db2ad97d8be271b5c1c8ab",
   "source": "en:Teres minor muscle"
+ },
+ "img.trapezius": {
+  "attribution_required": "true",
+  "author": "Unknown author",
+  "credit": "",
+  "file": "Trapezius.png",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trapezius.png",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "local": "trapezius.png",
+  "modified": "",
+  "original_size": [
+   510,
+   504
+  ],
+  "retrieved": "2026-11-08",
+  "sha1": "b110cdeb1308fc5e1e4fa3e3a1d35ac4ef64f6f2",
+  "source": "en:Trapezius"
  },
  "img.triceps-brachii": {
   "attribution_required": "true",
