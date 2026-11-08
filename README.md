@@ -14,7 +14,7 @@ Live site (once GitHub Pages is switched on): https://mhollmen72.github.io/anato
   - Muscles: **P** parts · **N** innervation · **U** origin · **A** insertion · **S** tendons and related structures · **F** functions · **R** notable facts
   - Ligaments: **W** blends with · **L** attachments of the ends · **F** functions
 - Tap **Reveal answer**, then grade yourself: **I didn't know this** (comes back 3–5 cards later) or **I knew this** (FSRS schedules it days ahead).
-- A card answered **I knew this** 7 times in total is **mastered** and no longer shown. The bar at the top shows mastered cards out of all cards. Mastered cards can be brought back via **Menu → Study mastered cards again**.
+- A card answered **I knew this** 4 times in total is **mastered** and no longer shown. The bar at the top shows mastered cards out of all cards. Mastered cards can be brought back via **Menu → Study mastered cards again**.
 - Encouragement appears every 50 new cards learned, every 25 cards mastered, and when the whole deck is mastered.
 - Keyboard: Space = reveal, 1 = didn't know, 2 = knew.
 - Progress is stored only on the device. Use **Menu → Export progress** for backups.

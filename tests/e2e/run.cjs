@@ -200,7 +200,7 @@ async function run() {
       assert.equal(await mp.textContent('#mastered-pct'), '0 %');
       assert.equal(await mp.getAttribute('#mastery-bar', 'role'), 'progressbar');
     });
-    await test('A card answered "I knew this" for the 7th time becomes mastered and leaves the deck', async () => {
+    await test('A card answered "I knew this" for the 4th time becomes mastered and leaves the deck', async () => {
       // Answer one card, then give every stored card 6 earlier successes and make it due again.
       await mp.click('#reveal');
       await mp.click('#btn-pass');
@@ -209,7 +209,7 @@ async function run() {
         const tx = db.transaction('progress', 'readwrite');
         const store = tx.objectStore('progress');
         const all = await new Promise((r) => { const q = store.getAll(); q.onsuccess = () => r(q.result); });
-        for (const p of all) { p.knewCount = 6; p.fsrs.due = new Date(0).toISOString(); store.put(p); }
+        for (const p of all) { p.knewCount = 3; p.fsrs.due = new Date(0).toISOString(); store.put(p); }
         await new Promise((r) => (tx.oncomplete = r));
       });
       await mp.reload();

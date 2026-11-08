@@ -1,10 +1,10 @@
 // Mastery and motivation rules.
 //
-// A card is "mastered" once it has been answered "I knew this" MASTERY_THRESHOLD times
+// A card is "mastered" once it has been answered "I knew this" MASTERY_THRESHOLD (4) times
 // in total. Mastered cards are no longer shown for study (see session.ts).
 import type { CardProgress, ReviewLogEntry } from './types.js';
 
-export const MASTERY_THRESHOLD = 7;
+export const MASTERY_THRESHOLD = 4;
 
 /** Milestones: every NEW_STEP new cards learned, every MASTERED_STEP cards mastered. */
 export const NEW_STEP = 50;

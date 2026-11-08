@@ -136,17 +136,17 @@ import { isMastered, knewCountsFromLog, milestone, percent, totals, MASTERY_THRE
 
 const prog = (id, knewCount, reps = 1) => ({ id, fsrs: { ...newCard(new Date()), reps }, flagged: false, confirmed: false, suspended: false, knewCount });
 
-test('a card is mastered after 7 "I knew this" answers', () => {
-  assert.equal(MASTERY_THRESHOLD, 7);
-  assert.equal(isMastered(prog('a', 6)), false);
-  assert.equal(isMastered(prog('a', 7)), true);
+test('a card is mastered after 4 "I knew this" answers', () => {
+  assert.equal(MASTERY_THRESHOLD, 4);
+  assert.equal(isMastered(prog('a', 3)), false);
+  assert.equal(isMastered(prog('a', 4)), true);
   assert.equal(isMastered(undefined), false);
 });
 
 test('mastered cards are never put in the study queue, even when due', () => {
   const now = new Date();
   const cards = [card('a:N'), card('b:N')];
-  const due = { ...prog('a:N', 7), fsrs: { ...newCard(now), state: 2, reps: 7, due: new Date(now.getTime() - 1000).toISOString() } };
+  const due = { ...prog('a:N', 4), fsrs: { ...newCard(now), state: 2, reps: 7, due: new Date(now.getTime() - 1000).toISOString() } };
   const q = buildQueue(cards, new Map([[due.id, due]]), now);
   assert.deepEqual(q, ['b:N']);
 });
