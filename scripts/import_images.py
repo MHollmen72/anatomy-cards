@@ -63,6 +63,7 @@ def main() -> int:
     from build_data import wanted_images  # region files' img: fields + data/images.yaml
     wanted = wanted_images(Path("data"))
     problems: list[str] = []
+    notes: list[str] = []  # not errors: the card simply shows a placeholder
     today = dt.date.today().isoformat()
 
     for iid, w in wanted.items():
@@ -77,7 +78,7 @@ def main() -> int:
                 problems.append(f"{iid}: could not read lead image of {w['from_article']}: {e}")
                 continue
             if not name:
-                problems.append(f"{iid}: article {w['from_article']} has no lead image")
+                notes.append(f"{iid}: article {w['from_article']} has no lead image (placeholder shown)")
                 continue
         if not name:
             problems.append(f"{iid}: give 'file' or 'from_article'")
@@ -135,7 +136,7 @@ def main() -> int:
 
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     report = images_dir / "import-report.txt"
-    report.write_text(("\n".join(problems) or "All images imported.") + "\n", encoding="utf-8")
+    report.write_text(("\n".join(problems) or "All images imported.") + "\n" + "".join(f"note: {n}\n" for n in notes), encoding="utf-8")
     if problems:
         print("Problems:\n  " + "\n  ".join(problems), file=sys.stderr)
         return 1
