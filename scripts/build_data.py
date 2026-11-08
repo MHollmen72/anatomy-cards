@@ -42,6 +42,118 @@ ALLOWED_LICENCES = re.compile(r"^(public domain|pd\b|cc0|cc by(-sa)? [0-9.]+( [a
 ID_RE = re.compile(r"^[ml]\.[a-z0-9-]+$")
 
 
+# ---------------------------------------------------------------------------
+# Compact region files: many structures in one file, sharing sources.
+#
+#   defaults: {kind: muscle, region: Antebrachium, cite: [src-a, src-b], status: cross-checked}
+#   structures:
+#     - id: m.flexor-carpi-ulnaris
+#       name: Musculus flexor carpi ulnaris
+#       img: "en:Flexor carpi ulnaris muscle"      # lead image of that Wikipedia article
+#       parts: [Caput humerale, Caput ulnare]
+#       N: ["Nervus ulnaris"]                        # "Nerve — branch"
+#       U: ["Caput humerale :: Epicondylus medialis humeri"]   # "Part :: text" for one part
+#       F: ["Flexio — Articulatio radiocarpea"]      # muscles: "movement — joint (note)"
+#       L: ["End 1 <-> End 2"]                       # ligaments; "->" when directional
+#   Any entry can instead be a mapping with its own cite/status, e.g.
+#       {text: "...", cite: [src-a], status: draft}
+# ---------------------------------------------------------------------------
+LETTER_KEYS = ["N", "U", "A", "S", "F", "R", "W", "L"]
+
+
+def slug(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def _entry(kind: str, cat: str, raw, defaults: dict, part_ids: dict) -> dict:
+    extra = {}
+    if isinstance(raw, dict):
+        extra = {k: v for k, v in raw.items() if k != "text"}
+        raw = raw.get("text", "")
+    text = str(raw)
+    fact = {"cat": cat, "status": defaults.get("status"), "cite": list(defaults.get("cite") or [])}
+    if " :: " in text:
+        part, text = text.split(" :: ", 1)
+        fact["part"] = part_ids.get(part.strip(), slug(part))
+    if cat == "N":
+        nerve, _, branch = text.partition(" — ")
+        fact["nerve"] = nerve.strip()
+        if branch:
+            fact["branch"] = branch.strip()
+    elif cat == "F" and kind == "muscle":
+        movement, _, joint = text.partition(" — ")
+        fact["movement"] = movement.strip()
+        fact["joint"] = joint.strip() or "—"
+    elif cat == "L":
+        directional = " -> " in text
+        a, _, b = text.partition(" -> " if directional else " <-> ")
+        fact.update({"end1": a.strip(), "end2": b.strip(), "directional": directional})
+    else:
+        fact["text"] = text
+    fact.update(extra)
+    return fact
+
+
+def expand_region_file(doc: dict) -> list[dict]:
+    defaults = doc.get("defaults") or {}
+    out = []
+    for raw in doc.get("structures") or []:
+        s = {k: raw[k] for k in ("id", "name") if k in raw}
+        kind = raw.get("kind", defaults.get("kind"))
+        s["kind"] = kind
+        s["region"] = raw.get("region", defaults.get("region"))
+        s["synonyms"] = raw.get("synonyms") or []
+        s["status"] = raw.get("status", defaults.get("status"))
+        s["cite"] = raw.get("cite", defaults.get("cite"))
+        part_ids = {}
+        parts = []
+        for p in raw.get("parts") or []:
+            name = p if isinstance(p, str) else p["name"]
+            pid = slug(name)
+            part_ids[name] = pid
+            parts.append({"id": pid, "name": name, "status": s["status"], "cite": list(s["cite"] or [])}
+                         | ({} if isinstance(p, str) else {k: v for k, v in p.items() if k != "name"}))
+        if parts:
+            s["parts"] = parts
+        facts = []
+        for cat in LETTER_KEYS:
+            for e in raw.get(cat) or []:
+                facts.append(_entry(kind, cat, e, {"status": s["status"], "cite": s["cite"]}, part_ids))
+        s["facts"] = facts
+        if raw.get("img"):
+            s["images"] = {"default": "img." + s["id"].split(".", 1)[1]}
+        out.append(s)
+    return out
+
+
+def region_images(data: Path) -> dict:
+    """Image entries implied by 'img:' fields in region files."""
+    wanted = {}
+    for path in sorted(data.rglob("*.yaml")):
+        doc = load_yaml(path)
+        if not isinstance(doc, dict) or "structures" not in doc:
+            continue
+        for raw in doc["structures"] or []:
+            if raw.get("img"):
+                iid = "img." + raw["id"].split(".", 1)[1]
+                spec = raw["img"]
+                entry = {"alt": f"Illustration of {raw['name']}"}
+                if isinstance(spec, dict):
+                    entry.update(spec)
+                elif ":" in spec[:4]:
+                    entry["from_article"] = spec
+                else:
+                    entry["file"] = spec
+                wanted[iid] = entry
+    return wanted
+
+
+def wanted_images(data: Path) -> dict:
+    wanted = region_images(data)
+    wanted.update(load_yaml(data / "images.yaml") or {})  # explicit entries (masks etc.) win
+    return wanted
+
+
 class DataError(Exception):
     pass
 
@@ -110,7 +222,7 @@ def load_sources(data: Path, errors: list[str]) -> dict:
 def load_images(data: Path, images_dir: Path, errors: list[str]) -> dict:
     """Merge data/images.yaml (what we want, alt text, masks) with images/commons-meta.json
     (what the import workflow actually fetched, with licence details from Commons)."""
-    wanted = load_yaml(data / "images.yaml") or {}
+    wanted = wanted_images(data)
     meta_path = images_dir / "commons-meta.json"
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
     out = {}
@@ -149,11 +261,19 @@ def load_structures(data: Path, sources: dict, images: dict, all_image_ids: set,
     structures = []
     seen: set[str] = set()
     for path in sorted(list((data / "muscles").rglob("*.yaml")) + list((data / "ligaments").rglob("*.yaml"))):
-        rel = path.relative_to(data)
-        s = load_yaml(path)
-        if not isinstance(s, dict):
-            errors.append(f"{rel}: not a mapping")
+        rel_file = path.relative_to(data)
+        doc = load_yaml(path)
+        if not isinstance(doc, dict):
+            errors.append(f"{rel_file}: not a mapping")
             continue
+        items = expand_region_file(doc) if "structures" in doc else [doc]
+        for s in items:
+            _check_structure(s, rel_file, seen, sources, all_image_ids, errors, structures)
+    return structures
+
+
+def _check_structure(s, rel_file, seen, sources, all_image_ids, errors, structures):
+        rel = f"{rel_file} [{s.get('id', '?')}]"
         sid = s.get("id", "")
         if not ID_RE.match(sid):
             errors.append(f"{rel}: id {sid!r} must look like m.name or l.name")
@@ -163,7 +283,7 @@ def load_structures(data: Path, sources: dict, images: dict, all_image_ids: set,
         kind = s.get("kind")
         if kind not in ("muscle", "ligament"):
             errors.append(f"{rel}: kind must be muscle or ligament")
-            continue
+            return
         if (kind == "muscle") != sid.startswith("m."):
             errors.append(f"{rel}: muscle ids start with 'm.', ligament ids with 'l.'")
         for k in ("name", "region"):
@@ -198,7 +318,6 @@ def load_structures(data: Path, sources: dict, images: dict, all_image_ids: set,
                 errors.append(f"{rel}: unknown image {iid!r}")
         s["_rel"] = str(rel)
         structures.append(s)
-    return structures
 
 
 def build_cards(structures: list[dict], sources: dict, images: dict):
@@ -266,7 +385,7 @@ def build_cards(structures: list[dict], sources: dict, images: dict):
 def build(data: Path, images_dir: Path, out: Path) -> int:
     errors: list[str] = []
     sources = load_sources(data, errors)
-    all_image_ids = set((load_yaml(data / "images.yaml") or {}).keys())
+    all_image_ids = set(wanted_images(data).keys())
     images = load_images(data, images_dir, errors)
     structures = load_structures(data, sources, images, all_image_ids, errors)
     if errors:

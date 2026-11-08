@@ -59,7 +59,9 @@ def main() -> int:
     images_dir.mkdir(exist_ok=True)
     meta_path = images_dir / "commons-meta.json"
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
-    wanted = yaml.safe_load(Path("data/images.yaml").read_text(encoding="utf-8")) or {}
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from build_data import wanted_images  # region files' img: fields + data/images.yaml
+    wanted = wanted_images(Path("data"))
     problems: list[str] = []
     today = dt.date.today().isoformat()
 

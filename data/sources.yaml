@@ -51,3 +51,13 @@ dc-collaterale-radiale: {title: "Ligamentum collaterale radiale – DocCheck Fle
 wp-rcl-elbow: {title: "Radial collateral ligament of elbow joint – Wikipedia", url: "https://en.wikipedia.org/wiki/Radial_collateral_ligament_of_elbow_joint", accessed: "2026-11-01"}
 dc-anulare-radii: {title: "Ligamentum anulare radii – DocCheck Flexikon", url: "https://flexikon.doccheck.com/de/Ligamentum_anulare_radii", accessed: "2026-11-01"}
 wp-annular: {title: "Annular ligament of radius – Wikipedia", url: "https://en.wikipedia.org/wiki/Annular_ligament_of_radius", accessed: "2026-11-01"}
+
+# --- Region-wide sources used for the full curriculum
+ttu-muscles: {title: "Medical Gross Anatomy – Anatomy Tables – Muscles (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/muscles_alpha.html", accessed: "2026-11-08"}
+ttu-forearm: {title: "Anatomy Tables – Forearm & Wrist (TTUHSC El Paso, after Gest & Schlesinger, MedCharts Anatomy)", url: "https://anatomy.ttuhscep.edu/schemes/forearm_tables.html", accessed: "2026-11-08"}
+tma-anterior-forearm: {title: "Muscles of the Anterior Forearm – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/anterior-forearm/", accessed: "2026-11-08"}
+tma-posterior-forearm: {title: "Muscles of the Posterior Forearm – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/posterior-forearm/", accessed: "2026-11-08"}
+tma-hand: {title: "Muscles of the Hand – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/hand/", accessed: "2026-11-08"}
+tma-pectoral: {title: "Muscles of the Pectoral Region – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/pectoral-region/", accessed: "2026-11-08"}
+tma-superficial-back: {title: "Superficial Back Muscles – TeachMeAnatomy", url: "https://teachmeanatomy.info/back/muscles/superficial/", accessed: "2026-11-08"}
+tma-shoulder-intrinsic: {title: "Intrinsic Muscles of the Shoulder – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/", accessed: "2026-11-08"}

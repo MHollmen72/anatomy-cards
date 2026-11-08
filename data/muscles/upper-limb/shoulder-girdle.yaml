@@ -1,0 +1,95 @@
+# Shoulder girdle and teres major. Sources: TTUHSC muscle tables + TeachMeAnatomy.
+# Only facts stated by both sources are included; details given by one source only are left out.
+defaults: {kind: muscle, region: Membrum superius, status: cross-checked}
+structures:
+  - id: m.trapezius
+    name: Musculus trapezius
+    cite: [ttu-muscles, tma-superficial-back]
+    img: "en:Trapezius"
+    N: ["Nervus accessorius (XI)"]
+    U: ["Os occipitale (Protuberantia occipitalis externa, Linea nuchalis superior)", "Ligamentum nuchae", "Processus spinosi C7–T12"]
+    A: ["Clavicula — lateral third", "Acromion", "Spina scapulae"]
+    F: ["Elevatio scapulae (upper fibres) — Cingulum pectorale", "Retractio scapulae (middle fibres) — Cingulum pectorale",
+        "Depressio scapulae (lower fibres) — Cingulum pectorale", "Rotatio scapulae superior (lateral rotation of the inferior angle) — Cingulum pectorale"]
+
+  - id: m.latissimus-dorsi
+    name: Musculus latissimus dorsi
+    cite: [ttu-muscles, tma-superficial-back]
+    img: "en:Latissimus dorsi muscle"
+    N: ["Nervus thoracodorsalis"]
+    U: ["Processus spinosi of the lower thoracic vertebrae", "Crista iliaca", "Lowest three ribs"]
+    A: ["Sulcus intertubercularis humeri"]
+    F: ["Retroversio (extensio) — Articulatio humeri", "Adductio — Articulatio humeri", "Rotatio medialis — Articulatio humeri"]
+
+  - id: m.rhomboideus-major
+    name: Musculus rhomboideus major
+    cite: [ttu-muscles, tma-superficial-back]
+    img: "en:Rhomboid major muscle"
+    N: ["Nervus dorsalis scapulae"]
+    U: ["Processus spinosi T2–T5"]
+    A: ["Margo medialis scapulae — below the Spina scapulae"]
+    F: ["Retractio scapulae — Cingulum pectorale", "Rotatio scapulae (inferior rotation) — Cingulum pectorale"]
+
+  - id: m.rhomboideus-minor
+    name: Musculus rhomboideus minor
+    cite: [ttu-muscles, tma-superficial-back]
+    img: "en:Rhomboid minor muscle"
+    N: ["Nervus dorsalis scapulae"]
+    U: ["Processus spinosi C7–T1"]
+    A: ["Margo medialis scapulae — at the root of the Spina scapulae"]
+    F: ["Retractio scapulae — Cingulum pectorale", "Rotatio scapulae (inferior rotation) — Cingulum pectorale"]
+
+  - id: m.levator-scapulae
+    name: Musculus levator scapulae
+    cite: [ttu-muscles, tma-superficial-back]
+    img: "en:Levator scapulae muscle"
+    N: ["Nervus dorsalis scapulae"]
+    U: ["Processus transversi C1–C4"]
+    A: ["Margo medialis scapulae — Angulus superior to the Spina scapulae"]
+    F: ["Elevatio scapulae — Cingulum pectorale"]
+
+  - id: m.serratus-anterior
+    name: Musculus serratus anterior
+    cite: [ttu-muscles, tma-pectoral]
+    img: "en:Serratus anterior muscle"
+    N: ["Nervus thoracicus longus"]
+    U: ["Costae I–VIII (lateral surfaces)"]
+    A: ["Margo medialis scapulae — Facies costalis"]
+    F: ["Protractio scapulae — Cingulum pectorale",
+        "Rotatio scapulae superior (lateral rotation of the inferior angle; allows elevation of the arm above 90°) — Cingulum pectorale"]
+
+  - id: m.pectoralis-major
+    name: Musculus pectoralis major
+    cite: [ttu-muscles, tma-pectoral]
+    img: "en:Pectoralis major muscle"
+    N: ["Nervus pectoralis medialis", "Nervus pectoralis lateralis"]
+    U: ["Clavicula — medial half", "Sternum", "Cartilagines costales (upper ribs)"]
+    A: ["Crista tuberculi majoris humeri (lateral lip of the Sulcus intertubercularis)"]
+    F: ["Adductio — Articulatio humeri", "Rotatio medialis — Articulatio humeri", "Anteversio (flexio) — Articulatio humeri"]
+
+  - id: m.pectoralis-minor
+    name: Musculus pectoralis minor
+    cite: [ttu-muscles, tma-pectoral]
+    img: "en:Pectoralis minor muscle"
+    N: ["Nervus pectoralis medialis"]
+    U: ["Costae III–V"]
+    A: ["Processus coracoideus scapulae"]
+    F: ["Draws the scapula forwards and downwards (Protractio, Depressio scapulae) — Cingulum pectorale"]
+
+  - id: m.subclavius
+    name: Musculus subclavius
+    cite: [ttu-muscles, tma-pectoral]
+    img: "en:Subclavius muscle"
+    N: ["Nervus subclavius"]
+    U: ["Costa I and its cartilage (junction)"]
+    A: ["Clavicula — inferior surface"]
+    F: ["Depressio claviculae — Articulatio sternoclavicularis"]
+
+  - id: m.teres-major
+    name: Musculus teres major
+    cite: [ttu-muscles, tma-shoulder-intrinsic]
+    img: "en:Teres major muscle"
+    N: ["Nervus subscapularis (lower)"]
+    U: ["Angulus inferior scapulae — posterior surface"]
+    A: ["Crista tuberculi minoris humeri (medial lip of the Sulcus intertubercularis)"]
+    F: ["Adductio — Articulatio humeri", "Rotatio medialis — Articulatio humeri", "Retroversio (extensio) — Articulatio humeri"]

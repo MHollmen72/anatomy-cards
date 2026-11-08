@@ -131,3 +131,39 @@ class BuildDataTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+REGION = """
+defaults: {kind: muscle, region: Antebrachium, cite: [s1, s2], status: cross-checked}
+structures:
+  - id: m.fcu
+    name: Musculus flexor carpi ulnaris
+    img: "en:Flexor carpi ulnaris muscle"
+    parts: [Caput humerale, Caput ulnare]
+    N: ["Nervus ulnaris — Rami musculares"]
+    U: ["Caput humerale :: Epicondylus medialis humeri", "Caput ulnare :: Olecranon"]
+    A: [Os pisiforme]
+    F: ["Flexio — Articulatio radiocarpea", {text: "Abductio — Articulatio radiocarpea", status: draft, cite: [s1]}]
+  - id: l.x
+    kind: ligament
+    name: Ligamentum x
+    L: ["Os a -> Os b"]
+    W: [Capsula articularis]
+    F: [Limits extension]
+"""
+
+
+class RegionFileTest(unittest.TestCase):
+    def test_region_file_expands_into_cards(self):
+        t = BuildDataTest()
+        data, imgs, out = t.make()
+        (data / "muscles" / "test.yaml").unlink()
+        (data / "ligaments" / "test.yaml").unlink()
+        (data / "muscles" / "region.yaml").write_text(textwrap.dedent(REGION))
+        self.assertEqual(build_data.build(data, imgs, out), 0, (out / "report.txt").read_text() if (out / "report.txt").exists() else "")
+        cards = {c["id"]: c for c in json.loads((out / "deck.json").read_text())["cards"]}
+        self.assertEqual(set(cards), {"m.fcu:P", "m.fcu:N", "m.fcu:U", "m.fcu:A", "l.x:L", "l.x:W", "l.x:F"})
+        self.assertEqual(cards["m.fcu:N"]["answer"][0]["lines"], ["Nervus ulnaris — Rami musculares"])
+        self.assertEqual([g["part"] for g in cards["m.fcu:U"]["answer"]], ["Caput humerale", "Caput ulnare"])
+        self.assertEqual(cards["l.x:L"]["answer"][0]["lines"], ["From: Os a", "To: Os b"])
+        self.assertIn("img.fcu", build_data.wanted_images(data))

@@ -1,0 +1,91 @@
+# Hand. Sources: TTUHSC muscle tables + TeachMeAnatomy.
+defaults: {kind: muscle, region: Membrum superius, status: cross-checked, cite: [ttu-muscles, tma-hand]}
+structures:
+  - id: m.abductor-pollicis-brevis
+    name: Musculus abductor pollicis brevis
+    img: "en:Abductor pollicis brevis muscle"
+    N: ["Nervus medianus — Ramus recurrens"]
+    U: ["Retinaculum musculorum flexorum", "Os scaphoideum (tubercle)", "Os trapezium (tubercle)"]
+    A: ["Basis phalangis proximalis pollicis"]
+    F: ["Abductio — Articulatio carpometacarpalis pollicis"]
+
+  - id: m.flexor-pollicis-brevis
+    name: Musculus flexor pollicis brevis
+    img: "en:Flexor pollicis brevis muscle"
+    N: ["Nervus medianus — Ramus recurrens"]
+    U: ["Retinaculum musculorum flexorum", "Os trapezium (tubercle)"]
+    A: ["Basis phalangis proximalis pollicis"]
+    F: ["Flexio — Articulatio metacarpophalangea pollicis"]
+
+  - id: m.opponens-pollicis
+    name: Musculus opponens pollicis
+    img: "en:Opponens pollicis muscle"
+    N: ["Nervus medianus — Ramus recurrens"]
+    U: ["Retinaculum musculorum flexorum", "Os trapezium (tubercle)"]
+    A: ["Os metacarpi I — shaft, lateral margin"]
+    F: ["Oppositio — Articulatio carpometacarpalis pollicis"]
+
+  - id: m.adductor-pollicis
+    name: Musculus adductor pollicis
+    img: "en:Adductor pollicis muscle"
+    parts: [Caput obliquum, Caput transversum]
+    N: ["Nervus ulnaris — Ramus profundus"]
+    U: ["Caput obliquum :: Os capitatum and Bases ossium metacarpi II–III", "Caput transversum :: Os metacarpi III"]
+    A: ["Basis phalangis proximalis pollicis"]
+    F: ["Adductio — Articulatio carpometacarpalis pollicis"]
+
+  - id: m.abductor-digiti-minimi-manus
+    name: Musculus abductor digiti minimi (manus)
+    img: "en:Abductor digiti minimi muscle of hand"
+    N: ["Nervus ulnaris — Ramus profundus"]
+    U: ["Os pisiforme"]
+    A: ["Basis phalangis proximalis digiti V (ulnar side)"]
+    F: ["Abductio — Articulatio metacarpophalangea digiti V"]
+
+  - id: m.flexor-digiti-minimi-brevis-manus
+    name: Musculus flexor digiti minimi brevis (manus)
+    img: "en:Flexor digiti minimi brevis muscle of hand"
+    N: ["Nervus ulnaris — Ramus profundus"]
+    U: ["Hamulus ossis hamati", "Retinaculum musculorum flexorum"]
+    A: ["Basis phalangis proximalis digiti V"]
+    F: ["Flexio — Articulatio metacarpophalangea digiti V"]
+
+  - id: m.opponens-digiti-minimi
+    name: Musculus opponens digiti minimi
+    img: "en:Opponens digiti minimi muscle"
+    N: ["Nervus ulnaris — Ramus profundus"]
+    U: ["Hamulus ossis hamati", "Retinaculum musculorum flexorum"]
+    A: ["Os metacarpi V — shaft, medial margin"]
+    F: ["Oppositio — Articulatio carpometacarpalis digiti V"]
+
+  - id: m.palmaris-brevis
+    name: Musculus palmaris brevis
+    img: "en:Palmaris brevis muscle"
+    N: ["Nervus ulnaris"]
+    U: ["Aponeurosis palmaris / fascia over the hypothenar eminence"]
+    A: ["Skin of the ulnar border of the palm"]
+    F: ["Wrinkles the skin over the hypothenar eminence (improves grip) — Palma manus"]
+
+  - id: m.lumbricales-manus
+    name: Musculi lumbricales (manus)
+    img: "en:Lumbricals of the hand"
+    N: ["Nervus medianus (lumbricales I–II)", "Nervus ulnaris — Ramus profundus (lumbricales III–IV)"]
+    U: ["Tendines musculi flexoris digitorum profundi"]
+    A: ["Aponeurosis dorsalis of fingers II–V (radial side)"]
+    F: ["Flexio — Articulationes metacarpophalangeae II–V", "Extensio — Articulationes interphalangeae II–V"]
+
+  - id: m.interossei-dorsales-manus
+    name: Musculi interossei dorsales (manus)
+    img: "en:Dorsal interossei of the hand"
+    N: ["Nervus ulnaris — Ramus profundus"]
+    U: ["Ossa metacarpi — adjacent sides of two neighbouring bones"]
+    A: ["Phalanges proximales and Aponeurosis dorsalis of fingers II–IV"]
+    F: ["Abductio of fingers II–IV — Articulationes metacarpophalangeae", "Flexio — Articulationes metacarpophalangeae", "Extensio — Articulationes interphalangeae"]
+
+  - id: m.interossei-palmares
+    name: Musculi interossei palmares
+    img: "en:Palmar interossei muscles"
+    N: ["Nervus ulnaris — Ramus profundus"]
+    U: ["Ossa metacarpi II, IV and V — palmar surfaces"]
+    A: ["Phalanges proximales and Aponeurosis dorsalis of fingers II, IV and V"]
+    F: ["Adductio of the fingers (towards finger III) — Articulationes metacarpophalangeae", "Flexio — Articulationes metacarpophalangeae", "Extensio — Articulationes interphalangeae"]

@@ -1,0 +1,181 @@
+# Forearm. Sources: TTUHSC forearm & muscle tables + TeachMeAnatomy.
+# Only facts stated by both sources are included; details given by one source only are left out.
+defaults: {kind: muscle, region: Membrum superius, status: cross-checked}
+structures:
+  # --- anterior compartment
+  - id: m.pronator-teres
+    name: Musculus pronator teres
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Pronator teres muscle"
+    parts: [Caput humerale, Caput ulnare]
+    N: ["Nervus medianus"]
+    U: ["Caput humerale :: Epicondylus medialis humeri", "Caput ulnare :: Processus coronoideus ulnae"]
+    A: ["Radius — lateral surface, middle of the shaft"]
+    F: ["Pronatio — Articulationes radioulnares"]
+
+  - id: m.flexor-carpi-radialis
+    name: Musculus flexor carpi radialis
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Flexor carpi radialis muscle"
+    N: ["Nervus medianus"]
+    U: ["Epicondylus medialis humeri (common flexor origin)"]
+    A: ["Bases ossium metacarpi II et III"]
+    F: ["Flexio (palmarflexio) — Articulationes manus", "Abductio radialis — Articulationes manus"]
+
+  - id: m.palmaris-longus
+    name: Musculus palmaris longus
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Palmaris longus muscle"
+    N: ["Nervus medianus"]
+    U: ["Epicondylus medialis humeri"]
+    A: ["Retinaculum musculorum flexorum", "Aponeurosis palmaris"]
+    F: ["Flexio (palmarflexio) — Articulationes manus"]
+
+  - id: m.flexor-carpi-ulnaris
+    name: Musculus flexor carpi ulnaris
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Flexor carpi ulnaris muscle"
+    parts: [Caput humerale, Caput ulnare]
+    N: ["Nervus ulnaris"]
+    U: ["Caput humerale :: Epicondylus medialis humeri", "Caput ulnare :: Olecranon"]
+    A: ["Os pisiforme", "Hamulus ossis hamati", "Basis ossis metacarpi V"]
+    F: ["Flexio (palmarflexio) — Articulationes manus", "Adductio ulnaris — Articulationes manus"]
+
+  - id: m.flexor-digitorum-superficialis
+    name: Musculus flexor digitorum superficialis
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Flexor digitorum superficialis muscle"
+    parts: [Caput humeroulnare, Caput radiale]
+    N: ["Nervus medianus"]
+    U: ["Caput humeroulnare :: Epicondylus medialis humeri", "Caput radiale :: Radius — anterior surface"]
+    A: ["Phalanges mediae II–V"]
+    S: ["Four tendons pass through the Canalis carpi to the fingers II–V"]
+    F: ["Flexio — Articulationes metacarpophalangeae II–V", "Flexio — Articulationes interphalangeae proximales II–V"]
+
+  - id: m.flexor-digitorum-profundus
+    name: Musculus flexor digitorum profundus
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Flexor digitorum profundus muscle"
+    N: ["Nervus medianus (radial half — fingers II–III)", "Nervus ulnaris (ulnar half — fingers IV–V)"]
+    U: ["Ulna — anterior surface", "Membrana interossea antebrachii"]
+    A: ["Bases phalangum distalium II–V"]
+    S: ["Four tendons pass through the Canalis carpi to the fingers II–V"]
+    F: ["Flexio — Articulationes interphalangeae distales II–V", "Flexio — Articulationes metacarpophalangeae II–V"]
+
+  - id: m.flexor-pollicis-longus
+    name: Musculus flexor pollicis longus
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Flexor pollicis longus muscle"
+    N: ["Nervus medianus — Nervus interosseus antebrachii anterior"]
+    U: ["Radius — anterior surface", "Membrana interossea antebrachii"]
+    A: ["Basis phalangis distalis pollicis"]
+    F: ["Flexio — Articulatio interphalangea pollicis", "Flexio — Articulatio metacarpophalangea pollicis"]
+
+  - id: m.pronator-quadratus
+    name: Musculus pronator quadratus
+    cite: [ttu-forearm, tma-anterior-forearm]
+    img: "en:Pronator quadratus muscle"
+    N: ["Nervus medianus — Nervus interosseus antebrachii anterior"]
+    U: ["Ulna — anterior surface, distal quarter"]
+    A: ["Radius — anterior surface, distal quarter"]
+    F: ["Pronatio — Articulationes radioulnares"]
+
+  # --- posterior compartment
+  - id: m.brachioradialis
+    name: Musculus brachioradialis
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Brachioradialis"
+    N: ["Nervus radialis"]
+    U: ["Crista supraepicondylaris lateralis humeri — proximal part"]
+    A: ["Radius — just proximal to the Processus styloideus radii (lateral side)"]
+    F: ["Flexio — Articulatio cubiti", "Supinatio (assists) — Articulationes radioulnares"]
+
+  - id: m.extensor-carpi-radialis-longus
+    name: Musculus extensor carpi radialis longus
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor carpi radialis longus muscle"
+    N: ["Nervus radialis"]
+    U: ["Crista supraepicondylaris lateralis humeri"]
+    A: ["Basis ossis metacarpi II (dorsal)"]
+    F: ["Extensio (dorsalextensio) — Articulationes manus", "Abductio radialis — Articulationes manus"]
+
+  - id: m.extensor-carpi-radialis-brevis
+    name: Musculus extensor carpi radialis brevis
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor carpi radialis brevis muscle"
+    N: ["Nervus radialis"]
+    U: ["Epicondylus lateralis humeri (common extensor origin)"]
+    A: ["Basis ossis metacarpi III (dorsal)"]
+    F: ["Extensio (dorsalextensio) — Articulationes manus", "Abductio radialis — Articulationes manus"]
+
+  - id: m.extensor-carpi-ulnaris
+    name: Musculus extensor carpi ulnaris
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor carpi ulnaris muscle"
+    N: ["Nervus radialis — Ramus profundus"]
+    U: ["Epicondylus lateralis humeri (common extensor origin)", "Margo posterior ulnae"]
+    A: ["Basis ossis metacarpi V"]
+    F: ["Extensio (dorsalextensio) — Articulationes manus", "Adductio ulnaris — Articulationes manus"]
+
+  - id: m.extensor-digitorum
+    name: Musculus extensor digitorum
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor digitorum muscle"
+    N: ["Nervus radialis — Ramus profundus"]
+    U: ["Epicondylus lateralis humeri (common extensor origin)"]
+    A: ["Aponeurosis dorsalis (extensor expansion) of fingers II–V"]
+    F: ["Extensio — Articulationes metacarpophalangeae II–V", "Extensio — Articulationes interphalangeae II–V"]
+
+  - id: m.extensor-digiti-minimi
+    name: Musculus extensor digiti minimi
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor digiti minimi muscle"
+    N: ["Nervus radialis — Ramus profundus"]
+    U: ["Epicondylus lateralis humeri (common extensor origin)"]
+    A: ["Aponeurosis dorsalis of finger V"]
+    F: ["Extensio — joints of finger V (Articulatio metacarpophalangea and Articulationes interphalangeae)"]
+
+  - id: m.supinator
+    name: Musculus supinator
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Supinator muscle"
+    N: ["Nervus radialis — Ramus profundus"]
+    U: ["Epicondylus lateralis humeri", "Ulna — Crista musculi supinatoris"]
+    A: ["Radius — proximal third"]
+    F: ["Supinatio — Articulationes radioulnares"]
+
+  - id: m.abductor-pollicis-longus
+    name: Musculus abductor pollicis longus
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Abductor pollicis longus muscle"
+    N: ["Nervus radialis — Ramus profundus (Nervus interosseus antebrachii posterior)"]
+    U: ["Radius — posterior surface", "Ulna — posterior surface", "Membrana interossea antebrachii"]
+    A: ["Basis ossis metacarpi I (radial side)"]
+    F: ["Abductio — Articulatio carpometacarpalis pollicis"]
+
+  - id: m.extensor-pollicis-brevis
+    name: Musculus extensor pollicis brevis
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor pollicis brevis muscle"
+    N: ["Nervus radialis — Ramus profundus (Nervus interosseus antebrachii posterior)"]
+    U: ["Radius — posterior surface (distal)", "Membrana interossea antebrachii"]
+    A: ["Basis phalangis proximalis pollicis"]
+    F: ["Extensio — Articulatio metacarpophalangea pollicis"]
+
+  - id: m.extensor-pollicis-longus
+    name: Musculus extensor pollicis longus
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor pollicis longus muscle"
+    N: ["Nervus radialis — Ramus profundus (Nervus interosseus antebrachii posterior)"]
+    U: ["Ulna — posterior surface (middle)", "Membrana interossea antebrachii"]
+    A: ["Basis phalangis distalis pollicis"]
+    F: ["Extensio — Articulatio interphalangea pollicis"]
+
+  - id: m.extensor-indicis
+    name: Musculus extensor indicis
+    cite: [ttu-forearm, tma-posterior-forearm]
+    img: "en:Extensor indicis muscle"
+    N: ["Nervus radialis — Ramus profundus"]
+    U: ["Ulna — posterior surface (distal)", "Membrana interossea antebrachii"]
+    A: ["Aponeurosis dorsalis of finger II"]
+    F: ["Extensio — joints of the index finger (II)"]
