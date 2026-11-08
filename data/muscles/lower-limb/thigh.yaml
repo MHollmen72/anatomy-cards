@@ -1,0 +1,122 @@
+# Thigh. Sources: TTUHSC lower-limb tables + TeachMeAnatomy.
+defaults: {kind: muscle, region: Membrum inferius, status: cross-checked}
+structures:
+  - id: m.sartorius
+    name: Musculus sartorius
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Sartorius muscle"
+    N: ["Nervus femoralis"]
+    U: ["Spina iliaca anterior superior"]
+    A: ["Tibia — medial surface, proximal (Pes anserinus)"]
+    F: ["Flexio — Articulatio coxae", "Abductio — Articulatio coxae", "Rotatio lateralis — Articulatio coxae", "Flexio — Articulatio genus"]
+
+  - id: m.rectus-femoris
+    name: Musculus rectus femoris
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Rectus femoris muscle"
+    parts: [Caput rectum, Caput reflexum]
+    N: ["Nervus femoralis"]
+    U: ["Caput rectum :: Spina iliaca anterior inferior", "Caput reflexum :: Os ilium above the acetabulum"]
+    A: ["Patella, and via the Ligamentum patellae the Tuberositas tibiae"]
+    F: ["Extensio — Articulatio genus", "Flexio — Articulatio coxae"]
+
+  - id: m.vastus-lateralis
+    name: Musculus vastus lateralis
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Vastus lateralis muscle"
+    N: ["Nervus femoralis"]
+    U: ["Labium laterale lineae asperae"]
+    A: ["Patella (via the tendon of Musculus quadriceps femoris)"]
+    F: ["Extensio — Articulatio genus"]
+
+  - id: m.vastus-medialis
+    name: Musculus vastus medialis
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Vastus medialis"
+    N: ["Nervus femoralis"]
+    U: ["Labium mediale lineae asperae"]
+    A: ["Patella (via the tendon of Musculus quadriceps femoris)"]
+    F: ["Extensio — Articulatio genus"]
+
+  - id: m.vastus-intermedius
+    name: Musculus vastus intermedius
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Vastus intermedius muscle"
+    N: ["Nervus femoralis"]
+    U: ["Femur — anterior and lateral surfaces of the shaft"]
+    A: ["Patella (via the tendon of Musculus quadriceps femoris)"]
+    F: ["Extensio — Articulatio genus"]
+
+  - id: m.pectineus
+    name: Musculus pectineus
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Pectineus muscle"
+    N: ["Nervus femoralis (sometimes also a branch of Nervus obturatorius)"]
+    U: ["Pecten ossis pubis"]
+    A: ["Linea pectinea femoris"]
+    F: ["Adductio — Articulatio coxae", "Flexio — Articulatio coxae"]
+
+  - id: m.adductor-longus
+    name: Musculus adductor longus
+    cite: [ttu-lowerlimb, tma-medial-thigh]
+    img: "en:Adductor longus muscle"
+    N: ["Nervus obturatorius"]
+    U: ["Os pubis"]
+    A: ["Linea aspera"]
+    F: ["Adductio — Articulatio coxae"]
+
+  - id: m.adductor-brevis
+    name: Musculus adductor brevis
+    cite: [ttu-lowerlimb, tma-medial-thigh]
+    img: "en:Adductor brevis muscle"
+    N: ["Nervus obturatorius"]
+    U: ["Ramus inferior ossis pubis"]
+    A: ["Linea aspera — proximal part"]
+    F: ["Adductio — Articulatio coxae"]
+
+  - id: m.adductor-magnus
+    name: Musculus adductor magnus
+    cite: [ttu-lowerlimb, tma-medial-thigh]
+    img: "en:Adductor magnus muscle"
+    parts: [Pars profunda (adductor part), Pars superficialis (ischiocondylar part)]
+    N: ["Pars profunda (adductor part) :: Nervus obturatorius", "Pars superficialis (ischiocondylar part) :: Nervus tibialis (tibial part of Nervus ischiadicus)"]
+    U: ["Pars profunda (adductor part) :: Ramus ossis ischii and Ramus inferior ossis pubis", "Pars superficialis (ischiocondylar part) :: Tuber ischiadicum"]
+    A: ["Pars profunda (adductor part) :: Linea aspera", "Pars superficialis (ischiocondylar part) :: Tuberculum adductorium femoris"]
+    F: ["Adductio — Articulatio coxae", "Pars superficialis (ischiocondylar part) :: Extensio — Articulatio coxae"]
+
+  - id: m.gracilis
+    name: Musculus gracilis
+    cite: [ttu-lowerlimb, tma-medial-thigh]
+    img: "en:Gracilis muscle"
+    N: ["Nervus obturatorius"]
+    U: ["Os pubis — Ramus inferior and body (near the Symphysis pubica)"]
+    A: ["Tibia — medial surface (Pes anserinus)"]
+    F: ["Adductio — Articulatio coxae", "Flexio — Articulatio genus"]
+
+  - id: m.biceps-femoris
+    name: Musculus biceps femoris
+    cite: [ttu-lowerlimb, tma-hamstrings]
+    img: "en:Biceps femoris muscle"
+    parts: [Caput longum, Caput breve]
+    N: ["Caput longum :: Nervus tibialis (tibial part of Nervus ischiadicus)", "Caput breve :: Nervus fibularis communis (fibular part of Nervus ischiadicus)"]
+    U: ["Caput longum :: Tuber ischiadicum", "Caput breve :: Labium laterale lineae asperae"]
+    A: ["Caput fibulae"]
+    F: ["Flexio — Articulatio genus", "Caput longum :: Extensio — Articulatio coxae"]
+
+  - id: m.semitendinosus
+    name: Musculus semitendinosus
+    cite: [ttu-lowerlimb, tma-hamstrings]
+    img: "en:Semitendinosus muscle"
+    N: ["Nervus tibialis (tibial part of Nervus ischiadicus)"]
+    U: ["Tuber ischiadicum"]
+    A: ["Tibia — medial surface (Pes anserinus)"]
+    F: ["Extensio — Articulatio coxae", "Flexio — Articulatio genus"]
+
+  - id: m.semimembranosus
+    name: Musculus semimembranosus
+    cite: [ttu-lowerlimb, tma-hamstrings]
+    img: "en:Semimembranosus muscle"
+    N: ["Nervus tibialis (tibial part of Nervus ischiadicus)"]
+    U: ["Tuber ischiadicum"]
+    A: ["Condylus medialis tibiae"]
+    F: ["Extensio — Articulatio coxae", "Flexio — Articulatio genus"]

@@ -1,0 +1,102 @@
+# Hip and gluteal region. Sources: TTUHSC lower-limb tables + TeachMeAnatomy.
+# Only facts stated by both sources are included.
+defaults: {kind: muscle, region: Membrum inferius, status: cross-checked, cite: [ttu-lowerlimb, tma-gluteal]}
+structures:
+  - id: m.iliacus
+    name: Musculus iliacus
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Iliacus muscle"
+    N: ["Nervus femoralis"]
+    U: ["Fossa iliaca"]
+    A: ["Trochanter minor femoris (with Musculus psoas major)"]
+    F: ["Flexio — Articulatio coxae"]
+
+  - id: m.psoas-major
+    name: Musculus psoas major
+    cite: [ttu-lowerlimb, tma-anterior-thigh]
+    img: "en:Psoas major muscle"
+    N: ["Rami anteriores of the lumbar spinal nerves (Plexus lumbalis)"]
+    U: ["Vertebrae lumbales (bodies and transverse processes)"]
+    A: ["Trochanter minor femoris (with Musculus iliacus)"]
+    F: ["Flexio — Articulatio coxae"]
+
+  - id: m.gluteus-maximus
+    name: Musculus gluteus maximus
+    img: "en:Gluteus maximus"
+    N: ["Nervus gluteus inferior"]
+    U: ["Os ilium — posterior part of the outer surface", "Os sacrum (posterior surface)", "Os coccygis"]
+    A: ["Tractus iliotibialis", "Tuberositas glutea femoris"]
+    F: ["Extensio — Articulatio coxae", "Rotatio lateralis — Articulatio coxae"]
+
+  - id: m.gluteus-medius
+    name: Musculus gluteus medius
+    img: "en:Gluteus medius"
+    N: ["Nervus gluteus superior"]
+    U: ["Os ilium — Facies glutea (between Linea glutea anterior and posterior)"]
+    A: ["Trochanter major — lateral surface"]
+    F: ["Abductio — Articulatio coxae", "Rotatio medialis — Articulatio coxae"]
+
+  - id: m.gluteus-minimus
+    name: Musculus gluteus minimus
+    img: "en:Gluteus minimus"
+    N: ["Nervus gluteus superior"]
+    U: ["Os ilium — Facies glutea (between Linea glutea anterior and inferior)"]
+    A: ["Trochanter major — anterior surface"]
+    F: ["Abductio — Articulatio coxae", "Rotatio medialis — Articulatio coxae"]
+
+  - id: m.tensor-fasciae-latae
+    name: Musculus tensor fasciae latae
+    img: "en:Tensor fasciae latae muscle"
+    N: ["Nervus gluteus superior"]
+    U: ["Crista iliaca — anterior part", "Spina iliaca anterior superior"]
+    A: ["Tractus iliotibialis"]
+    F: ["Abductio — Articulatio coxae", "Rotatio medialis — Articulatio coxae"]
+
+  - id: m.piriformis
+    name: Musculus piriformis
+    img: "en:Piriformis muscle"
+    N: ["Plexus sacralis — Nervus musculi piriformis (S1–S2)"]
+    U: ["Os sacrum — Facies pelvica (anterior surface)"]
+    A: ["Trochanter major — upper border"]
+    F: ["Rotatio lateralis — Articulatio coxae", "Abductio — Articulatio coxae"]
+
+  - id: m.obturatorius-internus
+    name: Musculus obturatorius internus
+    img: "en:Internal obturator muscle"
+    N: ["Nervus musculi obturatorii interni"]
+    U: ["Membrana obturatoria (inner surface) and the bony margin of the Foramen obturatum"]
+    A: ["Trochanter major — medial surface"]
+    F: ["Rotatio lateralis — Articulatio coxae", "Abductio — Articulatio coxae"]
+
+  - id: m.gemellus-superior
+    name: Musculus gemellus superior
+    img: "en:Superior gemellus muscle"
+    N: ["Nervus musculi obturatorii interni"]
+    U: ["Spina ischiadica"]
+    A: ["Trochanter major (with the tendon of Musculus obturatorius internus)"]
+    F: ["Rotatio lateralis — Articulatio coxae"]
+
+  - id: m.gemellus-inferior
+    name: Musculus gemellus inferior
+    img: "en:Inferior gemellus muscle"
+    N: ["Nervus musculi quadrati femoris"]
+    U: ["Tuber ischiadicum"]
+    A: ["Trochanter major (with the tendon of Musculus obturatorius internus)"]
+    F: ["Rotatio lateralis — Articulatio coxae"]
+
+  - id: m.quadratus-femoris
+    name: Musculus quadratus femoris
+    img: "en:Quadratus femoris muscle"
+    N: ["Nervus musculi quadrati femoris"]
+    U: ["Tuber ischiadicum — lateral border"]
+    A: ["Crista intertrochanterica (Tuberculum quadratum)"]
+    F: ["Rotatio lateralis — Articulatio coxae"]
+
+  - id: m.obturatorius-externus
+    name: Musculus obturatorius externus
+    cite: [ttu-lowerlimb, tma-medial-thigh]
+    img: "en:External obturator muscle"
+    N: ["Nervus obturatorius"]
+    U: ["Membrana obturatoria (outer surface) and surrounding bone"]
+    A: ["Fossa trochanterica femoris (posterior greater trochanter)"]
+    F: ["Rotatio lateralis — Articulatio coxae"]

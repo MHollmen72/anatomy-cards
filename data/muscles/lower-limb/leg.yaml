@@ -1,0 +1,126 @@
+# Leg (crus). Sources: TTUHSC lower-limb tables + TeachMeAnatomy.
+defaults: {kind: muscle, region: Membrum inferius, status: cross-checked}
+structures:
+  - id: m.tibialis-anterior
+    name: Musculus tibialis anterior
+    cite: [ttu-lowerlimb, tma-anterior-leg]
+    img: "en:Tibialis anterior muscle"
+    N: ["Nervus fibularis profundus"]
+    U: ["Tibia — lateral surface"]
+    A: ["Os cuneiforme mediale", "Basis ossis metatarsi I"]
+    F: ["Dorsalextensio (extensio) — Articulatio talocruralis", "Inversio (supinatio) — Articulatio subtalaris"]
+
+  - id: m.extensor-digitorum-longus
+    name: Musculus extensor digitorum longus
+    cite: [ttu-lowerlimb, tma-anterior-leg]
+    img: "en:Extensor digitorum longus muscle"
+    N: ["Nervus fibularis profundus"]
+    U: ["Condylus lateralis tibiae", "Fibula"]
+    A: ["Toes II–V (four tendons; dorsal aponeuroses)"]
+    F: ["Extensio — joints of toes II–V"]
+
+  - id: m.extensor-hallucis-longus
+    name: Musculus extensor hallucis longus
+    cite: [ttu-lowerlimb, tma-anterior-leg]
+    img: "en:Extensor hallucis longus muscle"
+    N: ["Nervus fibularis profundus"]
+    U: ["Fibula — middle part of the shaft"]
+    A: ["Basis phalangis distalis hallucis"]
+    F: ["Extensio — joints of the Hallux"]
+
+  - id: m.fibularis-tertius
+    name: Musculus fibularis tertius
+    synonyms: [Musculus peroneus tertius]
+    cite: [ttu-lowerlimb, tma-anterior-leg]
+    img: "en:Fibularis tertius"
+    N: ["Nervus fibularis profundus"]
+    U: ["Fibula — distal part"]
+    A: ["Os metatarsi V (dorsal)"]
+    F: ["Eversio (pronatio) — Articulatio subtalaris"]
+
+  - id: m.fibularis-longus
+    name: Musculus fibularis longus
+    synonyms: [Musculus peroneus longus]
+    cite: [ttu-lowerlimb, tma-lateral-leg]
+    img: "en:Fibularis longus"
+    N: ["Nervus fibularis superficialis"]
+    U: ["Fibula — lateral surface, proximal part"]
+    A: ["Os cuneiforme mediale", "Basis ossis metatarsi I"]
+    S: ["Tendon runs behind the Malleolus lateralis and across the sole of the foot"]
+    F: ["Eversio (pronatio) — Articulatio subtalaris", "Plantarflexio — Articulatio talocruralis"]
+
+  - id: m.fibularis-brevis
+    name: Musculus fibularis brevis
+    synonyms: [Musculus peroneus brevis]
+    cite: [ttu-lowerlimb, tma-lateral-leg]
+    img: "en:Fibularis brevis"
+    N: ["Nervus fibularis superficialis"]
+    U: ["Fibula — lateral surface, distal part"]
+    A: ["Tuberositas ossis metatarsi V"]
+    F: ["Eversio (pronatio) — Articulatio subtalaris"]
+
+  - id: m.gastrocnemius
+    name: Musculus gastrocnemius
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Gastrocnemius muscle"
+    parts: [Caput mediale, Caput laterale]
+    N: ["Nervus tibialis"]
+    U: ["Caput mediale :: Femur — above the Condylus medialis", "Caput laterale :: Femur — above the Condylus lateralis"]
+    A: ["Tuber calcanei (via the Tendo calcaneus)"]
+    S: ["Tendo calcaneus (Achillis), shared with Musculus soleus"]
+    F: ["Plantarflexio — Articulatio talocruralis", "Flexio — Articulatio genus"]
+
+  - id: m.soleus
+    name: Musculus soleus
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Soleus muscle"
+    N: ["Nervus tibialis"]
+    U: ["Linea musculi solei tibiae", "Fibula — proximal part (head and upper shaft)"]
+    A: ["Tuber calcanei (via the Tendo calcaneus)"]
+    S: ["Tendo calcaneus (Achillis), shared with Musculus gastrocnemius"]
+    F: ["Plantarflexio — Articulatio talocruralis"]
+
+  - id: m.plantaris
+    name: Musculus plantaris
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Plantaris muscle"
+    N: ["Nervus tibialis"]
+    U: ["Femur — above the Condylus lateralis"]
+    A: ["Calcaneus (alongside the Tendo calcaneus)"]
+    F: ["Plantarflexio — Articulatio talocruralis", "Flexio — Articulatio genus"]
+
+  - id: m.popliteus
+    name: Musculus popliteus
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Popliteus muscle"
+    N: ["Nervus tibialis"]
+    U: ["Condylus lateralis femoris"]
+    A: ["Tibia — posterior surface, above the Linea musculi solei"]
+    F: ["Rotatio medialis of the tibia (lateral rotation of the femur on the fixed tibia): unlocks the extended knee — Articulatio genus"]
+
+  - id: m.tibialis-posterior
+    name: Musculus tibialis posterior
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Tibialis posterior muscle"
+    N: ["Nervus tibialis"]
+    U: ["Membrana interossea cruris", "Tibia — posterior surface", "Fibula — posterior surface"]
+    A: ["Os naviculare and the medial tarsal bones (plantar side)"]
+    F: ["Inversio (supinatio) — Articulatio subtalaris", "Plantarflexio — Articulatio talocruralis"]
+
+  - id: m.flexor-digitorum-longus
+    name: Musculus flexor digitorum longus
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Flexor digitorum longus muscle"
+    N: ["Nervus tibialis"]
+    U: ["Tibia — posterior surface"]
+    A: ["Phalanges distales II–V (plantar)"]
+    F: ["Flexio — joints of toes II–V"]
+
+  - id: m.flexor-hallucis-longus
+    name: Musculus flexor hallucis longus
+    cite: [ttu-lowerlimb, tma-posterior-leg]
+    img: "en:Flexor hallucis longus muscle"
+    N: ["Nervus tibialis"]
+    U: ["Fibula — posterior surface"]
+    A: ["Basis phalangis distalis hallucis"]
+    F: ["Flexio — joints of the Hallux"]

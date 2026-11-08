@@ -1,0 +1,100 @@
+# Foot. Sources: TTUHSC lower-limb tables + TeachMeAnatomy.
+defaults: {kind: muscle, region: Membrum inferius, status: cross-checked, cite: [ttu-lowerlimb, tma-foot]}
+structures:
+  - id: m.extensor-digitorum-brevis
+    name: Musculus extensor digitorum brevis
+    img: "en:Extensor digitorum brevis muscle"
+    N: ["Nervus fibularis profundus"]
+    U: ["Calcaneus — dorsolateral surface"]
+    A: ["Toes II–IV (via the tendons of Musculus extensor digitorum longus)"]
+    F: ["Extensio — joints of toes II–IV"]
+
+  - id: m.extensor-hallucis-brevis
+    name: Musculus extensor hallucis brevis
+    img: "en:Extensor hallucis brevis muscle"
+    N: ["Nervus fibularis profundus"]
+    U: ["Calcaneus — dorsolateral surface"]
+    A: ["Basis phalangis proximalis hallucis"]
+    F: ["Extensio — Articulatio metatarsophalangea hallucis"]
+
+  - id: m.abductor-hallucis
+    name: Musculus abductor hallucis
+    img: "en:Abductor hallucis muscle"
+    N: ["Nervus plantaris medialis"]
+    U: ["Tuber calcanei — Processus medialis"]
+    A: ["Basis phalangis proximalis hallucis — medial side"]
+    F: ["Abductio — Articulatio metatarsophalangea hallucis", "Flexio — Articulatio metatarsophalangea hallucis"]
+
+  - id: m.flexor-digitorum-brevis
+    name: Musculus flexor digitorum brevis
+    img: "en:Flexor digitorum brevis muscle"
+    N: ["Nervus plantaris medialis"]
+    U: ["Tuber calcanei", "Aponeurosis plantaris"]
+    A: ["Phalanges mediae II–V"]
+    F: ["Flexio — Articulationes interphalangeae proximales of toes II–V"]
+
+  - id: m.abductor-digiti-minimi-pedis
+    name: Musculus abductor digiti minimi (pedis)
+    img: "en:Abductor digiti minimi muscle of foot"
+    N: ["Nervus plantaris lateralis"]
+    U: ["Tuber calcanei — Processus medialis and lateralis"]
+    A: ["Basis phalangis proximalis digiti V — lateral side"]
+    F: ["Abductio — Articulatio metatarsophalangea digiti V", "Flexio — Articulatio metatarsophalangea digiti V"]
+
+  - id: m.quadratus-plantae
+    name: Musculus quadratus plantae
+    synonyms: [Musculus flexor accessorius]
+    img: "en:Quadratus plantae muscle"
+    N: ["Nervus plantaris lateralis"]
+    U: ["Calcaneus — plantar surface"]
+    A: ["Tendines musculi flexoris digitorum longi"]
+    F: ["Assists Musculus flexor digitorum longus in flexing toes II–V — joints of toes II–V"]
+
+  - id: m.lumbricales-pedis
+    name: Musculi lumbricales (pedis)
+    img: "en:Lumbricals of the foot"
+    N: ["Nervus plantaris medialis (lumbricalis I)", "Nervus plantaris lateralis (lumbricales II–IV)"]
+    U: ["Tendines musculi flexoris digitorum longi"]
+    A: ["Dorsal aponeuroses (extensor expansions) of toes II–V"]
+    F: ["Flexio — Articulationes metatarsophalangeae II–V", "Extensio — Articulationes interphalangeae of toes II–V"]
+
+  - id: m.flexor-hallucis-brevis
+    name: Musculus flexor hallucis brevis
+    img: "en:Flexor hallucis brevis muscle"
+    N: ["Nervus plantaris medialis"]
+    U: ["Os cuboideum", "Os cuneiforme laterale"]
+    A: ["Basis phalangis proximalis hallucis"]
+    F: ["Flexio — Articulatio metatarsophalangea hallucis"]
+
+  - id: m.adductor-hallucis
+    name: Musculus adductor hallucis
+    img: "en:Adductor hallucis muscle"
+    parts: [Caput obliquum, Caput transversum]
+    N: ["Nervus plantaris lateralis — Ramus profundus"]
+    U: ["Caput obliquum :: Bases ossium metatarsi II–IV", "Caput transversum :: Region of the Articulationes metatarsophalangeae III–V"]
+    A: ["Basis phalangis proximalis hallucis — lateral side"]
+    F: ["Adductio — Articulatio metatarsophalangea hallucis"]
+
+  - id: m.flexor-digiti-minimi-brevis-pedis
+    name: Musculus flexor digiti minimi brevis (pedis)
+    img: "en:Flexor digiti minimi brevis muscle of foot"
+    N: ["Nervus plantaris lateralis"]
+    U: ["Basis ossis metatarsi V"]
+    A: ["Basis phalangis proximalis digiti V"]
+    F: ["Flexio — Articulatio metatarsophalangea digiti V"]
+
+  - id: m.interossei-dorsales-pedis
+    name: Musculi interossei dorsales (pedis)
+    img: "en:Dorsal interossei of the foot"
+    N: ["Nervus plantaris lateralis"]
+    U: ["Ossa metatarsi — adjacent sides of two neighbouring bones"]
+    A: ["Phalanges proximales: toe II (both sides), toes III–IV (lateral side)"]
+    F: ["Abductio of toes (away from the axis of toe II) — Articulationes metatarsophalangeae", "Flexio — Articulationes metatarsophalangeae"]
+
+  - id: m.interossei-plantares
+    name: Musculi interossei plantares
+    img: "en:Plantar interossei muscles"
+    N: ["Nervus plantaris lateralis"]
+    U: ["Ossa metatarsi III–V — medial side"]
+    A: ["Phalanges proximales III–V — medial side"]
+    F: ["Adductio of toes III–V (towards toe II) — Articulationes metatarsophalangeae", "Flexio — Articulationes metatarsophalangeae"]

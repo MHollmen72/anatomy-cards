@@ -61,3 +61,12 @@ tma-hand: {title: "Muscles of the Hand – TeachMeAnatomy", url: "https://teachm
 tma-pectoral: {title: "Muscles of the Pectoral Region – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/pectoral-region/", accessed: "2026-11-08"}
 tma-superficial-back: {title: "Superficial Back Muscles – TeachMeAnatomy", url: "https://teachmeanatomy.info/back/muscles/superficial/", accessed: "2026-11-08"}
 tma-shoulder-intrinsic: {title: "Intrinsic Muscles of the Shoulder – TeachMeAnatomy", url: "https://teachmeanatomy.info/upper-limb/muscles/shoulder/intrinsic/", accessed: "2026-11-08"}
+ttu-lowerlimb: {title: "Muscles of the Lower Limb – Listed Alphabetically (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/muscles_lowerlimb.html", accessed: "2026-11-08"}
+tma-gluteal: {title: "Muscles of the Gluteal Region – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/gluteal-region/", accessed: "2026-11-08"}
+tma-anterior-thigh: {title: "Muscles in the Anterior Compartment of the Thigh – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/thigh/anterior-compartment/", accessed: "2026-11-08"}
+tma-medial-thigh: {title: "Muscles in the Medial Compartment of the Thigh – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/thigh/medial-compartment/", accessed: "2026-11-08"}
+tma-hamstrings: {title: "The Hamstrings – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/thigh/hamstrings/", accessed: "2026-11-08"}
+tma-anterior-leg: {title: "Muscles in the Anterior Compartment of the Leg – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/leg/anterior-compartment/", accessed: "2026-11-08"}
+tma-lateral-leg: {title: "Muscles in the Lateral Compartment of the Leg – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/leg/lateral-compartment", accessed: "2026-11-08"}
+tma-posterior-leg: {title: "Muscles in the Posterior Compartment of the Leg – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/", accessed: "2026-11-08"}
+tma-foot: {title: "Muscles of the Foot – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/foot/", accessed: "2026-11-08"}
