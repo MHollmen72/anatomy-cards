@@ -70,3 +70,17 @@ tma-anterior-leg: {title: "Muscles in the Anterior Compartment of the Leg – Te
 tma-lateral-leg: {title: "Muscles in the Lateral Compartment of the Leg – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/leg/lateral-compartment", accessed: "2026-11-08"}
 tma-posterior-leg: {title: "Muscles in the Posterior Compartment of the Leg – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/leg/posterior-compartment/", accessed: "2026-11-08"}
 tma-foot: {title: "Muscles of the Foot – TeachMeAnatomy", url: "https://teachmeanatomy.info/lower-limb/muscles/foot/", accessed: "2026-11-08"}
+ttu-pelvis: {title: "Muscles of the Pelvis and Perineum – Listed Alphabetically (TTUHSC El Paso)", url: "https://anatomy.ttuhscep.edu/anatomytables/muscles_pelvis_perineum.html", accessed: "2026-11-08"}
+tma-intrinsic-back: {title: "Intrinsic Back Muscles – TeachMeAnatomy", url: "https://teachmeanatomy.info/back/muscles/intrinsic", accessed: "2026-11-08"}
+tma-suboccipital: {title: "Suboccipital Muscles – TeachMeAnatomy", url: "https://teachmeanatomy.info/neck/muscles/suboccipital/", accessed: "2026-11-08"}
+tma-thoracic-cage: {title: "Muscles of the Thoracic Cage – TeachMeAnatomy", url: "https://teachmeanatomy.info/thorax/muscles/thoracic-cage/", accessed: "2026-11-08"}
+tma-diaphragm: {title: "The Diaphragm – TeachMeAnatomy", url: "https://teachmeanatomy.info/thorax/muscles/diaphragm/", accessed: "2026-11-08"}
+tma-abdominal-wall: {title: "The Abdominal Wall – TeachMeAnatomy", url: "https://teachmeanatomy.info/abdomen/muscles/abdominal-wall/", accessed: "2026-11-08"}
+tma-posterior-abdominal-wall: {title: "Posterior Abdominal Wall – TeachMeAnatomy", url: "https://teachmeanatomy.info/abdomen/muscles/posterior-wall/", accessed: "2026-11-08"}
+tma-pelvic-floor: {title: "The Pelvic Floor – TeachMeAnatomy", url: "https://teachmeanatomy.info/pelvis/muscles/pelvic-floor/", accessed: "2026-11-08"}
+tma-perineum: {title: "The Perineum – TeachMeAnatomy", url: "https://teachmeanatomy.info/pelvis/areas/perineum/", accessed: "2026-11-08"}
+kh-perineum: {title: "Perineal region – Kenhub", url: "https://kenhub.com/en/library/anatomy/perineal-region", accessed: "2026-11-08"}
+kh-external-oblique: {title: "External abdominal oblique muscle – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/external-abdominal-oblique-muscle", accessed: "2026-11-08"}
+kh-internal-oblique: {title: "Internal abdominal oblique muscle – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/internal-abdominal-oblique-muscle", accessed: "2026-11-08"}
+kh-transversus-abdominis: {title: "Transversus abdominis muscle – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/transversus-abdominis-muscle", accessed: "2026-11-08"}
+kh-rectus-abdominis: {title: "Rectus abdominis muscle – Kenhub", url: "https://www.kenhub.com/en/library/anatomy/rectus-abdominis-muscle", accessed: "2026-11-08"}

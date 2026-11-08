@@ -1,0 +1,63 @@
+# Pelvic floor and perineum. Sources: TTUHSC pelvis tables + TeachMeAnatomy / Kenhub.
+defaults: {kind: muscle, region: Pelvis, status: cross-checked}
+structures:
+  - id: m.levator-ani
+    name: Musculus levator ani
+    cite: [ttu-pelvis, tma-pelvic-floor]
+    img: "en:Levator ani"
+    parts: [Musculus puborectalis, Musculus pubococcygeus, Musculus iliococcygeus]
+    N: ["Rami anteriores of the sacral nerves (Nervus musculi levatoris ani)"]
+    U: ["Musculus puborectalis :: Os pubis — posterior surface", "Musculus pubococcygeus :: Os pubis — posterior surface",
+        "Musculus iliococcygeus :: Spina ischiadica and Arcus tendineus musculi levatoris ani"]
+    A: ["Musculus puborectalis :: Sling around the anorectal junction, joining the muscle of the other side",
+        "Musculus iliococcygeus :: Os coccygis and Ligamentum anococcygeum"]
+    F: ["Elevates and supports the pelvic floor — Diaphragma pelvis",
+        "Musculus puborectalis :: Pulls the anorectal junction forwards (anorectal angle; faecal continence) — Diaphragma pelvis"]
+
+  - id: m.ischiococcygeus
+    name: Musculus ischiococcygeus
+    synonyms: [Musculus coccygeus]
+    cite: [ttu-pelvis, tma-pelvic-floor]
+    img: "en:Coccygeus muscle"
+    N: ["Rami anteriores of the lower sacral nerves"]
+    U: ["Spina ischiadica"]
+    A: ["Os coccygis — lateral border", "Os sacrum — lowest part"]
+    F: ["Supports the pelvic floor — Diaphragma pelvis"]
+
+  - id: m.sphincter-ani-externus
+    name: Musculus sphincter ani externus
+    cite: [ttu-pelvis, kh-perineum]
+    img: "en:External anal sphincter"
+    N: ["Nervus pudendus — Nervi anales (rectales) inferiores"]
+    U: ["Corpus perineale"]
+    A: ["Ligamentum anococcygeum / Os coccygis"]
+    F: ["Closes the Canalis analis (voluntary continence) — Canalis analis"]
+
+  - id: m.transversus-perinei-superficialis
+    name: Musculus transversus perinei superficialis
+    cite: [ttu-pelvis, kh-perineum]
+    img: "en:Superficial transverse perineal muscle"
+    N: ["Nervus pudendus — Nervus perinealis"]
+    A: ["Corpus perineale"]
+
+  - id: m.transversus-perinei-profundus
+    name: Musculus transversus perinei profundus
+    cite: [ttu-pelvis, tma-perineum]
+    img: "en:Deep transverse perineal muscle"
+    N: ["Nervus pudendus — Nervus perinealis"]
+    A: ["Corpus perineale"]
+
+  - id: m.bulbospongiosus
+    name: Musculus bulbospongiosus
+    cite: [ttu-pelvis, kh-perineum]
+    img: "en:Bulbospongiosus muscle"
+    N: ["Nervus pudendus — Nervus perinealis"]
+    U: [{text: "Corpus perineale", cite: [ttu-pelvis, tma-perineum]}]
+    F: ["Male: compresses the Corpus spongiosum; helps expel urine and semen (ejaculation) — Perineum"]
+
+  - id: m.ischiocavernosus
+    name: Musculus ischiocavernosus
+    cite: [ttu-pelvis, kh-perineum]
+    img: "en:Ischiocavernosus muscle"
+    N: ["Nervus pudendus — Nervus perinealis"]
+    F: ["Supports erection of the penis/clitoris (compresses the Crus of the Corpus cavernosum) — Perineum"]

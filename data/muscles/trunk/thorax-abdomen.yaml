@@ -1,0 +1,125 @@
+# Thoracic and abdominal wall, diaphragm. Sources: TTUHSC tables + TeachMeAnatomy (+ Kenhub where noted).
+defaults: {kind: muscle, status: cross-checked}
+structures:
+  - id: m.intercostales-externi
+    name: Musculi intercostales externi
+    region: Thorax
+    cite: [ttu-muscles, tma-thoracic-cage]
+    img: "en:External intercostal muscles"
+    N: ["Nervi intercostales"]
+    U: ["Costa — lower border"]
+    A: ["Upper border of the rib below"]
+    F: ["Stabilises the intercostal spaces during breathing — Thorax"]
+
+  - id: m.intercostales-interni
+    name: Musculi intercostales interni
+    region: Thorax
+    cite: [ttu-muscles, tma-thoracic-cage]
+    img: "en:Internal intercostal muscles"
+    N: ["Nervi intercostales"]
+    F: ["Stabilises the intercostal spaces during breathing — Thorax"]
+
+  - id: m.intercostales-intimi
+    name: Musculi intercostales intimi
+    region: Thorax
+    cite: [ttu-muscles, tma-thoracic-cage]
+    img: "en:Innermost intercostal muscle"
+    N: ["Nervi intercostales"]
+    F: ["Stabilises the intercostal spaces during breathing — Thorax"]
+
+  - id: m.transversus-thoracis
+    name: Musculus transversus thoracis
+    region: Thorax
+    cite: [ttu-muscles, tma-thoracic-cage]
+    img: "en:Transversus thoracis muscle"
+    N: ["Nervi intercostales (II–VI)"]
+    U: ["Sternum — posterior (inner) surface"]
+    A: ["Cartilagines costales II–VI — inner surface"]
+    F: ["Expiration: depresses the ribs / compresses the thorax — Thorax"]
+
+  - id: m.diaphragma
+    name: Diaphragma
+    region: Thorax
+    cite: [ttu-muscles, tma-diaphragm]
+    img: "en:Thoracic diaphragm"
+    parts: [Pars sternalis, Pars costalis, Pars lumbalis]
+    N: ["Nervus phrenicus (C3–C5)"]
+    U: ["Pars sternalis :: Processus xiphoideus", "Pars costalis :: Lower costal cartilages and ribs (costal margin)",
+        "Pars lumbalis :: Vertebrae lumbales (upper lumbar bodies, via the crura) and Ligamenta arcuata"]
+    A: ["Centrum tendineum"]
+    F: ["Main muscle of inspiration: contracts and flattens, enlarging the thoracic cavity — Thorax"]
+
+  - id: m.rectus-abdominis
+    name: Musculus rectus abdominis
+    region: Abdomen
+    cite: [ttu-muscles, tma-abdominal-wall, kh-rectus-abdominis]
+    img: "en:Rectus abdominis muscle"
+    N: ["Nervi intercostales (VII–XI)"]
+    U: ["Crista pubica / Symphysis pubica"]
+    A: ["Processus xiphoideus", "Cartilagines costales V–VII"]
+    F: [{text: "Flexio of the trunk — Columna vertebralis", cite: [ttu-muscles, kh-rectus-abdominis]},
+        {text: "Compression of the abdominal viscera — Abdomen", cite: [tma-abdominal-wall, kh-rectus-abdominis]}]
+
+  - id: m.obliquus-externus-abdominis
+    name: Musculus obliquus externus abdominis
+    region: Abdomen
+    cite: [ttu-muscles, tma-abdominal-wall, kh-external-oblique]
+    img: "en:Abdominal external oblique muscle"
+    N: ["Nervi intercostales (VII–XI)", "Nervus subcostalis"]
+    U: ["Costae V–XII — outer surfaces"]
+    A: ["Linea alba", "Tuberculum pubicum", "Crista iliaca — anterior part"]
+    F: [{text: "Flexio of the trunk (both sides) — Columna vertebralis", cite: [ttu-muscles, kh-external-oblique]},
+        {text: "Lateral flexion to the same side (one side) — Columna vertebralis", cite: [ttu-muscles, kh-external-oblique]},
+        {text: "Rotation of the trunk to the opposite side (one side) — Columna vertebralis", cite: [tma-abdominal-wall, kh-external-oblique]}]
+
+  - id: m.obliquus-internus-abdominis
+    name: Musculus obliquus internus abdominis
+    region: Abdomen
+    cite: [ttu-muscles, tma-abdominal-wall, kh-internal-oblique]
+    img: "en:Abdominal internal oblique muscle"
+    N: ["Nervi intercostales (VII–XI)", "Nervus subcostalis", "Nervus iliohypogastricus", "Nervus ilioinguinalis"]
+    U: ["Fascia thoracolumbalis", "Crista iliaca", "Ligamentum inguinale — lateral part"]
+    A: ["Costae X–XII (lower ribs)", "Linea alba", "Crista pubica"]
+    F: [{text: "Flexio of the trunk (both sides) — Columna vertebralis", cite: [ttu-muscles, kh-internal-oblique]},
+        {text: "Lateral flexion to the same side (one side) — Columna vertebralis", cite: [ttu-muscles, kh-internal-oblique]},
+        {text: "Rotation of the trunk to the same side (one side) — Columna vertebralis", cite: [tma-abdominal-wall, kh-internal-oblique]},
+        {text: "Compression of the abdominal viscera — Abdomen", cite: [tma-abdominal-wall, kh-internal-oblique]}]
+
+  - id: m.transversus-abdominis
+    name: Musculus transversus abdominis
+    region: Abdomen
+    cite: [ttu-muscles, tma-abdominal-wall, kh-transversus-abdominis]
+    img: "en:Transverse abdominal muscle"
+    N: ["Nervi intercostales (VII–XI)", "Nervus subcostalis", "Nervus iliohypogastricus", "Nervus ilioinguinalis"]
+    U: ["Cartilagines costales VII–XII — inner surfaces", "Fascia thoracolumbalis", "Crista iliaca", "Ligamentum inguinale — lateral part"]
+    A: ["Linea alba", "Crista pubica", "Pecten ossis pubis"]
+    F: [{text: "Compression of the abdominal viscera — Abdomen", cite: [tma-abdominal-wall, kh-transversus-abdominis]}]
+
+  - id: m.pyramidalis
+    name: Musculus pyramidalis
+    region: Abdomen
+    cite: [ttu-muscles, tma-abdominal-wall]
+    img: "en:Pyramidalis muscle"
+    N: ["Nervus subcostalis"]
+    U: ["Os pubis — in front of Musculus rectus abdominis"]
+    A: ["Linea alba"]
+    F: ["Tenses the Linea alba — Abdomen"]
+
+  - id: m.quadratus-lumborum
+    name: Musculus quadratus lumborum
+    region: Abdomen
+    cite: [ttu-muscles, tma-posterior-abdominal-wall]
+    img: "en:Quadratus lumborum muscle"
+    N: ["Rami anteriores T12–L4 (incl. Nervus subcostalis)"]
+    U: ["Crista iliaca — posterior part", "Ligamentum iliolumbale"]
+    A: ["Costa XII", "Processus costales (transverse processes) L1–L4"]
+    F: ["Lateral flexion of the lumbar spine — Columna vertebralis", "Fixes rib XII during breathing — Thorax"]
+
+  - id: m.psoas-minor
+    name: Musculus psoas minor
+    region: Abdomen
+    cite: [ttu-muscles, tma-posterior-abdominal-wall]
+    img: "en:Psoas minor muscle"
+    N: ["Ramus anterior L1"]
+    U: ["Corpora vertebrarum T12 and L1"]
+    F: ["Flexio of the lumbar spine — Columna vertebralis"]

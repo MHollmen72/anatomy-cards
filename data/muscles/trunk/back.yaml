@@ -1,0 +1,110 @@
+# Intrinsic (autochthonous) back muscles and suboccipital muscles.
+# Sources: TTUHSC muscle tables + TeachMeAnatomy. Only facts stated by both are included.
+defaults: {kind: muscle, region: Dorsum, status: cross-checked, cite: [ttu-muscles, tma-intrinsic-back]}
+structures:
+  - id: m.iliocostalis
+    name: Musculus iliocostalis
+    img: "en:Iliocostalis"
+    N: ["Rami posteriores nervorum spinalium"]
+    U: ["Crista iliaca", "Os sacrum"]
+    A: ["Anguli costarum"]
+    F: ["Extensio (both sides) — Columna vertebralis", "Lateral flexion to the same side (one side) — Columna vertebralis"]
+
+  - id: m.longissimus
+    name: Musculus longissimus
+    img: "en:Longissimus"
+    N: ["Rami posteriores nervorum spinalium"]
+    U: ["Vertebrae of lower levels (common origin of the erector spinae)"]
+    A: ["Processus transversi of higher vertebrae", "Processus mastoideus"]
+    F: ["Extensio of the vertebral column and head (both sides) — Columna vertebralis", "Lateral flexion to the same side (one side) — Columna vertebralis"]
+
+  - id: m.spinalis
+    name: Musculus spinalis
+    img: "en:Spinalis"
+    N: ["Rami posteriores nervorum spinalium"]
+    U: ["Processus spinosi of lower vertebrae"]
+    A: ["Processus spinosi of higher vertebrae", "Os occipitale"]
+    F: ["Extensio (both sides) — Columna vertebralis", "Lateral flexion to the same side (one side) — Columna vertebralis"]
+
+  - id: m.semispinalis
+    name: Musculus semispinalis
+    img: "en:Semispinalis muscles"
+    N: ["Rami posteriores nervorum spinalium"]
+    U: ["Processus transversi of cervical and thoracic vertebrae"]
+    A: ["Processus spinosi several segments higher", "Os occipitale (Musculus semispinalis capitis)"]
+    F: ["Extensio of the vertebral column and head — Columna vertebralis", "Rotation to the opposite side — Columna vertebralis"]
+
+  - id: m.multifidus
+    name: Musculus multifidus
+    img: "en:Multifidus muscle"
+    N: ["Rami posteriores nervorum spinalium"]
+    U: ["Os sacrum", "Transverse (and mammillary) processes of the vertebrae"]
+    A: ["Processus spinosi 2–4 segments higher"]
+
+  - id: m.rotatores
+    name: Musculi rotatores
+    img: "en:Rotatores muscles"
+    N: ["Rami posteriores nervorum spinalium"]
+    U: ["Processus transversi"]
+    A: ["Processus spinosi (and laminae) of the vertebra 1–2 segments higher"]
+    F: ["Rotatio — Columna vertebralis"]
+
+  - id: m.levatores-costarum
+    name: Musculi levatores costarum
+    img: "en:Levatores costarum muscles"
+    U: ["Processus transversi C7–T11"]
+    A: ["The next rib below"]
+    F: ["Elevatio costarum — Articulationes costovertebrales"]
+
+  - id: m.splenius-capitis
+    name: Musculus splenius capitis
+    img: "en:Splenius capitis muscle"
+    N: ["Rami posteriores of the cervical spinal nerves"]
+    U: ["Ligamentum nuchae", "Processus spinosi of C7 and the upper thoracic vertebrae"]
+    A: ["Processus mastoideus", "Os occipitale (lateral part of the Linea nuchalis superior)"]
+    F: ["Rotation of the head to the same side (one side) — Articulationes capitis / cervical spine", "Extensio of head and neck (both sides) — Articulationes capitis / cervical spine"]
+
+  - id: m.splenius-cervicis
+    name: Musculus splenius cervicis
+    img: "en:Splenius cervicis muscle"
+    N: ["Rami posteriores of the cervical spinal nerves"]
+    U: ["Processus spinosi T3–T6"]
+    A: ["Processus transversi C1–C3 (posterior tubercles)"]
+    F: ["Rotation of the head to the same side (one side) — cervical spine", "Extensio of head and neck (both sides) — cervical spine"]
+
+  # --- suboccipital muscles
+  - id: m.rectus-capitis-posterior-major
+    name: Musculus rectus capitis posterior major
+    cite: [ttu-muscles, tma-suboccipital]
+    img: "en:Rectus capitis posterior major muscle"
+    N: ["Nervus suboccipitalis (Ramus posterior C1)"]
+    U: ["Processus spinosus axis (C2)"]
+    A: ["Linea nuchalis inferior — lateral part"]
+    F: ["Extensio capitis — Articulationes atlantooccipitales", "Rotation of the head to the same side — Articulationes atlantoaxiales"]
+
+  - id: m.rectus-capitis-posterior-minor
+    name: Musculus rectus capitis posterior minor
+    cite: [ttu-muscles, tma-suboccipital]
+    img: "en:Rectus capitis posterior minor muscle"
+    N: ["Nervus suboccipitalis (Ramus posterior C1)"]
+    U: ["Tuberculum posterius atlantis (C1)"]
+    A: ["Linea nuchalis inferior — medial part"]
+    F: ["Extensio capitis — Articulationes atlantooccipitales"]
+
+  - id: m.obliquus-capitis-inferior
+    name: Musculus obliquus capitis inferior
+    cite: [ttu-muscles, tma-suboccipital]
+    img: "en:Obliquus capitis inferior muscle"
+    N: ["Nervus suboccipitalis (Ramus posterior C1)"]
+    U: ["Processus spinosus axis (C2)"]
+    A: ["Processus transversus atlantis (C1)"]
+    F: ["Rotation of the head to the same side — Articulationes atlantoaxiales"]
+
+  - id: m.obliquus-capitis-superior
+    name: Musculus obliquus capitis superior
+    cite: [ttu-muscles, tma-suboccipital]
+    img: "en:Obliquus capitis superior muscle"
+    N: ["Nervus suboccipitalis (Ramus posterior C1)"]
+    U: ["Processus transversus atlantis (C1)"]
+    A: ["Os occipitale — between the Lineae nuchales superior and inferior"]
+    F: ["Extensio capitis — Articulationes atlantooccipitales"]
