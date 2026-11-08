@@ -41,7 +41,6 @@ structures:
     name: Diaphragma
     region: Thorax
     cite: [ttu-muscles, tma-diaphragm]
-    img: "en:Thoracic diaphragm"
     parts: [Pars sternalis, Pars costalis, Pars lumbalis]
     N: ["Nervus phrenicus (C3–C5)"]
     U: ["Pars sternalis :: Processus xiphoideus", "Pars costalis :: Lower costal cartilages and ribs (costal margin)",
@@ -64,7 +63,6 @@ structures:
     name: Musculus obliquus externus abdominis
     region: Abdomen
     cite: [ttu-muscles, tma-abdominal-wall, kh-external-oblique]
-    img: "en:Abdominal external oblique muscle"
     N: ["Nervi intercostales (VII–XI)", "Nervus subcostalis"]
     U: ["Costae V–XII — outer surfaces"]
     A: ["Linea alba", "Tuberculum pubicum", "Crista iliaca — anterior part"]
@@ -89,7 +87,6 @@ structures:
     name: Musculus transversus abdominis
     region: Abdomen
     cite: [ttu-muscles, tma-abdominal-wall, kh-transversus-abdominis]
-    img: "en:Transverse abdominal muscle"
     N: ["Nervi intercostales (VII–XI)", "Nervus subcostalis", "Nervus iliohypogastricus", "Nervus ilioinguinalis"]
     U: ["Cartilagines costales VII–XII — inner surfaces", "Fascia thoracolumbalis", "Crista iliaca", "Ligamentum inguinale — lateral part"]
     A: ["Linea alba", "Crista pubica", "Pecten ossis pubis"]

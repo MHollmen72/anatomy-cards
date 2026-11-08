@@ -4,7 +4,6 @@ structures:
   - id: m.sartorius
     name: Musculus sartorius
     cite: [ttu-lowerlimb, tma-anterior-thigh]
-    img: "en:Sartorius muscle"
     N: ["Nervus femoralis"]
     U: ["Spina iliaca anterior superior"]
     A: ["Tibia — medial surface, proximal (Pes anserinus)"]
@@ -23,7 +22,6 @@ structures:
   - id: m.vastus-lateralis
     name: Musculus vastus lateralis
     cite: [ttu-lowerlimb, tma-anterior-thigh]
-    img: "en:Vastus lateralis muscle"
     N: ["Nervus femoralis"]
     U: ["Labium laterale lineae asperae"]
     A: ["Patella (via the tendon of Musculus quadriceps femoris)"]
@@ -32,7 +30,6 @@ structures:
   - id: m.vastus-medialis
     name: Musculus vastus medialis
     cite: [ttu-lowerlimb, tma-anterior-thigh]
-    img: "en:Vastus medialis"
     N: ["Nervus femoralis"]
     U: ["Labium mediale lineae asperae"]
     A: ["Patella (via the tendon of Musculus quadriceps femoris)"]
@@ -41,7 +38,6 @@ structures:
   - id: m.vastus-intermedius
     name: Musculus vastus intermedius
     cite: [ttu-lowerlimb, tma-anterior-thigh]
-    img: "en:Vastus intermedius muscle"
     N: ["Nervus femoralis"]
     U: ["Femur — anterior and lateral surfaces of the shaft"]
     A: ["Patella (via the tendon of Musculus quadriceps femoris)"]
@@ -106,7 +102,6 @@ structures:
   - id: m.semitendinosus
     name: Musculus semitendinosus
     cite: [ttu-lowerlimb, tma-hamstrings]
-    img: "en:Semitendinosus muscle"
     N: ["Nervus tibialis (tibial part of Nervus ischiadicus)"]
     U: ["Tuber ischiadicum"]
     A: ["Tibia — medial surface (Pes anserinus)"]

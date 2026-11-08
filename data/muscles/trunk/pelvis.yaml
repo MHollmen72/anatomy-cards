@@ -27,7 +27,6 @@ structures:
   - id: m.sphincter-ani-externus
     name: Musculus sphincter ani externus
     cite: [ttu-pelvis, kh-perineum]
-    img: "en:External anal sphincter"
     N: ["Nervus pudendus — Nervi anales (rectales) inferiores"]
     U: ["Corpus perineale"]
     A: ["Ligamentum anococcygeum / Os coccygis"]

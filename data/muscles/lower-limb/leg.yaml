@@ -62,7 +62,6 @@ structures:
   - id: m.gastrocnemius
     name: Musculus gastrocnemius
     cite: [ttu-lowerlimb, tma-posterior-leg]
-    img: "en:Gastrocnemius muscle"
     parts: [Caput mediale, Caput laterale]
     N: ["Nervus tibialis"]
     U: ["Caput mediale :: Femur — above the Condylus medialis", "Caput laterale :: Femur — above the Condylus lateralis"]
@@ -73,7 +72,6 @@ structures:
   - id: m.soleus
     name: Musculus soleus
     cite: [ttu-lowerlimb, tma-posterior-leg]
-    img: "en:Soleus muscle"
     N: ["Nervus tibialis"]
     U: ["Linea musculi solei tibiae", "Fibula — proximal part (head and upper shaft)"]
     A: ["Tuber calcanei (via the Tendo calcaneus)"]
