@@ -1,9 +1,10 @@
-img.rectus-femoris: article en:Rectus femoris muscle has no lead image
-img.biceps-femoris: article en:Biceps femoris muscle has no lead image
-img.semimembranosus: article en:Semimembranosus muscle has no lead image
-img.levator-ani: article en:Levator ani has no lead image
-img.pronator-teres: article en:Pronator teres muscle has no lead image
-img.flexor-carpi-ulnaris: article en:Flexor carpi ulnaris muscle has no lead image
-img.extensor-carpi-radialis-brevis: article en:Extensor carpi radialis brevis muscle has no lead image
-img.interossei-dorsales-manus: article en:Dorsal interossei of the hand has no lead image
-img.interossei-palmares: article en:Palmar interossei muscles has no lead image
+All images imported.
+note: img.rectus-femoris: article en:Rectus femoris muscle has no lead image (placeholder shown)
+note: img.biceps-femoris: article en:Biceps femoris muscle has no lead image (placeholder shown)
+note: img.semimembranosus: article en:Semimembranosus muscle has no lead image (placeholder shown)
+note: img.levator-ani: article en:Levator ani has no lead image (placeholder shown)
+note: img.pronator-teres: article en:Pronator teres muscle has no lead image (placeholder shown)
+note: img.flexor-carpi-ulnaris: article en:Flexor carpi ulnaris muscle has no lead image (placeholder shown)
+note: img.extensor-carpi-radialis-brevis: article en:Extensor carpi radialis brevis muscle has no lead image (placeholder shown)
+note: img.interossei-dorsales-manus: article en:Dorsal interossei of the hand has no lead image (placeholder shown)
+note: img.interossei-palmares: article en:Palmar interossei muscles has no lead image (placeholder shown)
