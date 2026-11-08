@@ -32,6 +32,17 @@
     </button>
   </header>
 
+  <section class="mastery" aria-label="Mastery">
+    <p class="mastery-end"><span class="mastery-num" id="mastered-count">0</span> <span class="mastery-label">mastered</span></p>
+    <div class="mastery-track" id="mastery-bar" role="progressbar" aria-label="Cards mastered" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="mastery-fill" id="mastery-fill"></div>
+    </div>
+    <p class="mastery-end"><span class="mastery-num" id="total-count">0</span> <span class="mastery-label">total</span></p>
+    <p class="mastery-pct" id="mastered-pct">0 %</p>
+  </section>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+
   <div id="banners" class="banners"></div>
 
   <main id="card" class="card" tabindex="-1">
@@ -39,6 +50,7 @@
   </main>
 
   <footer class="foot">
+    <p id="prototype-note" hidden>Prototype: a small upper-limb sample, not the full curriculum.</p>
     <p>Educational study tool only — not a substitute for formal teaching, qualified anatomical instruction or clinical judgement.</p>
   </footer>
 
@@ -69,6 +81,8 @@
     <section>
       <h3>Deck</h3>
       <p class="muted"><span id="total-cards">0</span> cards available · <span id="held-back">0</span> held back until all their facts are cross-checked.</p>
+      <p class="muted"><span id="menu-mastered">0</span> mastered (answered "I knew this" 7 times) and no longer shown.</p>
+      <div class="row"><button class="btn" id="unmaster" type="button">Study mastered cards again…</button></div>
     </section>
 
     <section>

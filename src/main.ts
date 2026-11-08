@@ -1,6 +1,7 @@
 // Anatomy Cards — flashcard quiz screen.
 import { daysSince, makeSnapshot, parseSnapshot, reconcile } from './core/backup.js';
 import { bump, localDateKey, today } from './core/counters.js';
+import { isMastered, knewCountsFromLog, MASTERY_THRESHOLD, milestone, percent, totals, type Totals } from './core/mastery.js';
 import { grade, isNew, newCard } from './core/scheduler.js';
 import { buildQueue, requeueFailed } from './core/session.js';
 import type { CardData, CardProgress, DayCounter, Deck, ImageData } from './core/types.js';
@@ -11,6 +12,7 @@ const EXPORT_REMINDER_DAYS = 14;
 interface AppState {
   deck: Deck;
   byId: Map<string, CardData>;
+  deckIds: Set<string>;
   progress: Map<string, CardProgress>;
   counter: DayCounter;
   queue: string[];
@@ -60,12 +62,23 @@ async function start(): Promise<void> {
   const counter = today(await store.getMeta<DayCounter>('counter'), new Date());
   const lastExport = await store.getMeta<string>('lastExport');
   const log = await store.getAllLog();
+
+  // Progress saved before mastery tracking existed: count "I knew this" answers from the log.
+  const counts = knewCountsFromLog(log);
+  const migrated = [...progress.values()]
+    .filter((p) => p.knewCount === undefined)
+    .map((p) => ({ ...p, knewCount: counts.get(p.id) ?? 0 }));
+  if (migrated.length) {
+    await store.putProgress(...migrated);
+    for (const m of migrated) progress.set(m.id, m);
+  }
   const logCount = log.length;
   const firstUse = log[0]?.at;
 
   state = {
     deck,
     byId: new Map(deck.cards.map((c) => [c.id, c])),
+    deckIds: new Set(deck.cards.map((c) => c.id)),
     progress,
     counter,
     queue: buildQueue(deck.cards, progress, new Date()),
@@ -88,6 +101,23 @@ function renderCounters(): void {
   $('count-new').textContent = String(c.newCount);
   $('count-reviews').textContent = String(c.reviewCount);
   $('count-left').textContent = String(state.queue.length + (state.current ? 1 : 0));
+  renderProgress();
+}
+
+function currentTotals(): Totals {
+  return totals(state.progress.values(), state.deckIds);
+}
+
+function renderProgress(): void {
+  const t = currentTotals();
+  const pct = percent(t.mastered, t.total);
+  $('mastered-count').textContent = String(t.mastered);
+  $('total-count').textContent = String(t.total);
+  $('mastered-pct').textContent = `${pct} %`;
+  const bar = $('mastery-bar');
+  bar.setAttribute('aria-valuenow', String(pct));
+  bar.setAttribute('aria-valuetext', `${t.mastered} of ${t.total} cards mastered, ${pct} percent`);
+  ($('mastery-fill') as HTMLElement).style.width = `${t.total ? (t.mastered / t.total) * 100 : 0}%`;
 }
 
 // ---------- card flow ----------
@@ -106,13 +136,22 @@ function next(): void {
 function renderCard(): void {
   const main = $('card');
   main.replaceChildren();
+  main.classList.toggle('revealed', state.revealed);
   const card = state.current ? state.byId.get(state.current) : undefined;
 
   if (!card) {
+    const c = today(state.counter, new Date());
+    const t = currentTotals();
+    const allMastered = t.total > 0 && t.mastered === t.total;
     main.append(
       h('div', { class: 'empty' },
-        h('h1', { tabindex: '-1', id: 'card-title' }, 'All done for today'),
-        h('p', {}, 'There are no more due or new cards right now. Come back tomorrow — FSRS has scheduled your next reviews.'),
+        h('h1', { tabindex: '-1', id: 'card-title' }, allMastered ? 'Every card mastered' : 'All done for today'),
+        c.newCount + c.reviewCount > 0
+          ? h('p', { class: 'well-done' }, `Well done — ${c.newCount} new ${c.newCount === 1 ? 'card' : 'cards'} and ${c.reviewCount} ${c.reviewCount === 1 ? 'review' : 'reviews'} today.`)
+          : '',
+        h('p', {}, allMastered
+          ? 'You have mastered the whole deck. New cards will appear here as the deck grows.'
+          : 'There are no more due or new cards right now. Come back tomorrow — FSRS has scheduled your next reviews.'),
       ),
     );
     ($('card-title') as HTMLElement).focus();
@@ -125,18 +164,19 @@ function renderCard(): void {
     h('p', { class: 'meta' }, `${card.region} · ${kind}`),
     h('h1', { id: 'card-title', lang: 'la', tabindex: '-1' }, card.name),
     card.synonyms.length ? h('p', { class: 'syn', lang: 'la' }, `Syn.: ${card.synonyms.join('; ')}`) : '',
-    renderImage(card.image ? state.deck.images[card.image] : undefined, state.revealed),
     h('p', { class: 'prompt' },
       h('span', { class: 'letter', 'aria-hidden': 'true' }, card.letter),
       h('span', { class: 'visually-hidden' }, `Category ${card.letter}: `),
       card.label,
     ),
   );
+  const figure = renderImage(card.image ? state.deck.images[card.image] : undefined, state.revealed);
 
   if (!state.revealed) {
+    main.append(figure);
     const btn = h('button', { class: 'btn primary reveal', id: 'reveal', type: 'button', onclick: reveal },
       'Reveal answer', h('kbd', { 'aria-hidden': 'true' }, 'Space'));
-    main.append(btn);
+    main.append(h('div', { class: 'actions' }, btn));
     btn.focus();
     return;
   }
@@ -148,15 +188,10 @@ function renderCard(): void {
     answer.append(h('ul', {}, ...g.lines.map((l) => h('li', {}, l))));
   }
   main.append(answer);
-
-  main.append(
-    h('div', { class: 'grade', role: 'group', 'aria-label': 'Grade yourself' },
-      h('button', { class: 'btn fail', type: 'button', id: 'btn-fail', onclick: () => void onGrade(false) },
-        "I didn't know this", h('kbd', { 'aria-hidden': 'true' }, '1')),
-      h('button', { class: 'btn pass', type: 'button', id: 'btn-pass', onclick: () => void onGrade(true) },
-        'I knew this', h('kbd', { 'aria-hidden': 'true' }, '2')),
-    ),
-  );
+  const knew = p?.knewCount ?? 0;
+  main.append(h('p', { class: 'streak muted' },
+    `Known ${knew} of ${MASTERY_THRESHOLD} times needed to master this card`));
+  main.append(figure);
 
   main.append(
     h('details', { class: 'sources' },
@@ -173,6 +208,16 @@ function renderCard(): void {
       h('button', { class: 'btn link', type: 'button', onclick: () => void flagCard(card.id) }, 'Flag as wrong'),
     ),
   );
+
+  main.append(
+    h('div', { class: 'actions grade', role: 'group', 'aria-label': 'Grade yourself' },
+      h('button', { class: 'btn fail', type: 'button', id: 'btn-fail', onclick: () => void onGrade(false) },
+        "I didn't know this", h('kbd', { 'aria-hidden': 'true' }, '1')),
+      h('button', { class: 'btn pass', type: 'button', id: 'btn-pass', onclick: () => void onGrade(true) },
+        'I knew this', h('kbd', { 'aria-hidden': 'true' }, '2')),
+    ),
+  );
+
   ($('answer-heading') as HTMLElement).focus();
 }
 
@@ -213,8 +258,14 @@ async function onGrade(knew: boolean): Promise<void> {
   const now = new Date();
   const prev = state.progress.get(id) ?? { id, fsrs: newCard(now), flagged: false, confirmed: false, suspended: false };
   const wasNew = isNew(prev.fsrs);
-  const updated: CardProgress = { ...prev, fsrs: grade(prev.fsrs, knew, now) };
+  const before = currentTotals();
+  const updated: CardProgress = {
+    ...prev,
+    fsrs: grade(prev.fsrs, knew, now),
+    knewCount: (prev.knewCount ?? 0) + (knew ? 1 : 0),
+  };
   state.progress.set(id, updated);
+  const justMastered = !isMastered(prev) && isMastered(updated);
   state.counter = bump(state.counter, now, wasNew);
   state.logCount++;
   state.firstUse ??= now.toISOString();
@@ -225,8 +276,11 @@ async function onGrade(knew: boolean): Promise<void> {
   } catch (e) {
     showError(`Your answer could not be saved: ${(e as Error).message}`);
   }
-  announce(knew ? 'Marked as known' : 'Marked as not known; it will come back shortly');
-  renderBanners();
+  const message = milestone(before, currentTotals());
+  if (message) celebrate(message);
+  else announce(justMastered ? 'Card mastered — it will no longer be shown'
+    : knew ? 'Marked as known' : 'Marked as not known; it will come back shortly');
+  void renderBanners();
   next();
 }
 
@@ -287,9 +341,7 @@ function isStandalone(): boolean {
 async function renderBanners(): Promise<void> {
   const box = $('banners');
   box.replaceChildren();
-  if (state.deck.prototype) {
-    box.append(h('p', { class: 'banner info' }, 'Prototype: a small upper-limb sample, not the full curriculum.'));
-  }
+  $('prototype-note').hidden = !state.deck.prototype;
   const hintDismissed = await store.getMeta<boolean>('installHintDismissed');
   if (isIos() && !isStandalone() && !hintDismissed) {
     box.append(h('div', { class: 'banner' },
@@ -307,6 +359,23 @@ async function renderBanners(): Promise<void> {
   }
 }
 
+let toastTimer = 0;
+function celebrate(text: string): void {
+  const toast = $('toast');
+  toast.replaceChildren(
+    h('p', {}, h('span', { class: 'toast-icon', 'aria-hidden': 'true' }, '★'), ' ', text),
+    h('button', { class: 'btn small', type: 'button', onclick: () => hideToast() }, 'Continue'),
+  );
+  toast.hidden = false;
+  announce(text);
+  window.clearTimeout(toastTimer);
+  toastTimer = window.setTimeout(hideToast, 8000);
+}
+function hideToast(): void {
+  $('toast').hidden = true;
+  window.clearTimeout(toastTimer);
+}
+
 function showError(text: string): void {
   $('banners').prepend(h('p', { class: 'banner error', role: 'alert' }, text));
 }
@@ -318,12 +387,14 @@ function bindMenu(): void {
     renderFlagged();
     $('held-back').textContent = String(state.deck.heldBack);
     $('total-cards').textContent = String(state.deck.cards.length);
+    $('menu-mastered').textContent = String(currentTotals().mastered);
     dialog.showModal();
   });
   $('close-menu').addEventListener('click', () => dialog.close());
   $('export').addEventListener('click', () => void exportProgress());
   $('import-file').addEventListener('change', (e) => void importProgress(e));
   $('reset').addEventListener('click', () => void resetProgress());
+  $('unmaster').addEventListener('click', () => void unmasterAll());
 }
 
 function renderFlagged(): void {
@@ -372,6 +443,15 @@ async function importProgress(e: Event): Promise<void> {
   } catch (err) {
     window.alert((err as Error).message);
   }
+}
+
+async function unmasterAll(): Promise<void> {
+  const mastered = [...state.progress.values()].filter((p) => isMastered(p));
+  if (mastered.length === 0) { window.alert('No cards are mastered yet.'); return; }
+  if (!window.confirm(`Bring ${mastered.length} mastered cards back into study? Their scheduling is kept; they need ${MASTERY_THRESHOLD} more "I knew this" answers to be mastered again.`)) return;
+  const back = mastered.map((p) => ({ ...p, knewCount: 0 }));
+  await store.putProgress(...back);
+  window.location.reload();
 }
 
 async function resetProgress(): Promise<void> {

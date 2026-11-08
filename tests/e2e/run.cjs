@@ -158,6 +158,80 @@ async function run() {
     });
     await broken.close();
 
+    // ---------- One screen on iPhones: main button visible without scrolling ----------
+    for (const name of ['iPhone SE', 'iPhone 13', 'iPhone 15 Pro Max']) {
+      const ctx = await browser.newContext({ ...devices[name] });
+      const pg = await ctx.newPage();
+      await pg.goto(URL);
+      await pg.waitForSelector('#card-title');
+      // check the first few cards, question side and answer side
+      for (let i = 0; i < 4; i++) {
+        await test(`${name}: card ${i + 1} — Reveal button on screen without scrolling`, async () => {
+          const box = await pg.locator('#reveal').boundingBox();
+          const vh = pg.viewportSize().height;
+          assert.ok(box && box.y + box.height <= vh, `button bottom ${box && box.y + box.height} > ${vh}`);
+          const imgBottom = await pg.evaluate(() => { const i = document.querySelector('.img-wrap'); return i ? i.getBoundingClientRect().bottom : 0; });
+          assert.ok(imgBottom <= vh, 'image extends below the screen');
+          assert.equal(await pg.evaluate(() => window.scrollY), 0);
+        });
+        await pg.click('#reveal');
+        await test(`${name}: card ${i + 1} — grade buttons on screen without scrolling`, async () => {
+          for (const id of ['#btn-pass', '#btn-fail']) {
+            const box = await pg.locator(id).boundingBox();
+            assert.ok(box && box.y >= 0 && box.y + box.height <= pg.viewportSize().height, `${id} off screen`);
+          }
+        });
+        await pg.click('#btn-pass');
+        await pg.waitForSelector('#reveal');
+      }
+      if (name === 'iPhone 13') await pg.screenshot({ path: 'test-results/iphone13-question.png' });
+      if (name === 'iPhone SE') { await pg.screenshot({ path: 'test-results/iphoneSE-question.png' }); await pg.click('#reveal'); await pg.screenshot({ path: 'test-results/iphoneSE-answer.png' }); }
+      await ctx.close();
+    }
+
+    // ---------- Mastery ----------
+    const m = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const mp = await m.newPage();
+    await mp.goto(URL);
+    await mp.waitForSelector('#card-title');
+    await test('Mastery bar shows 0 mastered of all cards at the start', async () => {
+      assert.equal(await mp.textContent('#mastered-count'), '0');
+      assert.ok(Number(await mp.textContent('#total-count')) > 0);
+      assert.equal(await mp.textContent('#mastered-pct'), '0 %');
+      assert.equal(await mp.getAttribute('#mastery-bar', 'role'), 'progressbar');
+    });
+    await test('A card answered "I knew this" for the 7th time becomes mastered and leaves the deck', async () => {
+      // Answer one card, then give every stored card 6 earlier successes and make it due again.
+      await mp.click('#reveal');
+      await mp.click('#btn-pass');
+      await mp.evaluate(async () => {
+        const db = await new Promise((r) => { const q = indexedDB.open('anatomy-cards'); q.onsuccess = () => r(q.result); });
+        const tx = db.transaction('progress', 'readwrite');
+        const store = tx.objectStore('progress');
+        const all = await new Promise((r) => { const q = store.getAll(); q.onsuccess = () => r(q.result); });
+        for (const p of all) { p.knewCount = 6; p.fsrs.due = new Date(0).toISOString(); store.put(p); }
+        await new Promise((r) => (tx.oncomplete = r));
+      });
+      await mp.reload();
+      await mp.waitForSelector('#card-title');
+      const left = (await counters(mp)).left;
+      // play through the deck answering "I knew this" until the mastered count moves
+      for (let i = 0; i < left && (await mp.textContent('#mastered-count')) === '0'; i++) {
+        await mp.click('#reveal');
+        await mp.click('#btn-pass');
+        await mp.waitForSelector('#card-title');
+      }
+      assert.equal(await mp.textContent('#mastered-count'), '1');
+      const total = Number(await mp.textContent('#total-count'));
+      assert.equal(await mp.textContent('#mastered-pct'), `${Math.floor(100 / total)} %`);
+      // after a reload the mastered card is not in today's deck any more
+      await mp.reload();
+      await mp.waitForSelector('#card-title');
+      assert.equal(await mp.textContent('#mastered-count'), '1');
+    });
+    await mp.screenshot({ path: 'test-results/mastery.png' });
+    await m.close();
+
     // ---------- Accessibility basics ----------
     const a11y = await browser.newContext({ viewport: { width: 390, height: 844 } });
     const ap = await a11y.newPage();

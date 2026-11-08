@@ -130,3 +130,55 @@ test('daysSince treats a missing date as never', () => {
   assert.equal(daysSince(undefined, new Date()), Infinity);
   assert.ok(Math.abs(daysSince(new Date(Date.now() - 2 * DAY).toISOString(), new Date()) - 2) < 0.01);
 });
+
+// ---------- mastery and milestones ----------
+import { isMastered, knewCountsFromLog, milestone, percent, totals, MASTERY_THRESHOLD } from '../../build/app/core/mastery.js';
+
+const prog = (id, knewCount, reps = 1) => ({ id, fsrs: { ...newCard(new Date()), reps }, flagged: false, confirmed: false, suspended: false, knewCount });
+
+test('a card is mastered after 7 "I knew this" answers', () => {
+  assert.equal(MASTERY_THRESHOLD, 7);
+  assert.equal(isMastered(prog('a', 6)), false);
+  assert.equal(isMastered(prog('a', 7)), true);
+  assert.equal(isMastered(undefined), false);
+});
+
+test('mastered cards are never put in the study queue, even when due', () => {
+  const now = new Date();
+  const cards = [card('a:N'), card('b:N')];
+  const due = { ...prog('a:N', 7), fsrs: { ...newCard(now), state: 2, reps: 7, due: new Date(now.getTime() - 1000).toISOString() } };
+  const q = buildQueue(cards, new Map([[due.id, due]]), now);
+  assert.deepEqual(q, ['b:N']);
+});
+
+test('older progress gets its knew-count from the review log', () => {
+  const counts = knewCountsFromLog([
+    { cardId: 'a', at: '', knew: true, stateBefore: 0 },
+    { cardId: 'a', at: '', knew: false, stateBefore: 2 },
+    { cardId: 'a', at: '', knew: true, stateBefore: 3 },
+    { cardId: 'b', at: '', knew: false, stateBefore: 0 },
+  ]);
+  assert.equal(counts.get('a'), 2);
+  assert.equal(counts.get('b'), undefined);
+});
+
+test('totals count learned and mastered cards of the current deck only', () => {
+  const t = totals([prog('a', 7), prog('b', 2), prog('c', 0, 0), prog('gone', 9)], new Set(['a', 'b', 'c', 'd']));
+  assert.deepEqual(t, { learned: 2, mastered: 1, total: 4 });
+});
+
+test('percentage shows 100 % only when every card is mastered', () => {
+  assert.equal(percent(0, 0), 0);
+  assert.equal(percent(1, 3), 33);
+  assert.equal(percent(199, 200), 99);
+  assert.equal(percent(200, 200), 100);
+});
+
+test('milestones: every 50 new cards, every 25 mastered, and the whole deck', () => {
+  const t = (learned, mastered, total = 1000) => ({ learned, mastered, total });
+  assert.equal(milestone(t(48, 0), t(49, 0)), null);
+  assert.match(milestone(t(49, 0), t(50, 0)), /^50 new cards learned/);
+  assert.match(milestone(t(100, 24), t(100, 25)), /^25 cards mastered — 2 % of the deck/);
+  assert.match(milestone(t(10, 9, 10), t(10, 10, 10)), /Every card mastered — all 10/);
+  assert.equal(milestone(t(10, 10, 10), t(10, 10, 10)), null);
+});

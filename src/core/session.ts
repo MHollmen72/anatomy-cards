@@ -1,11 +1,12 @@
 // Today's deck: every due card plus every new card, in random order, no daily cap.
+import { isMastered } from './mastery.js';
 import { isDue } from './scheduler.js';
 import type { CardData, CardProgress } from './types.js';
 
 export type Rng = () => number;
 
 export function isStudyable(p: CardProgress | undefined): boolean {
-  return !p || (!p.flagged && !p.suspended && !p.archived);
+  return !p || (!p.flagged && !p.suspended && !p.archived && !isMastered(p));
 }
 
 /** Card IDs for this session: due reviews and new cards, shuffled. */

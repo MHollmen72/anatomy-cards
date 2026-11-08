@@ -81,6 +81,8 @@ export interface CardProgress {
   flagged: boolean;
   confirmed: boolean;
   suspended: boolean;
+  /** Total "I knew this" answers. 7 = mastered (see mastery.ts). Missing in older progress: filled in from the log. */
+  knewCount?: number;
   /** Set when the card no longer exists in the deck; progress is kept, not deleted. */
   archived?: boolean;
 }
